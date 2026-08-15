@@ -163,7 +163,7 @@ function Portfolio() {
                     }
                   `}
                   initial={{
-                    opacity: 0,
+                    opacity: 1,
                     y: 15,
                   }}
                   whileInView={{
