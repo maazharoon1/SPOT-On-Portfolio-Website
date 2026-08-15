@@ -107,154 +107,123 @@ function Portfolio() {
         </motion.div>
 
         {/* Tabs */}
-        <motion.div
-          className="relative mt-6 w-full overbalow-hidden"
-          initial={{ opacity: 0, y: 10 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{
-            once: true,
-            amount: 0.2,
-          }}
-          transition={{
-            delay: 0.35,
-            duration: 0.35,
-          }}
-        >
-          <motion.div
-            className="
-              flex
-              w-full
-              gap-2
-              overflow-x-auto
-              pb-3
-              scrollbar-none
-              [-ms-overflow-style:none]
-              [&::-webkit-scrollbar]:hidden
-            "
-            drag="x"
-            dragConstraints={{ left: -300, right: 0 }}
-            dragElastic={0.1}
-          >
-            {tabs.map((tab, index) => {
-              const isActive = tab === activeTab;
+       <motion.div
+  className="relative mt-6 w-full overflow-hidden"
+  initial={{ opacity: 0, y: 10 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true, amount: 0.2 }}
+  transition={{ delay: 0.35, duration: 0.35 }}
+>
+  <div
+    className="
+      flex
+      w-full
+      gap-2
+      overflow-x-auto
+      pb-3
+      scrollbar-none
+      [-ms-overflow-style:none]
+      [&::-webkit-scrollbar]:hidden
+    "
+  >
+    <div className="flex min-w-max gap-2 px-1">
+      {tabs.map((tab, index) => {
+        const isActive = tab === activeTab;
 
-              return (
-                <motion.button
-                  key={tab}
-                  onClick={() => setActiveTab(tab)}
-                  className={`
-                    relative
-                    shrink-0
-                    overflow-hidden
-                    rounded-full
-                    border
-                    px-4
-                    py-2
-                    text-xs
-                    font-medium
-                    whitespace-nowrap
-                    sm:px-5
-                    sm:py-2.5
-                    sm:text-sm
-                    ${
-                      isActive
-                        ? "border-purple-500/40 text-white"
-                        : "border-transparent text-white/50 hover:border-white/10 hover:text-white"
-                    }
-                  `}
-                  initial={{
-                    opacity: 1,
-                    y: 15,
-                  }}
-                  whileInView={{
-                    opacity: 1,
-                    y: 0,
-                  }}
-                  viewport={{ once: true }}
-                  transition={{
-                    delay: 0.4 + index * 0.05,
-                    duration: 0.4,
-                  }}
-                  whileHover={{
-                    y: -2,
-                    scale: 1.03,
-                  }}
-                  whileTap={{
-                    scale: 0.94,
-                  }}
-                >
-                  {/* Animated Active Background */}
-                  {isActive && (
-                    <motion.span
-                      layoutId="activePortfolioTab"
-                      className="
-                        absolute
-                        inset-0
-                        z-0
-                        rounded-full
-                        border
-                        border-purple-500/30
-                        bg-purple-500/10
-                        shadow-[0_0_25px_rgba(168,85,247,0.12)]
-                      "
-                      transition={{
-                        type: "spring",
-                        stiffness: 400,
-                        damping: 30,
-                      }}
-                    />
-                  )}
+        return (
+          <motion.button
+            key={tab}
+            onClick={() => setActiveTab(tab)}
+            className={`
+              relative
+              shrink-0
+              whitespace-nowrap
+              overflow-hidden
+              rounded-full
+              border
+              px-4
+              py-2
+              text-xs
+              font-medium
+              sm:px-5
+              sm:py-2.5
+              sm:text-sm
 
-                  {/* Hover Glow */}
-                  {!isActive && (
-                    <motion.span
-                      className="
-                        absolute
-                        inset-0
-                        rounded-full
-                        bg-white/5
-                      "
-                      initial={{
-                        opacity: 0,
-                      }}
-                      whileHover={{
-                        opacity: 1,
-                      }}
-                    />
-                  )}
-
-                  <span className="relative z-10">
-                    {tab}
-                  </span>
-                </motion.button>
-              );
-            })}
-          </motion.div>
-
-          {/* Right Fade Indicator */}
-          <motion.div
-            className="
-              pointer-events-none
-              absolute
-              right-0
-              top-0
-              h-full
-              w-12
-              bg-linear-to-l
-              from-[#0a0a0f]
-              to-transparent
-              sm:hidden
-            "
-            animate={{
-              opacity: [0.7, 1, 0.7],
-            }}
+              ${
+                isActive
+                  ? "border-purple-500/40 text-white"
+                  : "border-transparent text-white/50 hover:border-white/10 hover:text-white"
+              }
+            `}
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{
-              duration: 2,
-              repeat: Infinity,
-              ease: "easeInOut",
+              delay: 0.4 + index * 0.05,
+              duration: 0.4,
             }}
-          />
-        </motion.div>
+            whileHover={{
+              y: -2,
+              scale: 1.03,
+            }}
+            whileTap={{
+              scale: 0.94,
+            }}
+          >
+            {isActive && (
+              <motion.span
+                layoutId="activePortfolioTab"
+                className="
+                  absolute
+                  inset-0
+                  z-0
+                  rounded-full
+                  border
+                  border-purple-500/30
+                  bg-purple-500/10
+                  shadow-[0_0_25px_rgba(168,85,247,0.12)]
+                "
+                transition={{
+                  type: "spring",
+                  stiffness: 400,
+                  damping: 30,
+                }}
+              />
+            )}
+
+            {!isActive && (
+              <motion.span
+                className="absolute inset-0 rounded-full bg-white/5"
+                initial={{ opacity: 0 }}
+                whileHover={{ opacity: 1 }}
+              />
+            )}
+
+            <span className="relative z-10">
+              {tab}
+            </span>
+          </motion.button>
+        );
+      })}
+    </div>
+  </div>
+
+  {/* Mobile fade */}
+  <div
+    className="
+      pointer-events-none
+      absolute
+      right-0
+      top-0
+      h-full
+      w-8
+      bg-gradient-to-l
+      from-[#0a0a0f]
+      to-transparent
+      sm:hidden
+    "
+  />
+</motion.div>
 
         {/* Portfolio Cards */}
         <motion.div
