@@ -1,6 +1,6 @@
 "use client";
 
-export default function CloudinaryPDFViewer({ publicId} ) {
+export default function CloudinaryPDFViewer({ publicId}:{publicId :string} ) {
   
   return (
    <div>
