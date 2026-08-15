@@ -58,8 +58,6 @@ const Hero = () => {
               >
                 <motion.span
                   className="block "
-                  whileHover={{ x: 8 }}
-                  transition={{ duration: 0.25 }}
                 >
                   Spot On Solutions
                 </motion.span>

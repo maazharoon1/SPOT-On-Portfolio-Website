@@ -11,18 +11,29 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
 
   // Mobile pagination
   const [visibleCount, setVisibleCount] = useState(6);
+  const [isDesktop, setIsDesktop] = useState(false);
 
   const filteredProjects = ProjectObject.filter(
     (project) => activeTab === project.filter
   );
+
+  useEffect(() => {
+    const updateViewport = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
+
+    updateViewport();
+    window.addEventListener("resize", updateViewport);
+
+    return () => window.removeEventListener("resize", updateViewport);
+  }, []);
 
   // Reset Load More when category changes
   useEffect(() => {
     setVisibleCount(6);
   }, [activeTab]);
 
-  const visibleProjects =
-  typeof window !== "undefined" && window.innerWidth >= 768
+  const visibleProjects = isDesktop
     ? filteredProjects
     : filteredProjects.slice(0, visibleCount);
 
@@ -41,78 +52,54 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
 
       <motion.div
         layout
-        className="grid w-full grid-cols-2 gap-3 md:grid-cols-3 lg:gap-5 xl:grid-cols-5"
+        className="grid w-full grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-3 lg:gap-5 xl:grid-cols-5"
       >
         {visibleProjects.map((Project, index) => (
           <motion.div
             onClick={() => handleClick(Project.id)}
             key={Project.id || `fallback-${index}`}
             layout
-            initial={{
-              opacity: 0,
-              y: 30,
-              scale: 0.9,
-              filter: "blur(8px)",
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-              filter: "blur(0px)",
-            }}
-            exit={{
-              opacity: 0,
-              scale: 0.9,
-              filter: "blur(8px)",
-            }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 8 }}
             transition={{
-              duration: 0.6,
-              delay: index * 0.06,
-              ease: [0.22, 1, 0.36, 1],
+              duration: 0.25,
+              delay: index * 0.03,
+              ease: "easeOut",
             }}
+            className="w-full min-w-0 will-change-transform"
           >
             <motion.div
               className="
                 group
                 relative
-                aspect-square
                 w-full
                 cursor-pointer
                 overflow-hidden
-                rounded-xl
+                rounded-lg
                 bg-neutral-900
+                md:rounded-xl
               "
-              whileHover={{
-                y: -8,
-                scale: 1.025,
-              }}
-              whileTap={{
-                scale: 0.97,
-              }}
-              transition={{
-                duration: 0.35,
-                ease: [0.22, 1, 0.36, 1],
-              }}
+              whileHover={{ y: -4, scale: 1.01 }}
+              whileTap={{ scale: 0.985 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
             >
 
               {/* Image */}
               <motion.div
-                className="absolute inset-0"
-                whileHover={{
-                  scale: 1.08,
-                }}
-                transition={{
-                  duration: 0.8,
-                  ease: [0.22, 1, 0.36, 1],
-                }}
+                className="relative aspect-[4/5] w-full overflow-hidden md:aspect-square"
+                whileHover={{ scale: 1.04 }}
+                transition={{ duration: 0.35, ease: "easeOut" }}
               >
                 <CldImage
                   src={Project.mainImage}
                   alt={Project.title}
                   fill
                   sizes="(max-width: 768px) 50vw, (max-width: 1280px) 33vw, 20vw"
-                  quality="75"
-                  className=""
+                  quality="auto"
+                  format="auto"
+                  loading="lazy"
+                  className="h-full w-full object-cover"
                 />
               </motion.div>
 
@@ -126,9 +113,9 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
                   via-black/30
                   to-transparent
                 "
-                initial={{ opacity: 0 }}
+                initial={{ opacity: 0.15 }}
                 whileHover={{ opacity: 1 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.2 }}
               />
 
               {/* Purple Glow */}
@@ -144,31 +131,29 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
                   bg-purple-600/30
                   blur-3xl
                 "
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{
-                  opacity: 1,
-                  scale: 1.2,
-                }}
-                transition={{ duration: 0.5 }}
+                initial={{ opacity: 0.1, scale: 0.85 }}
+                whileHover={{ opacity: 1, scale: 1.08 }}
+                transition={{ duration: 0.25 }}
               />
 
               {/* Project Number */}
               <motion.span
                 className="
                   absolute
-                  left-3
-                  top-3
+                  left-2
+                  top-2
                   z-10
-                  text-[10px]
+                  text-[9px]
                   font-medium
                   tracking-[0.2em]
                   text-white/50
+                  sm:left-3
+                  sm:top-3
+                  sm:text-[10px]
                 "
-                initial={{ opacity: 0, y: -8 }}
+                initial={{ opacity: 0.7, y: 0 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{
-                  delay: index * 0.06 + 0.2,
-                }}
+                transition={{ duration: 0.2, delay: index * 0.02 }}
               >
                 {String(index + 1).padStart(2, "0")}
               </motion.span>
@@ -183,22 +168,17 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
                   flex
                   items-end
                   justify-between
-                  p-4
-                  sm:p-5
+                  p-2
+                  sm:p-3
+                  md:p-4
                 "
-                initial={{
-                  opacity: 0,
-                  y: 20,
-                }}
-                whileHover={{
-                  opacity: 1,
-                  y: 0,
-                }}
+                initial={{ opacity: 0.85, y: 0 }}
+                whileHover={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.18 }}
               >
-                <div className="z-100 rounded-2xl p-2 md:bg-white/4 md:backdrop-blur-sm">
-
+                <div className="min-w-0 max-w-full rounded-xl bg-black/20 p-2 backdrop-blur-[2px] md:bg-white/4 md:backdrop-blur-sm">
                   <motion.p
-                    className="font-serif text-white"
+                    className="line-clamp-2 font-serif text-sm leading-tight text-white sm:text-base md:text-[15px]"
                     style={
                       Project.color
                         ? { color: Project.color }
@@ -209,7 +189,7 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
                   </motion.p>
 
                   <p
-                    className="mt-1 text-xs text-white uppercase "
+                    className="mt-1 inline-flex items-center gap-1 text-[9px] uppercase tracking-[0.12em] text-white/80 sm:text-[10px]"
                     style={
                       Project.color
                         ? { color: Project.color }
@@ -217,8 +197,8 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
                     }
                   >
                     View Full Project
+                    <span aria-hidden="true">→</span>
                   </p>
-
                 </div>
               </motion.div>
 
@@ -228,16 +208,16 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
                   pointer-events-none
                   absolute
                   inset-0
-                  rounded-xl
+                  rounded-lg
                   border
                   border-white/0
+                  md:rounded-xl
                 "
                 whileHover={{
-                  borderColor: "rgba(168, 85, 247, 0.45)",
-                  boxShadow:
-                    "inset 0 0 25px rgba(168, 85, 247, 0.08), 0 10px 40px rgba(0,0,0,0.35)",
+                  borderColor: "rgba(168, 85, 247, 0.35)",
+                  boxShadow: "inset 0 0 18px rgba(168, 85, 247, 0.06)",
                 }}
-                transition={{ duration: 0.4 }}
+                transition={{ duration: 0.2 }}
               />
 
             </motion.div>

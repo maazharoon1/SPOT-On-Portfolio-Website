@@ -8,10 +8,7 @@ const nextConfig: NextConfig = {
         hostname: "res.cloudinary.com",
       },
     ],
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  }
 };
 
 export default nextConfig;

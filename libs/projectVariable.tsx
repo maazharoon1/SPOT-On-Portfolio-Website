@@ -867,37 +867,37 @@ description:
 description:
   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
 },
-{
-  filter: "Motion Graphics",
-  title: "Motion Graphic ",
-  type:"video",
-  id: "video2",
-  mainImage: "TH02",
-  video:"CGI_Ideas_V1_4x5",
-  coverImages: [],
-   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-},
-{
-  filter: "Motion Graphics",
-  title: "Motion Graphic ",
-  type:"video",
-  id: "video3",
-  mainImage: "TH03",
-  video:"CGI_Ideas_V2_4x5",
-  coverImages: [],
-   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-},
-{
-  filter: "Motion Graphics",
-  title: "Motion Graphic ",
-  type:"video",
-  id: "video4",
-  mainImage: "TH04",
-  video:"CGI_Detroit_Robot",
-  coverImages: [],
-   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-},
+// {
+//   filter: "Motion Graphics",
+//   title: "Motion Graphic ",
+//   type:"video",
+//   id: "video2",
+//   mainImage: "TH02",
+//   video:"CGI_Ideas_V1_4x5",
+//   coverImages: [],
+//    description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+// },
+// {
+//   filter: "Motion Graphics",
+//   title: "Motion Graphic ",
+//   type:"video",
+//   id: "video3",
+//   mainImage: "TH03",
+//   video:"CGI_Ideas_V2_4x5",
+//   coverImages: [],
+//    description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+// },
+// {
+//   filter: "Motion Graphics",
+//   title: "Motion Graphic ",
+//   type:"video",
+//   id: "video4",
+//   mainImage: "TH04",
+//   video:"CGI_Detroit_Robot",
+//   coverImages: [],
+//    description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+// },
 ];

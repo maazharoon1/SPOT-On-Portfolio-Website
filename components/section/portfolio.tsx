@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import PortofolioCard from "./ProjectCard";
 
@@ -19,11 +19,30 @@ const tabs = [
 
 function Portfolio() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
+  const tabRefs = useRef<Record<string, HTMLButtonElement | null>>({});
+  const tabRowRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const activeButton = tabRefs.current[activeTab];
+    const container = tabRowRef.current;
+
+    if (!activeButton || !container) return;
+
+    const buttonLeft = activeButton.offsetLeft;
+    const buttonWidth = activeButton.offsetWidth;
+    const containerWidth = container.clientWidth;
+    const desiredLeft = buttonLeft - containerWidth / 2 + buttonWidth / 2;
+
+    container.scrollTo({
+      left: Math.max(0, desiredLeft),
+      behavior: "smooth",
+    });
+  }, [activeTab]);
 
   return (
     <section className="relative w-full overflow-hidden">
       {/* Ambient Background Glow */}
-      <motion.div
+      <div
         className="
           pointer-events-none
           absolute
@@ -36,19 +55,11 @@ function Portfolio() {
           rounded-full
           bg-purple-600/10
           blur-[120px]
+          opacity-60
         "
-        animate={{
-          scale: [1, 1.2, 1],
-          opacity: [0.3, 0.5, 0.3],
-        }}
-        transition={{
-          duration: 6,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
       />
 
-      <div className="mx-auto w-full max-w-350 px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto w-full max-w-[1400px] px-4 sm:px-6 lg:px-8">
 
         {/* Header */}
         <motion.div
@@ -107,23 +118,29 @@ function Portfolio() {
         </motion.div>
 
         {/* Tabs */}
-       <motion.div
+  <motion.div
   className="relative mt-6 w-full overflow-hidden"
   initial={{ opacity: 0, y: 10 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true, amount: 0.2 }}
   transition={{ delay: 0.35, duration: 0.35 }}
 >
+  {/* Tabs */}
   <div
+    ref={tabRowRef}
+    role="tablist"
+    aria-label="Portfolio categories"
     className="
       flex
       w-full
       gap-2
       overflow-x-auto
-      pb-3
+      pb-2
       scrollbar-none
       [-ms-overflow-style:none]
       [&::-webkit-scrollbar]:hidden
+      snap-x
+      snap-mandatory
     "
   >
     <div className="flex min-w-max gap-2 px-1">
@@ -132,11 +149,19 @@ function Portfolio() {
 
         return (
           <motion.button
+            ref={(node) => {
+              tabRefs.current[tab] = node;
+            }}
             key={tab}
+            type="button"
+            role="tab"
+            aria-selected={isActive}
+            aria-controls={`panel-${tab}`}
             onClick={() => setActiveTab(tab)}
             className={`
               relative
               shrink-0
+              snap-start
               whitespace-nowrap
               overflow-hidden
               rounded-full
@@ -155,13 +180,6 @@ function Portfolio() {
                   : "border-transparent text-white/50 hover:border-white/10 hover:text-white"
               }
             `}
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{
-              delay: 0.4 + index * 0.05,
-              duration: 0.4,
-            }}
             whileHover={{
               y: -2,
               scale: 1.03,
@@ -193,7 +211,12 @@ function Portfolio() {
 
             {!isActive && (
               <motion.span
-                className="absolute inset-0 rounded-full bg-white/5"
+                className="
+                  absolute
+                  inset-0
+                  rounded-full
+                  bg-white/5
+                "
                 initial={{ opacity: 0 }}
                 whileHover={{ opacity: 1 }}
               />
@@ -208,15 +231,40 @@ function Portfolio() {
     </div>
   </div>
 
-  {/* Mobile fade */}
+  {/* Mobile scroll indicator */}
+  <div className="mt-2 flex justify-center sm:hidden">
+    <div className="relative h-[2px] w-20 overflow-hidden rounded-full bg-white/10">
+      <motion.div
+        className="
+          absolute
+          left-0
+          top-0
+          h-full
+          w-8
+          rounded-full
+          bg-purple-400/70
+        "
+        animate={{
+          x: [0, 48, 0],
+        }}
+        transition={{
+          duration: 2.2,
+          repeat: Infinity,
+          ease: "easeInOut",
+        }}
+      />
+    </div>
+  </div>
+
+  {/* Right fade — indicates more tabs */}
   <div
     className="
       pointer-events-none
       absolute
       right-0
       top-0
-      h-full
-      w-8
+      h-[calc(100%-18px)]
+      w-10
       bg-gradient-to-l
       from-[#0a0a0f]
       to-transparent

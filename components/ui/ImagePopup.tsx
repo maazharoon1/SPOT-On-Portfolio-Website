@@ -3,7 +3,7 @@
 import { sortProject } from "@/libs/sortProject";
 import { CldImage } from "next-cloudinary";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ImageZoom from "./zoomIn";
 import CloudinaryPDFViewer from "./CloudinaryPdfViewer";
 import PortfolioVideo from "./VideoPlayer";
@@ -15,6 +15,8 @@ interface ImagePopupProps {
 
 const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
   const project = sortProject(id);
+  const dialogRef = useRef<HTMLDivElement>(null);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   const [activeImage, setActiveImage] = useState(0);
   const [direction, setDirection] = useState(1);
@@ -28,16 +30,18 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
     setActiveImage(0);
   }, [id]);
 
-  // ESC + body scroll lock
+  // ESC + body scroll lock + focus management
   useEffect(() => {
     if (!project) return;
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
+        event.preventDefault();
         onClose();
       }
 
       if (event.key === "ArrowRight") {
+        event.preventDefault();
         setDirection(1);
         setActiveImage((prev) =>
           prev === images.length - 1 ? 0 : prev + 1
@@ -45,6 +49,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
       }
 
       if (event.key === "ArrowLeft") {
+        event.preventDefault();
         setDirection(-1);
         setActiveImage((prev) =>
           prev === 0 ? images.length - 1 : prev - 1
@@ -55,11 +60,19 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
     document.addEventListener("keydown", handleKeyDown);
 
     const previousOverflow = document.body.style.overflow;
+    const previousPadding = document.body.style.paddingRight;
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
     document.body.style.overflow = "hidden";
+    document.body.style.paddingRight = `${scrollbarWidth}px`;
+
+    requestAnimationFrame(() => {
+      closeButtonRef.current?.focus();
+    });
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
       document.body.style.overflow = previousOverflow;
+      document.body.style.paddingRight = previousPadding;
     };
   }, [project, onClose, images.length]);
 
@@ -106,6 +119,11 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
 
   return (
     <motion.div
+      role="dialog"
+      aria-modal="true"
+      aria-label={`${project.title} project details`}
+      tabIndex={-1}
+      ref={dialogRef}
       className="
         fixed
         inset-0
@@ -166,6 +184,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
 
       {/* Close Button */}
       <motion.button
+        ref={closeButtonRef}
         type="button"
         aria-label="Close project"
         onClick={onClose}
@@ -502,9 +521,11 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
                     src={image}
                     alt={`${project.title} thumbnail ${index + 1}`}
                     fill
-                    sizes="200px"
-                    quality="80"
-                    className="object-contain"
+                    sizes="(max-width: 640px) 25vw, (max-width: 1024px) 20vw, 12vw"
+                    quality="auto"
+                    format="auto"
+                    loading="lazy"
+                    className="object-cover"
                   />
               
                   {activeImage === index && (
