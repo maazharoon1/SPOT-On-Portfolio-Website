@@ -1,18 +1,31 @@
-export default function PortfolioVideo({ id }: { id: string }) {
-  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
-  const videoUrl = `https://res.cloudinary.com/${cloudName}/video/upload/v1786745203/${id}.mp4`;
+"use client";
 
+import { CldVideoPlayer } from "next-cloudinary";
+import "next-cloudinary/dist/cld-video-player.css";
+
+export default function PortfolioVideo({ id,mainImage }: { id: string , mainImage :string }) {
   return (
-    <div className="h-full min-w-full overflow-hidden">
-      <video
-        className="h-full w-full object-contain"
-        controls
-        playsInline
-        preload="none"
-        
-        poster={`https://res.cloudinary.com/${cloudName}/video/upload/so_0.5/v1786745203/${id}.jpg`}
-        src={videoUrl}
-      />
+    <div className="flex h-full w-full items-center justify-center ">
+      <div
+        className="
+          relative
+          w-full
+          max-w-[95%]
+          overflow-hidden
+          rounded-xl
+          md:max-h-[92%]
+          md:max-w-[92%]
+          aspect-video
+        "
+      >
+        <CldVideoPlayer
+        poster={mainImage}
+          src={id}
+          width={1280}
+          height={720}
+          className="m-0! h-full! w-full!"
+        />
+      </div>
     </div>
   );
 }

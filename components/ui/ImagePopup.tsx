@@ -323,7 +323,9 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
         publicId={project.mainImage} 
       />
               </> : project.type == 'video' ?   <>
-              <PortfolioVideo id={project.video ? project.video : project.mainImage}/>
+              <PortfolioVideo id={project.video ? project.video : project.mainImage} 
+              mainImage={project.mainImage}
+              />
               </>
         :  <div className="relative min-h-0 flex-1 overflow-hidden p-3 sm:p-5 lg:p-7">
             <div className="

@@ -162,7 +162,7 @@ const Hero = () => {
               absolute
               inset-x-0
               bottom-0
-              -top-15
+              -top-20
               z-0
               h-full
               w-full

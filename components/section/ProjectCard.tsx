@@ -52,7 +52,7 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
 
       <motion.div
         layout
-        className="grid w-full grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-3 lg:gap-5 xl:grid-cols-5"
+        className="grid w-full grid-cols-2 gap-2.5 sm:gap-3 md:grid-cols-3 lg:gap-5 lg:grid-cols-4 xl:grid-cols-5"
       >
         {visibleProjects.map((Project, index) => (
           <motion.div
