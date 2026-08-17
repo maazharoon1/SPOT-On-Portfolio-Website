@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import ImageZoom from "./zoomIn";
 import CloudinaryPDFViewer from "./CloudinaryPdfViewer";
 import PortfolioVideo from "./VideoPlayer";
+import Link from "next/link";
 
 interface ImagePopupProps {
   id: string;
@@ -617,6 +618,8 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
             </motion.p>
           )}
 
+
+
           {/* Divider */}
           <motion.div
             className="my-7 h-px bg-white/10"
@@ -634,6 +637,21 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
           />
 
           {/* Details */}
+         {project.type && project.type == "video" ?    
+            <div className="mt-3  text-sm text-white/50">
+  If the video isn't playing,{" "} 
+  <div>
+  <Link
+    href={`https://res.cloudinary.com/hcn0f9nu/video/upload/v1786745203/${project.video}.mp4`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-purple-400 underline underline-offset-4 hover:text-purple-300"
+  >
+    click here to watch it
+  </Link>
+ </div>
+  .
+</div> :
           <div className="space-y-6 hidden lg:block">
             <motion.div
               initial={{ opacity: 0, x: 10 }}
@@ -650,6 +668,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
             </motion.div>
 
           </div>
+}
 
           {/* Bottom Hint */}
      

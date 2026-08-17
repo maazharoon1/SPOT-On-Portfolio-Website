@@ -1,5 +1,6 @@
 "use client";
 
+import { base } from "motion/react-client";
 import { CldVideoPlayer } from "next-cloudinary";
 import "next-cloudinary/dist/cld-video-player.css";
 
@@ -19,11 +20,16 @@ export default function PortfolioVideo({ id,mainImage }: { id: string , mainImag
         "
       >
         <CldVideoPlayer
+        id={id}
         poster={mainImage}
           src={id}
           width={1280}
           height={720}
           className="m-0! h-full! w-full!"
+          colors={{
+            base:"#fff",
+            accent:"#3b1656",
+          }}
         />
       </div>
     </div>
