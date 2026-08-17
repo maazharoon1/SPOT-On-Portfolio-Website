@@ -5,10 +5,11 @@ import { AnimatePresence, motion } from "motion/react";
 import { ProjectObject } from "@/libs/projectVariable";
 import { useEffect, useState } from "react";
 import ImagePopup from "../ui/ImagePopup";
+import { useRouter } from "next/navigation";
 
 function PortfolioCard({ activeTab } : { activeTab : string}) {
   const [popupId, setPopupId] = useState<string | null>(null);
-
+const router = useRouter()
   // Mobile pagination
   const [visibleCount, setVisibleCount] = useState(6);
   const [isDesktop, setIsDesktop] = useState(false);
@@ -39,8 +40,13 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
 
   const hasMore = visibleCount < filteredProjects.length;
 
-  function handleClick(id: string | null) {
-    setPopupId(id);
+  function handleClick(project: (typeof ProjectObject)[number]) {
+    if (project.type === "video") {
+      router.push(`/video/${project.id}`);
+      return;
+    }
+
+    setPopupId(project.id);
   }
 
   function handleLoadMore() {
@@ -56,7 +62,7 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
       >
         {visibleProjects.map((Project, index) => (
           <motion.div
-            onClick={() => handleClick(Project.id)}
+            onClick={() => handleClick(Project)}
             key={Project.id || `fallback-${index}`}
             layout
             initial={{ opacity: 0, y: 12 }}
@@ -87,7 +93,7 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
 
               {/* Image */}
               <motion.div
-                className="relative aspect-[4/5] w-full overflow-hidden md:aspect-square"
+                className="relative aspect-4/5 w-full overflow-hidden md:aspect-square"
                 whileHover={{ scale: 1.04 }}
                 transition={{ duration: 0.35, ease: "easeOut" }}
               >
@@ -289,7 +295,7 @@ function PortfolioCard({ activeTab } : { activeTab : string}) {
 
       {/* Popup */}
       <AnimatePresence>
-        {popupId && (
+        {popupId &&  (
           <ImagePopup
             id={popupId}
             onClose={() => setPopupId(null)}

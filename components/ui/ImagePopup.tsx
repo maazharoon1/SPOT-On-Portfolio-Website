@@ -8,19 +8,29 @@ import ImageZoom from "./zoomIn";
 import CloudinaryPDFViewer from "./CloudinaryPdfViewer";
 import PortfolioVideo from "./VideoPlayer";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 interface ImagePopupProps {
   id: string;
-  onClose: () => void;
+  onClose?: () => void;
 }
 
 const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
+  const router = useRouter()
   const project = sortProject(id);
   const dialogRef = useRef<HTMLDivElement>(null);
   const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   const [activeImage, setActiveImage] = useState(0);
   const [direction, setDirection] = useState(1);
+
+  const handleClose = () => {
+    if (onClose) {
+      onClose();
+    } else {
+      router.back();
+    }
+  };
 
   const images = project
     ? [project.mainImage, ...(project.coverImages || [])]
@@ -38,7 +48,12 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         event.preventDefault();
-        onClose();
+        if (onClose) {
+    onClose();
+  } else {
+    router.back();
+  }
+      
       }
 
       if (event.key === "ArrowRight") {
@@ -152,7 +167,11 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
       }}
       onMouseDown={(event) => {
         if (event.target === event.currentTarget) {
-          onClose();
+        if (onClose) {
+    onClose();
+  } else {
+    router.back();
+  }
         }
       }}
     >
@@ -188,7 +207,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
         ref={closeButtonRef}
         type="button"
         aria-label="Close project"
-        onClick={onClose}
+        onClick={handleClose}
         className="
           absolute
           right-4
