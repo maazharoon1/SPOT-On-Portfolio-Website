@@ -31,7 +31,6 @@ export default function PortfolioVideo({ id,mainImage }: { id: string , mainImag
             accent:"#3b1656",
           }}
             transformation={{
-            videoCodec: "auto",
             quality: "auto",
           }}
         />
