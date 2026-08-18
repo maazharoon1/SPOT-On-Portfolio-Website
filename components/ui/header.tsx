@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const navItems = [
   { name: "Home", id: "home" },
   { name: "Portfolio", id: "portfolio" },
@@ -10,11 +12,14 @@ const Header = () => {
         {/* Logo */}
         <a
           href="#home"
-          className="rounded-2xl border border-white/10 bg-black/40 px-4 py-2.5 backdrop-blur-3xl transition-all duration-300 hover:border-purple-500/30 hover:bg-black/10 sm:px-6 sm:py-3"
+          className=""
         >
-          <span className="text-base font-light tracking-[0.25em] text-white sm:text-xl">
-            ZAIN
-          </span>
+          <Image
+          alt="SPOT ON LOGO"
+          width={150}
+          height={150}
+          src={"/HeroLogo.png"}
+          />
         </a>
 
         {/* Navigation */}

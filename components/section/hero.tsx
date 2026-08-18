@@ -37,8 +37,8 @@ const Hero = () => {
     <div className="relative md:min-h-screen overflow-hidden ">
       <Header />
 
-      <main className="relative z-10 px-5 py-10 sm:px-8 sm:py-14 lg:px-10 lg:py-20">
-        <div className="mx-auto flex md:min-h-[calc(100vh-100px)] max-w-7xl flex-col mb-10 mt-30 md:mb-0 md:mt-0 md:justify-center">
+      <main className="relative z-10 ">
+        <div className="flex md:min-h-[calc(100vh-100px)] md:max-w-7xl flex-col mb-10 mt-30 md:mb-0 md:mt-0 md:justify-center max-w-[95%] sm:max-w-none mx-auto xl:mx-none">
 
           {/* Content */}
           <motion.div
@@ -63,7 +63,7 @@ const Hero = () => {
                 </motion.span>
 
                 <motion.span
-                  className="block font-thin  text-purple-400/80 "
+                  className="block font-thin  text-[#a31d4f] "
                   whileHover={{ x: 12 }}
                   transition={{ duration: 0.25 }}
                 >
@@ -74,7 +74,7 @@ const Hero = () => {
               {/* Description */}
               <motion.p
                 variants={item}
-                className="max-w-lg text-xl leading-6 text-gray-400 sm:text-base"
+                className=" text-md md:max-w-lg md:text-xl  leading-6 text-gray-400 sm:text-base"
               >
                 Visual identities, illustration and digital experiences
                 crafted with precision.
@@ -206,7 +206,7 @@ const Hero = () => {
 
           {/* Purple Ambient Glow */}
           <motion.div
-            className="pointer-events-none absolute right-[15%] top-[25%] z-0 h-72 w-72 rounded-full bg-purple-700/10 blur-[120px]"
+            className="pointer-events-none absolute right-[15%] top-[25%] z-0 h-72 w-72 rounded-full bg-[#a31d4f]/10 blur-[120px]"
             animate={{
               scale: [1, 1.15, 1],
               opacity: [0.3, 0.55, 0.3],

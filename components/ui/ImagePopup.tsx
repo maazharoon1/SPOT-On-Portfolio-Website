@@ -188,7 +188,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
           -translate-x-1/2
           -translate-y-1/2
           rounded-full
-          bg-purple-600/80
+          bg-[#a31d4f]/80
           blur-[150px]
         "
         animate={{
@@ -323,7 +323,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
             transition={{ delay: 0.25 }}
           >
             <div className="flex items-center gap-3">
-              <span className="h-1.5 w-1.5 rounded-full bg-purple-500 shadow-[0_0_12px_4px_rgba(168,85,247,0.5)]" />
+              <span className="h-1.5 w-1.5 rounded-full bg-[#a31d4f] shadow-[0_0_12px_4px_rgba(168,85,247,0.5)]" />
 
               <span className="text-[12px] uppercase tracking-[0.25em] text-white/40">
                 {project.filter}

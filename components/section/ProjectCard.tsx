@@ -100,7 +100,7 @@ const router = useRouter()
 
               {/* Image */}
               <motion.div
-                className="relative aspect-4/5 w-full overflow-hidden md:aspect-square"
+                className="relative aspect-4/5 w-full overflow-hidden   md:aspect-square "
                 whileHover={{ scale: 1.04 }}
                 transition={{ duration: 0.35, ease: "easeOut" }}
               >
@@ -112,7 +112,7 @@ const router = useRouter()
                   quality="auto"
                   format="auto"
                   loading="lazy"
-                  className="h-full w-full object-cover"
+                  className={`h-full w-full ${Project.type =="pdf" ? " object-contain" : " object-cover"}`}
                 />
               </motion.div>
 
@@ -141,7 +141,7 @@ const router = useRouter()
                   h-32
                   w-32
                   rounded-full
-                  bg-purple-600/30
+                  bg-[#a31d4f]/30
                   blur-3xl
                 "
                 initial={{ opacity: 0.1, scale: 0.85 }}
@@ -269,7 +269,7 @@ const router = useRouter()
               backdrop-blur-md
               transition
               hover:border-purple-500/40
-              hover:bg-purple-500/10
+              hover:bg-[#a31d4f]/10
             "
           >
             <span className="relative z-10">
