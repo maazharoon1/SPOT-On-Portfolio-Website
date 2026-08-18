@@ -45,6 +45,13 @@ const router = useRouter()
       router.push(`/video/${project.id}`);
       return;
     }
+    if(project.type == "pdf" && window.innerWidth < 768 ){
+       window.open(
+    `https://res.cloudinary.com/hcn0f9nu/image/upload/v1786660548/${project.mainImage}.pdf`,
+    "_blank"
+  );
+      return;
+    }
 
     setPopupId(project.id);
   }
@@ -273,7 +280,7 @@ const router = useRouter()
               className="
                 absolute
                 inset-0
-                -z-0
+                z-0
                 bg-linear-to-r
                 from-purple-500/0
                 via-purple-500/20

@@ -12,29 +12,26 @@ export default function PortfolioVideo({
   id,
   mainImage,
 }: PortfolioVideoProps) {
+  console.log("id: "+id )
+  console.log("mainImage: "+  mainImage)
   return (
-    <div className="flex h-full w-full items-center justify-center">
+    <div className="flex ">
       <div
         className="
           relative
           aspect-video
           w-full
-          max-w-[95%]
-          overflow-hidden
           rounded-xl
-          md:max-h-[92%]
-          md:max-w-[92%]
-        "
+          "
       >
         <CldVideoPlayer
           id={id}
           src={id}
           poster={mainImage}
-          width={1280}
-          height={720}
-          className="m-0! h-full! w-full!"
+         
+          className="h-full w-full object-contain"
           colors={{
-            base: "#fff",
+            base: "#3b1656",
             accent: "#3b1656",
           }}
           transformation={{
@@ -44,5 +41,7 @@ export default function PortfolioVideo({
         />
       </div>
     </div>
+    
   );
 }
+
