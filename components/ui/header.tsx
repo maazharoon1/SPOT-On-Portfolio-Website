@@ -8,19 +8,26 @@ const navItems = [
 const Header = () => {
   return (
     <header className="relative z-30 w-full px-4 pt-5 sm:px-6 lg:px-10">
-      <div className="flex items-center justify-between gap-3 sm:gap-6">
-        {/* Logo */}
-        <a
-          href="#home"
-          className=""
-        >
-          <Image
-          alt="SPOT ON LOGO"
-          width={150}
-          height={150}
-          src={"/HeroLogo.png"}
-          />
-        </a>
+<div className="flex items-center justify-between gap-3 sm:gap-6">
+  {/* Logo */}
+  <a href="#home" className="shrink-0">
+    <Image
+      alt="SPOT ON LOGO"
+      src="/HeroLogo.png"
+      width={170}
+      height={170}
+      priority
+      className="
+        h-auto
+        w-22.5
+        sm:w-27.5
+        md:w-31.25
+        lg:w-35
+        xl:w-37.5
+        2xl:w-40
+      "
+    />
+  </a>
 
         {/* Navigation */}
         <nav
