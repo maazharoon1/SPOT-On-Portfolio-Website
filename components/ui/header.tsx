@@ -13,9 +13,9 @@ const Header = () => {
   <a href="#home" className="shrink-0">
     <Image
       alt="SPOT ON LOGO"
-      src="/HeroLogo.png"
-      width={170}
-      height={170}
+      src="/Hero.png"
+      width={150}
+      height={150}
       priority
       className="
         h-auto

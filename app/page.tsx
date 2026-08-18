@@ -10,11 +10,11 @@ export default function Home() {
       <Background />
 
       <div className="relative z-10 ">
-        <section id="home">
+        <section id="home" className="mb-20 md:mb-10">
           <Hero />
         </section>
 
-        <Seperator className="mb-10" />
+        <Seperator className="mb-10 md:-mt-20 " />
 
         <section id="portfolio">
           <Portfolio />

@@ -53,7 +53,7 @@ function Portfolio() {
           w-72
           -translate-x-1/2
           rounded-full
-          bg-[#a31d4f]/10
+          bg-[#681e99]/10
           blur-[120px]
           opacity-60
         "
@@ -91,7 +91,7 @@ function Portfolio() {
             viewport={{ once: true }}
             transition={{ delay: 0.15, duration: 0.5 }}
           >
-            <span className="h-px w-7 bg-[#a31d4f]" />
+            <span className="h-px w-7 bg-[#681e99]" />
             Selected Work
           </motion.div>
 
@@ -198,7 +198,7 @@ function Portfolio() {
                   rounded-full
                   border
                   border-purple-500/30
-                  bg-[#a31d4f]/10
+                  bg-[#681e99]/10
                   shadow-[0_0_25px_rgba(168,85,247,0.12)]
                 "
                 transition={{
@@ -242,7 +242,7 @@ function Portfolio() {
           h-full
           w-8
           rounded-full
-          bg-[#a31d4f]/70
+          bg-[#681e99]/70
         "
         animate={{
           x: [0, 48, 0],

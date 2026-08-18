@@ -16,8 +16,8 @@ export default function Background({
         className
       )}
     >
-      <div className="absolute -left-32 top-20 h-125 w-125 rounded-full bg-[#a31d4f]/20 blur-[140px]" />
-      <div className="absolute right-0 bottom-0 h-125 w-125 rounded-full bg-[#a31d4f]/10 blur-[140px]" />
+      <div className="absolute -left-32 top-20 h-125 w-125 rounded-full bg-[#681e99]/20 blur-[140px]" />
+      <div className="absolute right-0 bottom-0 h-125 w-125 rounded-full bg-[#ef2a32]/10 blur-[140px]" />
       <div className="absolute left-1/2 top-1/2 h-75 w-75 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#6b1e94]/20 blur-[120px]" />
 
       <div

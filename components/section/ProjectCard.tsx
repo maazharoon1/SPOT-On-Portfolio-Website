@@ -112,7 +112,7 @@ const router = useRouter()
                   quality="auto"
                   format="auto"
                   loading="lazy"
-                  className={`h-full w-full ${Project.type =="pdf" ? " object-contain" : " object-cover"}`}
+                  className={`h-full w-full ${Project.type =="pdf" ? " " : " object-cover"}`}
                 />
               </motion.div>
 
@@ -141,7 +141,7 @@ const router = useRouter()
                   h-32
                   w-32
                   rounded-full
-                  bg-[#a31d4f]/30
+                  bg-[#681e99]/30
                   blur-3xl
                 "
                 initial={{ opacity: 0.1, scale: 0.85 }}
@@ -269,7 +269,7 @@ const router = useRouter()
               backdrop-blur-md
               transition
               hover:border-purple-500/40
-              hover:bg-[#a31d4f]/10
+              hover:bg-[#681e99]/10
             "
           >
             <span className="relative z-10">

@@ -34,7 +34,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative md:min-h-screen overflow-hidden ">
+    <div className="relative md:max-h-screen overflow-hidden ">
       <Header />
 
       <main className="relative z-10 ">
@@ -63,7 +63,7 @@ const Hero = () => {
                 </motion.span>
 
                 <motion.span
-                  className="block font-thin  text-[#a31d4f] "
+                  className="block font-thin  text-[#681e99] "
                   whileHover={{ x: 12 }}
                   transition={{ duration: 0.25 }}
                 >
@@ -76,81 +76,11 @@ const Hero = () => {
                 variants={item}
                 className=" text-md md:max-w-lg md:text-xl  leading-6 text-gray-400 sm:text-base"
               >
-                Visual identities, illustration and digital experiences
-                crafted with precision.
+              SPOT ON EVERYWHERE
               </motion.p>
 
               {/* Avatar / CTA */}
-              <motion.div
-                variants={item}
-                className="flex items-center gap-3 pt-2"
-              >
-                <div className="flex -space-x-3">
-
-                  {[1, 2, 3].map((avatar, index) => (
-                    <motion.img
-                      key={avatar}
-                      src="https://placehold.co/40x40"
-                      alt="Client"
-                      className="h-9 w-9 rounded-full border-2 border-[#0a0a0f] object-cover sm:h-10 sm:w-10"
-                      initial={{
-                        opacity: 0,
-                        scale: 0,
-                        x: -10,
-                      }}
-                      animate={{
-                        opacity: 1,
-                        scale: 1,
-                        x: 0,
-                      }}
-                      transition={{
-                        delay: 1 + index * 0.12,
-                        duration: 0.5,
-                        type: "spring",
-                        stiffness: 180,
-                      }}
-                      whileHover={{
-                        y: -6,
-                        scale: 1.12,
-                        zIndex: 10,
-                      }}
-                    />
-                  ))}
-
-                  {/* Arrow Button */}
-                  <motion.button
-                    className="group relative h-9 w-9 rounded-full border border-white/20 bg-black/20 backdrop-blur-2xl transition-all duration-300 hover:border-purple-800/30 hover:bg-black/40 sm:h-10 sm:w-10"
-                    aria-label="View portfolio"
-                    initial={{
-                      opacity: 0,
-                      scale: 0,
-                    }}
-                    animate={{
-                      opacity: 1,
-                      scale: 1,
-                    }}
-                    transition={{
-                      delay: 1.4,
-                      duration: 0.5,
-                      type: "spring",
-                    }}
-                    whileHover={{
-                      scale: 1.15,
-                      rotate: 45,
-                      borderColor: "rgba(168, 85, 247, 0.6)",
-                      boxShadow:
-                        "0 0 25px rgba(168, 85, 247, 0.25)",
-                    }}
-                    whileTap={{
-                      scale: 0.9,
-                    }}
-                  >
-                    <span className="text-sm font-light tracking-[0.25em] text-white">
-                      →
-                    </span>
-                  </motion.button>
-                </div>
-              </motion.div>
+              
             </div>
           </motion.div>
 
@@ -205,8 +135,8 @@ const Hero = () => {
           />
 
           {/* Purple Ambient Glow */}
-          <motion.div
-            className="pointer-events-none absolute right-[15%] top-[25%] z-0 h-72 w-72 rounded-full bg-[#a31d4f]/10 blur-[120px]"
+          {/* <motion.div
+            className="pointer-events-none absolute right-[15%] top-[25%] z-0 h-72 w-72 rounded-full bg-[#681e99]/10 blur-[120px]"
             animate={{
               scale: [1, 1.15, 1],
               opacity: [0.3, 0.55, 0.3],
@@ -216,7 +146,7 @@ const Hero = () => {
               repeat: Infinity,
               ease: "easeInOut",
             }}
-          />
+          /> */}
 
           {/* Bottom Scroll Indicator */}
           <motion.div
