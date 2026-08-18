@@ -76,7 +76,7 @@ const Hero = () => {
                 variants={item}
                 className=" text-md md:max-w-lg md:text-xl  leading-6 text-gray-400 sm:text-base"
               >
-              SPOT ON EVERYWHERE
+              SPOT ON EVERYTIME !!!
               </motion.p>
 
               {/* Avatar / CTA */}

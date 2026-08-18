@@ -16,7 +16,7 @@ export function Footer() {
             href="mailto:hello@example.com"
             className="mt-4 inline-block text-[clamp(1.75rem,4.5vw,3.25rem)] leading-none tracking-[-0.02em] text-fuchsia-100 transition-colors hover:text-white"
           >
-            hello@example.com
+            Support@sos-portfolio.com
           </a>
         </div>
 
@@ -39,7 +39,7 @@ export function Footer() {
         </nav>
 
         <div className="label-xs ml-5 space-y-2 text-fuchsia-100 md:mt-5 lg:col-span-3">
-          <p>© {new Date().getFullYear()} ZAIN</p>
+          <p>© {new Date().getFullYear()} SPOT ON Solutions</p>
         </div>
       </div>
 
