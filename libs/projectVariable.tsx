@@ -316,7 +316,42 @@ export const ProjectObject = [
     "L054",
     "L055",
   ],
- 
+},
+{
+  filter: "Logo Design",
+  title: "Logo Design Collections",
+  type:"image",
+  id: "Logos56-62",
+  // color: "#0284c7",
+    description:
+    "Selection of logos designed for various brands, companies, and design concepts.",
+  mainImage: "L056",
+  coverImages: [
+    "L057",
+    "L058",
+    "L059",
+    "L060",
+    "L061",
+    "L062",
+  ],
+},
+{
+  filter: "Logo Design",
+  title: "Logo Design Collections",
+  type:"image",
+  id: "Logos63-69",
+  // color: "#0284c7",
+    description:
+    "Selection of logos designed for various brands, companies, and design concepts.",
+  mainImage: "L063",
+  coverImages: [
+    "L064",
+    "L065",
+    // "L066",
+    // "L067",
+    // "L068",
+    // "L069",
+  ],
 },
 
 
@@ -777,6 +812,126 @@ description:
   description:
     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
   mainImage: "P08",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging9",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P09",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging10",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P10",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging11",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P11",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging12",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P12",
+  coverImages: [],
+},
+// {
+//   filter: "Packaging",
+//   title: "Packaging",
+//   type:"image",
+//   id: "Packaging13",
+//   description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+//   mainImage: "P13",
+//   coverImages: [],
+// },
+// {
+//   filter: "Packaging",
+//   title: "Packaging",
+//   type:"image",
+//   id: "Packaging14",
+//   description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+//   mainImage: "P14",
+//   coverImages: [],
+// },
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging15",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P15",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging16",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P16",
+  coverImages: [],
+},
+// {
+//   filter: "Packaging",
+//   title: "Packaging",
+//   type:"image",
+//   id: "Packaging17",
+//   description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+//   mainImage: "P17",
+//   coverImages: [],
+// },
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging18",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P18",
+  coverImages: [],
+},
+// {
+//   filter: "Packaging",
+//   title: "Packaging",
+//   type:"image",
+//   id: "Packaging19",
+//   description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+//   mainImage: "P19",
+//   coverImages: [],
+// },
+{
+  filter: "Packaging",
+  title: "Packaging",
+  type:"image",
+  id: "Packaging20",
+  description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  mainImage: "P20",
   coverImages: [],
 },
 // branding
