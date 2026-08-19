@@ -1022,28 +1022,20 @@ description:
 description:
   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
 },
-{
-  filter: "Motion Graphics",
-  title: "Detroit Giant — VFX Spec",
-  type:"video",
-  id: "video2",
-  mainImage: "TH02",
-  video:"CGI_Ideas_V1_4x5",
-  coverImages: [],
-   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-},
 
-{
-  filter: "Motion Graphics",
-  title: "Detroit Giant — VFX Spec",
-  type:"video",
-  id: "video4",
-  mainImage: "435982a4-9598-45f8-b9e5-2c5ae8f33e0a",
-  video:"CGI_Detroit_Robot",
-  coverImages: [],
-  description: "An animation piece demonstrating the reveal of a huge chrome robot in the city of Detroit. Employing the effects of photo-realistic VFX and matte painting, a giant structure bearing the name of the city on its chest is revealed as the red cover slides down dramatically over a loading dock building in a sunlit urban parking lot."
-},
+// {
+//   filter: "Motion Graphics",
+//   title: "Detroit Giant — VFX Spec",
+//   type:"video",
+//   id: "video3",
+//   mainImage: "TH03",
+//   video:"CGI_Ideas_V1_4x5",
+//   coverImages: [],
+//    description:
+//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+// },
+
+
 {
   title: "Spacer Toffee Ad",
   filter: "Motion Graphics",
@@ -1070,13 +1062,14 @@ description:
   title: "Spacer Toffee Ad",
   filter: "Motion Graphics",
   type:"video",
-  id: "V8",
-  mainImage: "TH08",
-  video: "V08",
+  id: "V14",
+  mainImage: "TH14",
+  video: "V14",
   coverImages: [],
 description:
   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
 },
+
 // {
 //   title: "Spacer Toffee Ad",
 //   filter: "Motion Graphics",
@@ -1099,6 +1092,17 @@ description:
 // description:
 //   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
 // },
+{
+  filter: "Motion Graphics",
+  title: "Detroit Giant — VFX Spec",
+  type:"video",
+  id: "video2",
+  mainImage: "TH02",
+  video:"CGI_Ideas_V1_4x5",
+  coverImages: [],
+   description:
+    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+},
 {
   title: "Ergonomic Smart Mattress",
   filter: "Motion Graphics",
@@ -1131,17 +1135,7 @@ description:
 description:
   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
 },
-{
-  title: "Spacer Toffee Ad",
-  filter: "Motion Graphics",
-  type:"video",
-  id: "V14",
-  mainImage: "TH14",
-  video: "V14",
-  coverImages: [],
-description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
-},
+
 {
   title: "Gourmet Packaging Redesign",
   filter: "Motion Graphics",
@@ -1206,6 +1200,17 @@ description:
 description:
   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
 },
+{
+  title: "Spacer Toffee Ad",
+  filter: "Motion Graphics",
+  type:"video",
+  id: "V8",
+  mainImage: "TH08",
+  video: "V08",
+  coverImages: [],
+description:
+  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+},
 // {
 //   title: "Spacer Toffee Ad",
 //   filter: "Motion Graphics",
@@ -1261,6 +1266,16 @@ description:
   coverImages: [],
 description:
   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+},
+{
+  filter: "Motion Graphics",
+  title: "Detroit Giant — VFX Spec",
+  type:"video",
+  id: "video4",
+  mainImage: "435982a4-9598-45f8-b9e5-2c5ae8f33e0a",
+  video:"CGI_Detroit_Robot",
+  coverImages: [],
+  description: "An animation piece demonstrating the reveal of a huge chrome robot in the city of Detroit. Employing the effects of photo-realistic VFX and matte painting, a giant structure bearing the name of the city on its chest is revealed as the red cover slides down dramatically over a loading dock building in a sunlit urban parking lot."
 },
 {
   title: "Spacer Toffee Ad",
