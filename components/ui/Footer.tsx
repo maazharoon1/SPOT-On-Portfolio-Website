@@ -6,7 +6,7 @@ const socials = [
 export function Footer() {
   return (
     <footer className="mx-auto max-w-[1600px] px-5 pb-14 sm:px-8 lg:px-12">
-      <div className="flex flex-col gap-10 pt-10 justify-between">
+      <div className="flex flex-col md:flex-row gap-10 pt-10 justify-between">
         <div className="lg:col-span-6">
           <p className="label-xs text-fuchsia-100">LET&apos;S WORK TOGETHER</p>
 

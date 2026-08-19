@@ -872,7 +872,7 @@ description:
   title: "Detroit Giant — VFX Spec",
   type:"video",
   id: "video2",
-  mainImage: "TH01",
+  mainImage: "TH02",
   video:"CGI_Ideas_V1_4x5",
   coverImages: [],
    description:
@@ -894,7 +894,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V6",
-  mainImage: "TH01",
+  mainImage: "TH06",
   video: "V06",
   coverImages: [],
 description:
@@ -905,7 +905,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V7",
-  mainImage: "TH01",
+  mainImage: "TH07",
   video: "V07",
   coverImages: [],
 description:
@@ -916,7 +916,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V8",
-  mainImage: "TH01",
+  mainImage: "TH08",
   video: "V08",
   coverImages: [],
 description:
@@ -949,7 +949,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V11",
-  mainImage: "TH16",
+  mainImage: "TH11",
   video: "V11",
   coverImages: [],
 Description: "A technologically advanced marketing demonstration of the new age cooling mattress that is based on its advanced materials. The video has a number of complex 3D particle effects used to show transformation of deep blue gel beads into an organized multi-zone orthopedic foam core. The educational animations of the targeted support zones and thermal regulation have been added to a stylish, minimalistic design environment."
@@ -959,7 +959,7 @@ Description: "A technologically advanced marketing demonstration of the new age 
   filter: "Motion Graphics",
   type:"video",
   id: "V12",
-  mainImage: "TH01",
+  mainImage: "TH12",
   video: "V12",
   coverImages: [],
 description:
@@ -970,7 +970,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V13",
-  mainImage: "TH01",
+  mainImage: "TH13",
   video: "V13",
   coverImages: [],
 description:
@@ -981,7 +981,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V14",
-  mainImage: "TH01",
+  mainImage: "TH14",
   video: "V14",
   coverImages: [],
 description:
@@ -1002,7 +1002,7 @@ description: "Dynamic brand video presentation showcasing the instant rebranding
   filter: "Motion Graphics",
   type:"video",
   id: "V16",
-  mainImage: "TH11",
+  mainImage: "TH16",
   video: "V16",
   coverImages: [],
 description: "Detailed 3D technical animation illustrating the superior protective qualities of Petromin A1 motor oil. In the animation, the story progresses from scenes showing the explosive combustion chamber to scenes of a silky golden film of oil protecting the moving pistons. Metallic textures and fluid dynamics create an informative yet cinematic portrayal of strength and engineering brilliance."
@@ -1012,7 +1012,7 @@ description: "Detailed 3D technical animation illustrating the superior protecti
   filter: "Motion Graphics",
   type:"video",
   id: "V17",
-  mainImage: "TH01",
+  mainImage: "TH17",
   video: "V17",
   coverImages: [],
 description:
@@ -1023,7 +1023,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V18",
-  mainImage: "TH01",
+  mainImage: "TH18",
   video: "V18",
   coverImages: [],
 description:
@@ -1045,7 +1045,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V20",
-  mainImage: "TH01",
+  mainImage: "TH20",
   video: "V20",
   coverImages: [],
 description:
@@ -1067,7 +1067,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V22",
-  mainImage: "TH01",
+  mainImage: "TH22",
   video: "V22",
   coverImages: [],
 description:
@@ -1079,7 +1079,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V23",
-  mainImage: "TH01",
+  mainImage: "TH23",
   video: "V23",
   coverImages: [],
 description:
@@ -1090,7 +1090,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V24",
-  mainImage: "TH01",
+  mainImage: "TH24",
   video: "V24",
   coverImages: [],
 description:
@@ -1101,7 +1101,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V25",
-  mainImage: "TH01",
+  mainImage: "TH25",
   video: "V25",
   coverImages: [],
 description:
@@ -1112,7 +1112,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V26",
-  mainImage: "TH01",
+  mainImage: "TH26",
   video: "V26",
   coverImages: [],
 description:
@@ -1123,7 +1123,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V27",
-  mainImage: "TH01",
+  mainImage: "TH27",
   video: "V27",
   coverImages: [],
 description:
@@ -1134,7 +1134,7 @@ description:
   filter: "Motion Graphics",
   type:"video",
   id: "V28",
-  mainImage: "TH01",
+  mainImage: "TH28",
   video: "V28",
   coverImages: [],
 description:
