@@ -543,191 +543,173 @@ description:
 //flyers & Brochures 
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Integrity Fire Safety",
   type:"image",
   id: "FlyersAndBrochures1",
   description:
-    "Selection of logos designed for various brands, companies, and design concepts.",
+    "Professional trifold brochure design with striking color scheme of orange and black in combination with a grid layout and multi-columns design of text and graphics. The design is balanced in team introductions, service certification, and industrial photography.",
   mainImage: "F01",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Industrial Business Partner",
   type:"image",
   id: "FlyersAndBrochures2",
   description:
-    "Selection of logos designed for various brands, companies, and design concepts.",
+    "Corporate flyer design featuring bright color accents of red in geometric shapes and clean grid layout of the document. The flyer presents technical services for industry in combination with business partnership information.",
   mainImage: "F02",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Premium Automotive Detailing ",
   type:"image",
   id: "FlyersAndBrochures3",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "High-class dark-themed advertisement design using black and white color scheme and high contrast photos of luxury vehicles. The layout consists of typography and service list design with icons.",
   mainImage: "F03",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "LXB Building Services",
   type:"image",
   id: "FlyersAndBrochures4",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Professional blue and white trifold brochure design that promotes residential and commercial construction services with architectural headings and service list design.",
   mainImage: "F04",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Aventura Mediterranean Menu ",
   type:"image",
   id: "FlyersAndBrochures5",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Light-colored trifold menu with green accents and legible typographic layout. The design looks bright and modern with lifestyle photography.",
   mainImage: "F05",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Greenhaven Landscaping Service",
   type:"image",
   id: "FlyersAndBrochures6",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "An elegant dark-themed trifold brochure that uses a combination of dark forest green and gold colors to draw attention to the top-notch landscaping services. The brochure has vivid images of the gardens with minimalistic sections of texts and ample white spaces.",
   mainImage: "F06",
   coverImages: [],
 },
+
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "The Prog Lab Music Event",
   type:"image",
-  id: "FlyersAndBrochures7",
+  id: "FlyersAndBrochures8",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A high-energy poster design that is characterized by the use of bright neon blue colors and modern futuristic fonts. The poster is focused on the portrait of the artist and utilizes vibrant graphics created specifically for nightlife.",
   mainImage: "F07",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Wanderluxe Luxury Travel",
   type:"image",
-  id: "FlyersAndBrochures8",
+  id: "FlyersAndBrochures9",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A sophisticated horizontal brochure design that uses a combination of deep blue and gold colors to advertise luxurious vacations. It combines beautiful resort images with icons to display the travel packages available.",
   mainImage: "F08",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
-  type:"image",
-  id: "FlyersAndBrochures9",
-  description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-  mainImage: "F09",
-  coverImages: [],
-},
-{
-  filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Saffron & Sage Grand Opening",
   type:"image",
   id: "FlyersAndBrochures10",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A rustic but stylish flyer design that uses natural olive green colors and elegant serif font type. It utilizes high-resolution food images at the center of the design.",
   mainImage: "F10",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Nourish Lab Meal Prep",
   type:"image",
   id: "FlyersAndBrochures11",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A lively flyer with photos of fresh foods along with a clean and neat green-themed grid-based layout. It concentrates on the healthy meal preparation service and its subscription plans with a fresh and contemporary design.",
   mainImage: "F11",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Nexus Digital Services",
   type:"image",
   id: "FlyersAndBrochures12",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A contemporary dark-themed trifold brochure with tech device mockups and bright neon accent colors. The design features tech iconography that highlights web development and digital marketing services.",
   mainImage: "F12",
   coverImages: [],
 },
+
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
-  type:"image",
-  id: "FlyersAndBrochures13",
-  description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-  mainImage: "F13",
-  coverImages: [],
-},
-{
-  filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "House Interior Design ",
   type:"image",
   id: "FlyersAndBrochures14",
-  description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+ description: "A clean beige-colored flyer that represents high-end architectural interior design and renovation service with contemporary design and plenty of white space.",
   mainImage: "F14",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "EV Charging ",
   type:"image",
   id: "FlyersAndBrochures15",
-  description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+
+description: "A technical corporate brochure design that employs professional blue and grey colors together with an informative iconography system. The layout aims at presenting clear hardware specifications and installation procedures for EV charging.",
+
   mainImage: "F15",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Outdoor Living ",
   type:"image",
   id: "FlyersAndBrochures16",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A multi-page brochure design employing natural photographs and a soothing color palette. It concentrates on the processes of landscape design, installation, and gardening maintenance.",
   mainImage: "F16",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Fitnex Fitness ",
   type:"image",
   id: "FlyersAndBrochures17",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A strong contrasting black and yellow promotional flyer design employing active sport photography and bold and motivating typography. The layout is concentrated on gym membership benefits.",
   mainImage: "F17",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: "Solace Residences ",
   type:"image",
   id: "FlyersAndBrochures18",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A fresh and light property brochure design employing coastal living photographs and gold elements. The layout is aimed at promoting luxury waterfront apartments and properties.",
   mainImage: "F18",
   coverImages: [],
 },
 {
   filter: "Flyers & Brochures",
-  title: "Flyers & Brochures",
+  title: " Havencrest Properties",
   type:"image",
   id: "FlyersAndBrochures19",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "An elegant navy and gold real estate flyer design employing professional interior photography and corporate structure.",
   mainImage: "F19",
   coverImages: [],
 },
@@ -755,7 +737,7 @@ description:
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "RIVAA Juices",
   type:"image",
   id: "Packaging3",
  description:
@@ -765,7 +747,7 @@ description:
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Cacao Haven ",
   type:"image",
   id: "Packaging4",
 
@@ -776,81 +758,81 @@ description:
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Roasted Almonds",
   type:"image",
   id: "Packaging5",
 description:
-"A design for food stand-up pouches of Roasted Almonds. Combines earthy aesthetics, images of products, and dietary icons to represent crunchiness and nutrition.",
+"A natural beige and brown package specifically tailored for healthy snacking purposes. The earth colors used, as well as the promotional features make the product look professionally packaged.",
   mainImage: "P05",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: " Kora Coffee ",
   type:"image",
   id: "Packaging6",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A matte black packet with a sleek gold print design and an embossed illustration of a coffee plant. This is a sophisticated design that reflects the mood of the product.",
   mainImage: "P06",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Zenra Matcha ",
   type:"image",
   id: "Packaging7",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "This premium package design comes in white and dark green colors. Its sleek design features minimalist mountain illustration and a beautiful brushstroke logo design.",
   mainImage: "P07",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Green Tea Wipes",
   type:"image",
   id: "Packaging8",
-  description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+  description:"A delicate product of skincare with botanical designs and a simple style with off-white and green color palette. Wipes are packaged in a sleek way and give a sense of elegance and serenity.",
   mainImage: "P08",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Recovery Balm",
   type:"image",
   id: "Packaging9",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Professional packaging of dark blue skincare jar with gradient purple accents and abstract line graphics. The packaging is sleek and modern, appropriate for premium recovery skincare.",
   mainImage: "P09",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Maple Pecan Shortbread",
   type:"image",
   id: "Packaging10",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Sleek hexagonal black and brown packages that create a sophisticated look of the snack. The packaging uses bright geometric shapes for a premium presentation.",
   mainImage: "P10",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Cacao Biscuits",
   type:"image",
   id: "Packaging11",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Stylish dark blue packages with a minimalistic design and professional appearance. The packaging of the product is meant to provide a premium presentation for cacao biscuits.",
   mainImage: "P11",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "  Water Cans",
   type:"image",
   id: "Packaging12",
+
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    " Bright aluminum cans in soft pastel shades covered with botanical images and lettering. This product range is a unique stylish way to present flavored sparkling water.",
   mainImage: "P12",
   coverImages: [],
 },
@@ -876,21 +858,21 @@ description:
 // },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Garlic Chili Crisp",
   type:"image",
   id: "Packaging15",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Unique hexagonal glass container along with the vintage illustration-based packaging design._bold typography and intricate garlic & pepper illustrations give it a high-quality gourmet food look.",
   mainImage: "P15",
   coverImages: [],
 },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Mushroom Crisps",
   type:"image",
   id: "Packaging16",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Elegant dark purple and green color scheme for the gourmet snack package design. Clean typography along with the structured box design gives a premium look to the product.",
   mainImage: "P16",
   coverImages: [],
 },
@@ -906,11 +888,14 @@ description:
 // },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: " Body Wash",
+
   type:"image",
   id: "Packaging18",
+
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "Three matte-finished bottles in natural tones with a sophisticated bronze dispenser. The elegant design features layering illustrations in the form of landscapes to give a natural premium feeling.",
+
   mainImage: "P18",
   coverImages: [],
 },
@@ -926,11 +911,11 @@ description:
 // },
 {
   filter: "Packaging",
-  title: "Packaging",
+  title: "Natural Energy Drink",
   type:"image",
   id: "Packaging20",
   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
+    "A red aluminum can with a sleek modern typeface and an eye-catching fruity design.",
   mainImage: "P20",
   coverImages: [],
 },
@@ -1012,7 +997,7 @@ description:
   coverImages: [],
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Spacer Candy ",
   filter: "Motion Graphics",
   type:"video",
   id: "SpacerToffeeAd",
@@ -1020,24 +1005,16 @@ description:
   video: "Bp_Spacer_TVC",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  " An energetic brand film combining cinematic live action with lively animated elements inspired by space themes to reflect the joyful experience of rewarding one's children. This project features an engaging brand experience via seamless transitions and artistic visualizations.",
 },
 
-// {
-//   filter: "Motion Graphics",
-//   title: "Detroit Giant — VFX Spec",
-//   type:"video",
-//   id: "video3",
-//   mainImage: "TH03",
+
 //   video:"CGI_Ideas_V1_4x5",
-//   coverImages: [],
-//    description:
-//     "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-// },
+
 
 
 {
-  title: "Spacer Toffee Ad",
+  title: "Dettol ",
   filter: "Motion Graphics",
   type:"video",
   id: "V6",
@@ -1045,10 +1022,10 @@ description:
   video: "V06",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A lively commercial for Dettol Soothe using crisp 3D animations and a green theme to show off its new antibacterial soap that contains aloe vera and green apples. This project takes advantage of a polished visual style to show how the product is protective and caring for the skin.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "EcoStar ",
   filter: "Motion Graphics",
   type:"video",
   id: "V7",
@@ -1056,10 +1033,10 @@ description:
   video: "V07",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A modern 3D product animation that showcases the sleek design and innovative self-cleaning feature of the EcoStar air conditioner.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Giggly Opus",
   filter: "Motion Graphics",
   type:"video",
   id: "V14",
@@ -1067,54 +1044,24 @@ description:
   video: "V14",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "An aesthetically pleasing 3D commercial for Giggly Opus chocolate, made with high-end CGI and fluid motions. The project emphasizes appetizing textures in order to create a premium visual experience for an impactful product launch.",
 },
 
-// {
-//   title: "Spacer Toffee Ad",
-//   filter: "Motion Graphics",
-//   type:"video",
-//   id: "V9",
-//   mainImage: "TH01",
 //   video: "V09",
-//   coverImages: [],
-// description:
-//   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
-// },
-// {
-//   title: "Spacer Toffee Ad",
-//   filter: "Motion Graphics",
-//   type:"video",
-//   id: "V10",
-//   mainImage: "TH01",
 //   video: "V10",
-//   coverImages: [],
-// description:
-//   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
-// },
+
 {
-  filter: "Motion Graphics",
-  title: "Detroit Giant — VFX Spec",
-  type:"video",
-  id: "video2",
-  mainImage: "TH02",
-  video:"CGI_Ideas_V1_4x5",
-  coverImages: [],
-   description:
-    "A curated collection of logo designs created for different brands, businesses, and creative concepts. Each logo explores a unique visual direction, combining thoughtful typography, distinctive forms, and memorable design elements.",
-},
-{
-  title: "Ergonomic Smart Mattress",
+  title: "Master ",
   filter: "Motion Graphics",
   type:"video",
   id: "V11",
-  mainImage: "TH11",
+  mainImage: "TH16",
   video: "V11",
   coverImages: [],
-Description: "A technologically advanced marketing demonstration of the new age cooling mattress that is based on its advanced materials. The video has a number of complex 3D particle effects used to show transformation of deep blue gel beads into an organized multi-zone orthopedic foam core. The educational animations of the targeted support zones and thermal regulation have been added to a stylish, minimalistic design environment."
+description: "A professional 3D animation demonstrating unique sleep technologies of the Master Molty CoolGel mattress using cross-sectional illustrations and motion graphics. The project features a clean and technical visual style to emphasize ergonomics and cooling properties of the product."
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Bisconni Novita",
   filter: "Motion Graphics",
   type:"video",
   id: "V12",
@@ -1122,10 +1069,10 @@ Description: "A technologically advanced marketing demonstration of the new age 
   video: "V12",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A dynamic 3D commercial for Novita wafers with motion graphics and animations designed to reflect the product's unique crunch and diversity in flavors. This project reflects a modern and daring brand identity via dynamic typography and visuals.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Giggly Opus Bar",
   filter: "Motion Graphics",
   type:"video",
   id: "V13",
@@ -1133,31 +1080,31 @@ description:
   video: "V13",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A high-end 3D animation that emphasizes appetizing textures of the premium Giggly Opus Bar. The project makes use of realistic fluid dynamics and macro photography in order to make an appetizing chocolate-caramel fusion with high-impact visual style for a consumer marketing campaign.",
 },
 
 {
-  title: "Gourmet Packaging Redesign",
+  title: "3D Product Visualization",
   filter: "Motion Graphics",
   type:"video",
   id: "V15",
   mainImage: "TH15",
   video: "V15",
   coverImages: [],
-description: "Dynamic brand video presentation showcasing the instant rebranding of the packaging for premium biscuits and gourmet cheeses. With the use of seamless CGI morphing transitions, the project presents a beautiful visual representation of the rebranding into a sleek, modern aesthetic. Under the bright studio lights, the new typography and assets of the products are shown in all their glory."
+description: "A collection of high-end CGI animations of Bisconni and Dairy Life packaging designs with an emphasis on photorealistic textures and fluid motions. The project uses high-impact visuals and studio lights in order to deliver a premium brand experience for the food & beverage industry."
 },
 {
-  title: "Petromin A1 Lubricant Showcase",
+  title: " Engine Mechanisms",
   filter: "Motion Graphics",
   type:"video",
   id: "V16",
-  mainImage: "TH16",
+  mainImage: "TH11",
   video: "V16",
   coverImages: [],
-description: "Detailed 3D technical animation illustrating the superior protective qualities of Petromin A1 motor oil. In the animation, the story progresses from scenes showing the explosive combustion chamber to scenes of a silky golden film of oil protecting the moving pistons. Metallic textures and fluid dynamics create an informative yet cinematic portrayal of strength and engineering brilliance."
+description: "An impressive 3D technical animation demonstrating the mechanical features and engine protection characteristics of Petromin A1 synthetic oil. This project uses precise engine sections and dramatic lighting to illustrate how the oil prevents engine wear and increases its performance."
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Energy Drink ",
   filter: "Motion Graphics",
   type:"video",
   id: "V17",
@@ -1165,10 +1112,10 @@ description: "Detailed 3D technical animation illustrating the superior protecti
   video: "V17",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "An artistic brand film advertisement of Power Horse Bold energy drink that captures the adventurous spirit and high energy of the drink through intense desert action. The project employs dynamic cinematography and post-apocalyptic visual narration in the creation of the brand identity.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Power Plus",
   filter: "Motion Graphics",
   type:"video",
   id: "V18",
@@ -1176,21 +1123,11 @@ description:
   video: "V18",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "An exciting 3D animated commercial intended to emphasize the reliability and high performance of Power Plus batteries. The project features sophisticated product visualization and modern motion graphics creating an image of a hi-tech brand characterized by durability and energy efficiency."
 },
-// {
-//   title: "Spacer Toffee Ad",
-//   filter: "Motion Graphics",
-//   type:"video",
-//   id: "V19",
-//   mainImage: "TH01",
-//   video: "V19",
-//   coverImages: [],
-// description:
-//   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
-// },
+
 {
-  title: "Spacer Toffee Ad",
+  title: "Salmedia.us",
   filter: "Motion Graphics",
   type:"video",
   id: "V20",
@@ -1198,10 +1135,10 @@ description:
   video: "V20",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A hi-tech 3D animated brand introduction for Salmedia.us featuring futuristic circuit boards and bright golden typography. The project presents all services provided by the company, including video production and branding.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Haier",
   filter: "Motion Graphics",
   type:"video",
   id: "V8",
@@ -1209,21 +1146,13 @@ description:
   video: "V08",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "An elegant 3D product animation of Haier Puri Inverter AC which features high-tech capabilities such as air purification, connectivity, and energy efficiency. This project makes use of high-definition motion graphics and visual overlays to communicate the product benefits effectively.",
 },
-// {
-//   title: "Spacer Toffee Ad",
-//   filter: "Motion Graphics",
-//   type:"video",
-//   id: "V21",
-//   mainImage: "TH01",
+
 //   video: "V21",
-//   coverImages: [],
-// description:
-//   "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
-// },
+
 {
-  title: "Spacer Toffee Ad",
+  title: " Shangrila Sauces",
   filter: "Motion Graphics",
   type:"video",
   id: "V22",
@@ -1231,11 +1160,11 @@ description:
   video: "V22",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A professional commercial about Shangrila's range of high-quality sauces shown in high definition close-up shots with lifestyle scenes.",
 },
 // https://res.cloudinary.com/hcn0f9nu/image/upload/v1787004363/.jpg
 {
-  title: "Spacer Toffee Ad",
+  title: "SEGO",
   filter: "Motion Graphics",
   type:"video",
   id: "V23",
@@ -1243,10 +1172,10 @@ description:
   video: "V23",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "3D promo video with a great effect, presenting the attractive design and impressive hardware of the SEGO S PAD 4G tablet. Employing a sci-fi style along with motion graphics, this video project accentuates the technical advantages of the device, making it stand out among other products in this segment.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Sheikhoo Steel",
   filter: "Motion Graphics",
   type:"video",
   id: "V24",
@@ -1254,10 +1183,10 @@ description:
   video: "V24",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A visually impactful 3D animation logo showcase that portrays the industrial strength of the steel making process through realistic molten metal elements and particle effects. The project uses motion graphics to build an influential and professional brand identity for the leading manufacturer of steel products.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "Sucral",
   filter: "Motion Graphics",
   type:"video",
   id: "V25",
@@ -1265,11 +1194,11 @@ description:
   video: "V25",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  " A high-quality 3D product visualization of the whole packaging series for Sucral zero-calorie sweetener products. The design features include high-fidelity renderings with a clean look that fits the branding of the product line."
 },
 {
   filter: "Motion Graphics",
-  title: "Detroit Giant — VFX Spec",
+  title: "Detroit Giant",
   type:"video",
   id: "video4",
   mainImage: "435982a4-9598-45f8-b9e5-2c5ae8f33e0a",
@@ -1278,7 +1207,7 @@ description:
   description: "An animation piece demonstrating the reveal of a huge chrome robot in the city of Detroit. Employing the effects of photo-realistic VFX and matte painting, a giant structure bearing the name of the city on its chest is revealed as the red cover slides down dramatically over a loading dock building in a sunlit urban parking lot."
 },
 {
-  title: "Spacer Toffee Ad",
+  title: 'Sunsilk "Super-mix" ',
   filter: "Motion Graphics",
   type:"video",
   id: "V26",
@@ -1286,10 +1215,10 @@ description:
   video: "V26",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  `An energetic brand campaign for Sunsilk that unites detailed 3D product renderings with lively cinematography. The campaign focuses on the new "Super-mix" formula with a consistent brand-oriented visual language that emphasizes the healthy shine of your hair.`,
 },
 {
-  title: "Spacer Toffee Ad",
+  title: " Sucral Sweetener",
   filter: "Motion Graphics",
   type:"video",
   id: "V27",
@@ -1297,10 +1226,10 @@ description:
   video: "V27",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  " A professional 3D visualization of the products of Sucral, which includes all varieties of their sugar substitutes, ranging from liquid drops to powder jars. The project is done in a clean and vivid way and features all the necessary iconography and health benefits of the products.",
 },
 {
-  title: "Spacer Toffee Ad",
+  title: "White Pearl",
   filter: "Motion Graphics",
   type:"video",
   id: "V28",
@@ -1308,6 +1237,17 @@ description:
   video: "V28",
   coverImages: [],
 description:
-  "A creative TV commercial project for Spacer Toffee, blending live-action storytelling with vibrant 2D/3D space animations. Highlights a playful narrative where kids go on an imaginative cosmic adventure, demonstrating engaging visual effects, compositing, and brand storytelling.",
+  "A fast-paced 3D product animation video focusing on the refreshing properties of White Pearl's sparkling coconut water by means of dynamic graphics and lively visuals. This video demonstrates the premium quality and naturalness of the product with the help of professional liquid simulations and vivid environment effects.",
+},
+{
+  filter: "Motion Graphics",
+  title: " Ideas Summer Sale",
+  type:"video",
+  id: "video2",
+  mainImage: "TH02",
+  video:"CGI_Ideas_V1_4x5",
+  coverImages: [],
+   description:
+    " A visually appealing social media campaign created for Gul Ahmed's retail brand with hyper-realistic 3D product integration and motion graphics. This project involves immersive CGI storytelling to provide an intriguing promotion for the brand's biggest annual e-commerce event.",
 },
 ];
