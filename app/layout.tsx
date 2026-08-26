@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://spotonportfolio.example"),
+  metadataBase: new URL("https://sos-portfolio.com"),
   title: {
     default: "Spot On Solutions | Portfolio",
     template: "%s | Spot On Solutions",
@@ -29,6 +29,7 @@ export const metadata: Metadata = {
     "packaging design",
     "social media design",
     "motion graphics",
+    "UI/UX Design"
   ],
   authors: [{ name: "Spot On Solutions" }],
   creator: "Spot On Solutions",
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
     title: "Spot On Solutions | Portfolio",
     description:
       "Portfolio of branding, packaging, and digital design work by Spot On Solutions.",
-    url: "https://spotonportfolio.example",
+    url: "https://sos-portfolio.com",
     siteName: "Spot On Solutions",
     locale: "en_US",
     type: "website",

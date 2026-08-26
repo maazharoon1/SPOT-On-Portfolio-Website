@@ -996,6 +996,145 @@ description:
   mainImage: "BR09",
   coverImages: [],
 },
+
+
+// UIUX 
+
+{
+  filter: "UI/UX Design",
+  title: "  Cascading Web Interface",
+
+  type:"image",
+  id: "U01",
+
+  description:
+    "Landing page design in modern style represented by the use of a new 3D cascade technique. The extended page smoothly emerges from the laptop display, emphasizing the clean grid, professional fonts, and organized layout on the background of neutral studio setting.",
+
+  mainImage: "U01",
+},
+{
+  filter: "UI/UX Design",
+  title: " Minimalist Web Interface",
+
+  type:"image",
+  id: "U02",
+
+  description:
+    "The contemporary web interface presented using a surrealistic, cascading 3D mock-up on an extremely minimalist platform. The concept of the design is focused on the idea of structured typography and layout that is elegantly unfurling from the screen.",
+
+  mainImage: "U02",
+},
+
+{
+  filter: "UI/UX Design",
+  title: "Modern Web Interface ",
+
+  type:"image",
+  id: "U04",
+
+  description:
+    "Clean and professional-looking digital interface presented via a surreal 3D mock-up. The web page smoothly slides out from the laptop screen on an uncluttered gray background with the focus on contemporary fonts and clearly defined content blocks in an airy studio space.",
+
+  mainImage: "U04",
+},
+{
+  filter: "UI/UX Design",
+  title: " Fluid Digital Interface",
+
+  type:"image",
+  id: "U05",
+
+  description:
+    "An incredible 3D display with a website interface that is designed in such a way that it flows down like a bendable scroll. The design features a neat grid interface with text and pictures, with soft lighting and minimalist design elements.",
+
+  mainImage: "U05",
+},
+{
+  filter: "UI/UX Design",
+  title: " Surreal Studio Portfolio Display",
+
+  type:"image",
+  id: "U06",
+
+  description:
+    "Concept design of a sleek web design illustrated in a minimalistic studio setting. The black laptop displays a lengthy and curvy page flowing on top of a white block formation, depicting the use of structured images and text in the UI design.",
+
+  mainImage: "U06",
+},
+{
+  filter: "UI/UX Design",
+  title: " Modern UI/UX",
+
+  type:"image",
+  id: "U07",
+
+  description:
+    "This design project presents a modern user interface on the website presented using a surreal 3D mock-up. The site layout flows down seamlessly from the laptop screen onto the harsh and concrete brutalist structure, demonstrating the organized grid system, fonts, and content sections.",
+
+  mainImage: "U07",
+},
+{
+  filter: "UI/UX Design",
+  title: " Minimalist Web Interface",
+
+  type:"image",
+  id: "U08",
+
+  description:
+    "Modern and sleek web interface design in the form of a ribbon, which emanates from the laptop screen. The interface design has a clean look and structured segments with quality images that cascade down on the concrete floor to show the responsiveness of the UI.",
+
+  mainImage: "U08",
+},
+{
+  filter: "UI/UX Design",
+  title: " Pet Care ",
+
+  type:"image",
+  id: "U09",
+
+  description:
+    "Pet care website design with a neat and professional layout containing images and structured blocks of information about dogs. The design is showcased through a vertical scroll coming out of a laptop in one piece.",
+
+  mainImage: "U09",
+},
+{
+  filter: "UI/UX Design",
+  title: "Artisan Bakery ",
+
+  type:"image",
+  id: "U10",
+
+  description:
+    "This collection of creativity includes a visually appealing landing page for a bakery that is centered on food. This design unfolds from the laptop screen and showcases great product photos along with beautiful serif fonts in a minimalistic 3D space.",
+
+  mainImage: "U10",
+},
+{
+  filter: "UI/UX Design",
+  title: " Ocean Conservation ",
+
+  type:"image",
+  id: "U11",
+
+  description:
+    "Modern landing page design dedicated to marine life conservation in the form of one continuous scroll. The interface incorporates blue color scheme, data visualization, and environmental elements that are all shown via a surrealistic 3D rendering mounted on a white pedestal.",
+
+  mainImage: "U11",
+},
+{
+  filter: "UI/UX Design",
+  title: " E-commerce ",
+
+  type:"image",
+  id: "U12",
+
+  description:
+    "In this 3D rendering, there is a lively e-commerce website that is literally streaming out of a computer screen in waves. The focus of the design here is on the strong use of colors and clean typography in a surrealist minimalist environment.",
+  mainImage: "U12",
+},
+
+
+// Motion Graphics
 {
   title: "Spacer Candy ",
   filter: "Motion Graphics",

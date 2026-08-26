@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://spotonportfolio.example/sitemap.xml",
+    sitemap: "https://sos-portfolio/sitemap.xml",
   };
 }

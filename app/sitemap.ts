@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://spotonportfolio.example";
+  const baseUrl = "https://sos-portfolio.com";
 
   return [
     {
