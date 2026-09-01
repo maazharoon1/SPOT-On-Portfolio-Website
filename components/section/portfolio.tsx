@@ -12,7 +12,9 @@ const tabs = [
   "Flyers & Brochures",
   "Brand Guidelines",
   "Motion Graphics",
-   "UI/UX Design"
+   "UI/UX Design",
+   "Emotes",
+   "Overlay"
     
 
   // "Stationary",

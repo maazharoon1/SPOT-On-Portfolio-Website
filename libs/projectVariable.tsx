@@ -1285,7 +1285,7 @@ description:
   video: "V08",
   coverImages: [],
 description:
-  "An elegant 3D product animation of Haier Puri Inverter AC which features high-tech capabilities such as air purification, connectivity, and energy efficiency. This project makes use of high-definition motion graphics and visual overlays to communicate the product benefits effectively.",
+  "An elegant 3D product animation of Haier Puri Inverter AC which features high-tech capabilities such as air purification, connectivity, and energy efficiency. This project makes use of high-definition motion graphics and visual Overlays to communicate the product benefits effectively.",
 },
 
 //   video: "V21",
@@ -1388,5 +1388,499 @@ description:
   coverImages: [],
    description:
     " A visually appealing social media campaign created for Gul Ahmed's retail brand with hyper-realistic 3D product integration and motion graphics. This project involves immersive CGI storytelling to provide an intriguing promotion for the brand's biggest annual e-commerce event.",
+},
+// Emotes
+{
+  filter: "Emotes",
+  title: "Emote 01",
+  type: "image",
+  id: "E01",
+  description:
+    "Custom Twitch and Discord emote featuring a bold expressive character, high-contrast colors, and clean icon styling for instant community recognition.",
+  mainImage: "E01",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 02",
+  type: "image",
+  id: "E02",
+  description:
+    "A polished gaming emote built with strong facial expression, readable silhouette, and vibrant palette to make reactions pop in live chat.",
+  mainImage: "E02",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 03",
+  type: "image",
+  id: "E03",
+  description:
+    "High-energy emote artwork designed for stream reactions, combining exaggerated motion, detail-rich linework, and memorable color contrast.",
+  mainImage: "E03",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 04",
+  type: "image",
+  id: "E04",
+  description:
+    "Community-focused custom emote with a warm, playful personality that reads clearly even at small sizes in chat and Discord.",
+  mainImage: "E04",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 05",
+  type: "image",
+  id: "E05",
+  description:
+    "Dynamic emote concept tailored for streamer branding, featuring punchy shapes, vivid colors, and a confident mascot-like expression.",
+  mainImage: "E05",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 06",
+  type: "image",
+  id: "E06",
+  description:
+    "Custom reaction emote designed for fast communication, using bold exaggeration and a compact visual language that feels lively on screen.",
+  mainImage: "E06",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 07",
+  type: "image",
+  id: "E07",
+  description:
+    "High-impact mascot-style emote with strong character appeal, ideal for gaming communities, twitch Overlays, and social engagement.",
+  mainImage: "E07",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 08",
+  type: "image",
+  id: "E08",
+  description:
+    "Expressive emote artwork created to capture excitement, humor, and personality while staying clear and readable at tiny chat dimensions.",
+  mainImage: "E08",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 09",
+  type: "image",
+  id: "E09",
+  description:
+    "Stylized emote set piece with a strong silhouette and vibrant palette, designed to stand out in crowded live chat conversations.",
+  mainImage: "E09",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 10",
+  type: "image",
+  id: "E10",
+  description:
+    "A playful, energetic emote that brings personality into a gaming channel, balancing cartoon appeal with clean digital polish.",
+  mainImage: "E10",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 11",
+  type: "image",
+  id: "E11",
+  description:
+    "Custom community emote with exaggerated emotion and bold color blocking, built for quick reaction sharing and strong brand identity.",
+  mainImage: "E11",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 12",
+  type: "image",
+  id: "E12",
+  description:
+    "Stream-ready emote concept built for expressive reactions, featuring crisp outlines, readable features, and a modern gaming aesthetic.",
+  mainImage: "E12",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 13",
+  type: "image",
+  id: "E13",
+  description:
+    "Bold reaction emote featuring exaggerated emotion and a compact graphic language designed for live chat speed and visual impact.",
+  mainImage: "E13",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 14",
+  type: "image",
+  id: "E14",
+  description:
+    "Custom emote artwork for digital communities, with strong expression, clean silhouette, and vibrant palette for maximum recognition.",
+  mainImage: "E14",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 15",
+  type: "image",
+  id: "E15",
+  description:
+    "Creative mascot emote built for personality-rich stream branding, combining fun expression with modern illustration detail.",
+  mainImage: "E15",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 16",
+  type: "image",
+  id: "E16",
+  description:
+    "A friendly stream emote that balances soft cartoon shapes with high visibility, ideal for chat reactions and community identity.",
+  mainImage: "E16",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 17",
+  type: "image",
+  id: "E17",
+  description:
+    "Energetic emote design made for gaming audiences, with punchy colors and strong body language for memorable reactions.",
+  mainImage: "E17",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 18",
+  type: "image",
+  id: "E18",
+  description:
+    "Custom emoticon artwork designed with a polished, digital-first look that performs well across Twitch, Discord, and social communities.",
+  mainImage: "E18",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 19",
+  type: "image",
+  id: "E19",
+  description:
+    "A bold and expressive emote with a clean silhouette and dynamic pose, crafted to feel lively in fast-moving chat interactions.",
+  mainImage: "E19",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 20",
+  type: "image",
+  id: "E20",
+  description:
+    "Gaming-focused emote concept with crisp linework, bright color contrast, and a memorable expression that stands out immediately.",
+  mainImage: "E20",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 21",
+  type: "image",
+  id: "E21",
+  description:
+    "Custom stream emote designed to match a modern gaming brand, combining personality, readability, and strong visual impact.",
+  mainImage: "E21",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 22",
+  type: "image",
+  id: "E22",
+  description:
+    "Expression-heavy emote artwork made for reaction moments, using clean cartoon styling and strong color balance for clarity.",
+  mainImage: "E22",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 23",
+  type: "image",
+  id: "E23",
+  description:
+    "Playful community emote with highly visible shapes, crisp detailing, and a vibrant palette meant to increase engagement in chat.",
+  mainImage: "E23",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 24",
+  type: "image",
+  id: "E24",
+  description:
+    "Modern emote concept featuring energetic poses and saturated colors, crafted to feel fun, readable, and community-first.",
+  mainImage: "E24",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 25",
+  type: "image",
+  id: "E25",
+  description:
+    "Bright and expressive emote artwork for a streaming brand, designed to connect emotionally with viewers while staying crisp at small sizes.",
+  mainImage: "E25",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 26",
+  type: "image",
+  id: "E26",
+  description:
+    "Custom reaction icon built with bold contrast and exaggerated expression, perfect for gameplay hype, fan engagement, and community chatter.",
+  mainImage: "E26",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 27",
+  type: "image",
+  id: "E27",
+  description:
+    "Energetic streamer emote designed to feel expressive and memorable, using playful lines and a high-visibility character silhouette.",
+  mainImage: "E27",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 28",
+  type: "image",
+  id: "E28",
+  description:
+    "A vibrant mascot-like emote tailored for digital communities, balancing personality, readability, and a polished gaming look.",
+  mainImage: "E28",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 29",
+  type: "image",
+  id: "E29",
+  description:
+    "Custom emote artwork designed for strong reactions and social engagement, featuring clear expression, bold shapes, and a modern digital finish.",
+  mainImage: "E29",
+  coverImages: [],
+},
+{
+  filter: "Emotes",
+  title: "Emote 30",
+  type: "image",
+  id: "E30",
+  description:
+    "Final emote in the pack, designed with a polished gaming aesthetic and expressive character design for a complete community-friendly set.",
+  mainImage: "E30",
+  coverImages: [],
+},
+
+//  Overlay
+{
+  filter: "Overlay",
+  title: "EY 01",
+  type: "image",
+  id: "EY01",
+  description:
+    "Custom Overlay graphic designed for stream scenes, featuring bold visual hierarchy and a clear, expressive style that works perfectly on live broadcasts.",
+  mainImage: "EY01",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 02",
+  type: "image",
+  id: "EY02",
+  description:
+    "Modern stream Overlay with clean composition, vibrant accents, and readable elements that elevate live content without distracting from the gameplay.",
+  mainImage: "EY02",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 03",
+  type: "image",
+  id: "EY03",
+  description:
+    "Polished Overlay concept built for gaming communities, combining sharp iconography, dynamic color contrast, and a clean layout for easy readability.",
+  mainImage: "EY03",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 04",
+  type: "image",
+  id: "EY04",
+  description:
+    "Stream-ready Overlay design with a compact visual structure, making it ideal for social channels, community streams, and high-energy broadcasts.",
+  mainImage: "EY04",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 05",
+  type: "image",
+  id: "EY05",
+  description:
+    "Custom Overlay artwork featuring strong contrast and layered visual assets that add intensity and professionalism to a live stream setup.",
+  mainImage: "EY05",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 06",
+  type: "image",
+  id: "EY06",
+  description:
+    "Premium-looking Overlay panel designed for digital branding, with clean lines, bold text treatment, and a sleek gaming aesthetic.",
+  mainImage: "EY06",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 07",
+  type: "image",
+  id: "EY07",
+  description:
+    "High-impact Overlay graphic made for community engagement, featuring a compact composition and memorable colors that stand out on screen.",
+  mainImage: "EY07",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 08",
+  type: "image",
+  id: "EY08",
+  description:
+    "Animated-style Overlay concept with strong identity cues, designed for modern gaming streams and premium social media presentation.",
+  mainImage: "EY08",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 09",
+  type: "image",
+  id: "EY09",
+  description:
+    "Creative Overlay work with balanced spacing and energetic accents, crafted to provide a clean broadcast look without overpowering the content.",
+  mainImage: "EY09",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 10",
+  type: "image",
+  id: "EY10",
+  description:
+    "Smart Overlay layout built for recognizability and clarity, combining stream-friendly text placement with bold visual rhythm and color balance.",
+  mainImage: "EY10",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 11",
+  type: "image",
+  id: "EY11",
+  description:
+    "Dynamic Overlay concept designed to complement live content with strong contrast, modern angles, and polished graphic detailing.",
+  mainImage: "EY11",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 12",
+  type: "image",
+  id: "EY12",
+  description:
+    "Clean broadcast Overlay created with a bold visual language, easy-to-read typography, and a stylish layout that fits competitive gaming screens.",
+  mainImage: "EY12",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 13",
+  type: "image",
+  id: "EY13",
+  description:
+    "High-energy Overlay piece blending modern graphics and strong composition to deliver a premium feel for channel branding and stream content.",
+  mainImage: "EY13",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 14",
+  type: "image",
+  id: "EY14",
+  description:
+    "Custom Overlay variation with layered styling and clarity-first design, designed for fast readability on stream dashboards and social posts.",
+  mainImage: "EY14",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 15",
+  type: "image",
+  id: "EY15",
+  description:
+    "Stream Overlay designed to feel energetic and professional, using modern shapes, contrast, and clean spacing to keep the frame visually sharp.",
+  mainImage: "EY15",
+  coverImages: [],
+},
+
+{
+  filter: "Overlay",
+  title: "EY 16",
+  type: "image",
+  id: "EY17",
+  description:
+    "Premium Overlay concept built with strong emphasis on readability, structure, and modern energy to make streams look more polished and immersive.",
+  mainImage: "EY17",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 17",
+  type: "image",
+  id: "EY18",
+  description:
+    "Creative stream Overlay with sharp visual rhythm and polished color treatment, ideal for esports, gaming, and community-driven content.",
+  mainImage: "EY18",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 18",
+  type: "image",
+  id: "EY19",
+  description:
+    "Modern Overlay design engineered for high visibility, delivering a sharp broadcast aesthetic with balanced layout and strong audience appeal.",
+  mainImage: "EY19",
+  coverImages: [],
+},
+{
+  filter: "Overlay",
+  title: "EY 19",
+  type: "image",
+  id: "EY20",
+  description:
+    "Final Overlay piece in the set, designed to feel bold, modern, and platform-ready for community streams, gaming channels, and digital branding.",
+  mainImage: "EY20",
+  coverImages: [],
 },
 ];

@@ -112,7 +112,8 @@ const router = useRouter()
                   quality="auto"
                   format="auto"
                   loading="lazy"
-                  className={`h-full w-full ${Project.type =="pdf" ? " " : " object-cover"}`}
+                  className={`h-full w-full ${Project.type =="pdf"  || Project.filter == "Overlay" || Project.filter == "Emotes"? "object-contain "
+                     : " object-cover"}`}
                 />
               </motion.div>
 
@@ -198,7 +199,9 @@ const router = useRouter()
                         : undefined
                     }
                   >
-                    {Project.title}
+                    {Project.filter == "Brand Guidelines" || Project.filter == "Overlay" || Project.filter == "Emotes"? 
+                    ""
+                    : Project.title}
                   </motion.p>
 
                   <p

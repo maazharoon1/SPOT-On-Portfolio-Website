@@ -29,7 +29,9 @@ export const metadata: Metadata = {
     "packaging design",
     "social media design",
     "motion graphics",
-    "UI/UX Design"
+    "UI/UX Design",
+    "Emotes",
+    "Overlay"
   ],
   authors: [{ name: "Spot On Solutions" }],
   creator: "Spot On Solutions",
