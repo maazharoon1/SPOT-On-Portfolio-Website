@@ -347,17 +347,87 @@ export const ProjectObject = [
   coverImages: [
     "L064",
     "L065",
-    // "L066",
-    // "L067",
-    // "L068",
-    // "L069",
+    "SL01",
+    "SL02",
+    "SL03",
+    "SL04",
+  ],
+},
+// SHOPEX logos Extended Collection
+{
+  filter: "Logo Design",
+  title: "Logo Design Collections",
+  type: "image",
+  id: "SL05-SL11",
+  description:
+    "Modern technology-focused logo design featuring futuristic elements and innovative brand identity.",
+  mainImage: "SL05",
+  coverImages: [
+    "SL06",
+    "SL07",
+    "SL08",
+    "SL09",
+    "SL10",
+    "SL11",
+  ],
+},
+{
+  filter: "Logo Design",
+  title: "Logo Design Collections",
+  type: "image",
+  id: "SL12-SL18",
+  description:
+    "Sustainable brand logo with nature-inspired elements emphasizing environmental consciousness.",
+  mainImage: "SL12",
+  coverImages: [
+    "SL13",
+    "SL14",
+    "SL15",
+    "SL16",
+    "SL17",
+    "SL18",
+  ],
+},
+{
+  filter: "Logo Design",
+  title: "Logo Design Collections",
+  type: "image",
+  id: "SL18-SL24",
+  description:
+    "Elegant luxury brand logo with sophisticated typography and upscale aesthetic.",
+  mainImage: "SL18",
+  coverImages: [
+    "SL19",
+    "SL20",
+    "SL21",
+    "SL22",
+    "SL23",
+    "SL24",
+  ],
+},
+{
+  filter: "Logo Design",
+  title: "Logo Design Collections",
+  type: "image",
+  id: "SL24-SL30",
+  description:
+    "Dynamic marketing brand identity combining modern design with strategic messaging.",
+  mainImage: "SL24",
+  coverImages: [
+    "SL25",
+    "SL26",
+    "SL27",
+    "SL28",
+    "SL29",
+    "SL30",
   ],
 },
 
 
+
 // Social Media Post 
 {
-  filter: "Social Media Post ",
+  filter: "Social Media Post",
   title: "Social Media Post ",
   type:"image",
   id: "SocialMediaDesign1",
@@ -368,7 +438,7 @@ description:
 
 },
 {
-  filter: "Social Media Post ",
+  filter: "Social Media Post",
   title: "Social Media Post ",
   type:"image",
   id: "SocialMediaDesign2",
@@ -380,7 +450,7 @@ description:
 
 },
 {
-  filter: "Social Media Post ",
+  filter: "Social Media Post",
   title: "Social Media Post ",
   type:"image",
   id: "SocialMediaDesign3",
@@ -392,7 +462,7 @@ description:
 
 },
 {
-  filter: "Social Media Post ",
+  filter: "Social Media Post",
   title: "Social Media Post ",
   type:"image",
   id: "SocialMediaDesign4",
@@ -404,7 +474,7 @@ description:
 
 },
 {
-  filter: "Social Media Post ",
+  filter: "Social Media Post",
   title: "Social Media Post ",
   type:"image",
   id: "SocialMediaDesign5",
@@ -416,7 +486,7 @@ description:
 
 },
 {
-  filter: "Social Media Post ",
+  filter: "Social Media Post",
   title: "Solar Energy App",
   type:"image",
   id: "SocialMediaDesign6",
@@ -426,6 +496,257 @@ description:
   mainImage: "S06",
   coverImages: [],
 
+},
+// Social Media Posts shopex Extended Collection
+{
+  filter: "Social Media Post",
+  title: "Business Tech Campaigns",
+  type: "image",
+  id: "SSM01",
+  description:
+    "A bright trio of posts promoting IT services, AI calling, and team management.",
+  mainImage: "SSM01",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Team Management",
+  type: "image",
+  id: "SSM02",
+  description:
+    "Fresh blue-and-white posts highlighting attendance, team goals, and live work tracking.",
+  mainImage: "SSM02",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Brand Promo Mix",
+  type: "image",
+  id: "SSM03",
+  description:
+    "A varied set featuring a sneaker ad, time tracking, and digital marketing.",
+  mainImage: "SSM03",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Product Spotlights",
+  type: "image",
+  id: "SSM04",
+  description:
+    "Sneakers, a wireless mouse, and solar panels take center stage in three bold ads.",
+  mainImage: "SSM04",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Beauty Brush",
+  type: "image",
+  id: "SSM05",
+  description:
+    "A playful pink beauty post featuring a makeup brush topped with a chef's hat.",
+  mainImage: "SSM05",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Smartwatch Spotlight",
+  type: "image",
+  id: "SSM06",
+  description:
+    "A rugged smartwatch ad with orange lighting and clear feature callouts.",
+  mainImage: "SSM06",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Wireless Earbuds",
+  type: "image",
+  id: "SSM07",
+  description:
+    "A futuristic earbud ad with glossy details and a deep green glow.",
+  mainImage: "SSM07",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Headphone Escape",
+  type: "image",
+  id: "SSM08",
+  description:
+    "A playful headphone ad with a tiny listener nestled inside oversized blue earcups.",
+  mainImage: "SSM08",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Immersive Audio",
+  type: "image",
+  id: "SSM09",
+  description:
+    "A headphone ad blending a listener, forest scenery, and a flowing waterfall.",
+  mainImage: "SSM09",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Movie Night",
+  type: "image",
+  id: "SSM10",
+  description:
+    "An energetic cinema post with flying popcorn and a surprised viewer.",
+  mainImage: "SSM10",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Everyday Sneakers",
+  type: "image",
+  id: "SSM11",
+  description:
+    "An orange-accented sneaker post with a weekly calendar and bold typography.",
+  mainImage: "SSM11",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "SEO vs PPC",
+  type: "image",
+  id: "SSM12",
+  description:
+    "A marketing comparison post using tinted glasses and two clear columns.",
+  mainImage: "SSM12",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Streetwear Edit",
+  type: "image",
+  id: "SSM13",
+  description:
+    "Dark streetwear posts with neon rings, distorted portraits, and metallic lettering.",
+  mainImage: "SSM13",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Healthcare Admin",
+  type: "image",
+  id: "SSM14",
+  description:
+    "A teal healthcare post highlighting the paperwork that follows a busy patient schedule.",
+  mainImage: "SSM14",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Doctor's Daily Grind",
+  type: "image",
+  id: "SSM15",
+  description:
+    "A playful healthcare post inviting doctors to share their least favorite admin task.",
+  mainImage: "SSM15",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Motorcycle Helmet",
+  type: "image",
+  id: "SSM16",
+  description:
+    "A bold helmet campaign with red-and-black graphics and neatly grouped features.",
+  mainImage: "SSM16",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Gaming Mouse",
+  type: "image",
+  id: "SSM17",
+  description:
+    "A Logitech mouse campaign with oversized brand lettering and subtle colored lighting.",
+  mainImage: "SSM17",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Basketball Motivation",
+  type: "image",
+  id: "SSM18",
+  description:
+    "A basketball post pairing an airborne player with a glowing clock and motivational type.",
+  mainImage: "SSM18",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Cyberpunk Soul",
+  type: "image",
+  id: "SSM19",
+  description:
+    "A moody portrait design with stretched typography and a small neon glow.",
+  mainImage: "SSM19",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Blender Spotlight",
+  type: "image",
+  id: "SSM20",
+  description:
+    "A blender campaign with bright light trails and bold power-focused lettering.",
+  mainImage: "SSM20",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Live Music Night",
+  type: "image",
+  id: "SSM21",
+  description:
+    "A lively concert post with a singer portrait, magenta tones, and bold event details.",
+  mainImage: "SSM21",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Seafood Pasta",
+  type: "image",
+  id: "SSM22",
+  description:
+    "A colorful food post with a generous bowl of shrimp pasta and playful oversized lettering.",
+  mainImage: "SSM22",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Racing Spirit",
+  type: "image",
+  id: "SSM23",
+  description:
+    "A racing post combining a driver portrait, a red race car, and sharp teal graphics.",
+  mainImage: "SSM23",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Herbal Drops",
+  type: "image",
+  id: "SSM24",
+  description:
+    "A minimal herbal supplement post with a blue dropper bottle, soft reflections, and leafy accents.",
+  mainImage: "SSM24",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Digital Agency",
+  type: "image",
+  id: "SSM25",
+  description:
+    "A purple agency post with a playful portrait framed inside an outlined laptop.",
+  mainImage: "SSM25",
+  coverImages: [],
 },
 
 // Book Cover 
@@ -538,6 +859,188 @@ description:
 description:
   "A dynamic cover art created for the fantasy book 'Beyond the Breaking' featuring a fiery landscape with a person amidst the fiery sunset, dragons, and storm clouds.",
   mainImage: "B10",
+  coverImages: [],
+},
+// Book Covers SHOPEX Collection
+{
+  filter: "Book Cover",
+  title: "Small Town Atlas",
+  type: "image",
+  id: "BookCover01",
+  description:
+    "A nostalgic memoir cover with vintage maps, a water tower, and a roadside motel sign.",
+  mainImage: "SBC01",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Salt & Stone",
+  type: "image",
+  id: "BookCover02",
+  description:
+    "A weathered coastal cover with a dark lighthouse, rolling waves, and warm rust accents.",
+  mainImage: "SBC02",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Salt & Stone",
+  type: "image",
+  id: "BookCover03",
+  description:
+    "A classic illustrated cover with a striped lighthouse and waves flowing across the full wrap.",
+  mainImage: "SBC03",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "After the Rain",
+  type: "image",
+  id: "BookCover04",
+  description:
+    "A gentle cream-and-navy cover pairing a simple umbrella with dusty pink flowers.",
+  mainImage: "SBC04",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Static Line",
+  type: "image",
+  id: "BookCover05",
+  description:
+    "A stark black cover with distressed lettering and a red route cutting through a faint grid.",
+  mainImage: "SBC05",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Good Friction",
+  type: "image",
+  id: "BookCover06",
+  description:
+    "A bold cream cover with oversized black type and interlocking red and yellow arrows.",
+  mainImage: "SBC06",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Home Between Miles",
+  type: "image",
+  id: "BookCover07",
+  description:
+    "A quiet cover with winding roads, muted hills, and warm paper texture.",
+  mainImage: "SBC07",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Daily Reset",
+  type: "image",
+  id: "BookCover08",
+  description:
+    "A welcoming self-help cover with sketched circles in blue and coral behind clean navy lettering.",
+  mainImage: "SBC08",
+  coverImages: [],
+},
+
+{
+  filter: "Book Cover",
+  title: "Signal / Noise",
+  type: "image",
+  id: "BookCover10",
+  description:
+    "A striking black-and-blue cover with concentric rings and an audio waveform.",
+  mainImage: "SBC10",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Milo and the Moon",
+  type: "image",
+  id: "BookCover11",
+  description:
+    "A charming illustrated cover with an orange cat gazing at a golden moon and stars.",
+  mainImage: "SBC11",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Sunday Bread",
+  type: "image",
+  id: "BookCover12",
+  description:
+    "A rustic cookbook cover with a hand-drawn loaf, wheat stalks, and a small brick oven.",
+  mainImage: "SBC12",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Ember Wood",
+  type: "image",
+  id: "BookCover13",
+  description:
+    "An atmospheric woodland cover with a lone fox, red foliage, and a misty moon.",
+  mainImage: "SBC13",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Small Moves",
+  type: "image",
+  id: "BookCover14",
+  description:
+    "A crisp cover with bold red-and-navy lettering and upward arrows that suggest progress.",
+  mainImage: "SBC14",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Archive of Light",
+  type: "image",
+  id: "BookCover15",
+  description:
+    "A rich purple cover with golden light trails, delicate star charts, and elegant lettering.",
+  mainImage: "SBC15",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Maps of Ash",
+  type: "image",
+  id: "BookCover16",
+  description:
+    "A dark textured cover revealing an aged map beneath a scorched paper edge.",
+  mainImage: "SBC16",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "River of Glass",
+  type: "image",
+  id: "BookCover17",
+  description:
+    "A moonlit cover with a shimmering glass river winding between dark rocky peaks.",
+  mainImage: "SBC17",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "The Silent Current",
+  type: "image",
+  id: "BookCover18",
+  description:
+    "A deep teal cover with a silver tide dial and a flowing ribbon of light.",
+  mainImage: "SBC18",
+  coverImages: [],
+},
+{
+  filter: "Book Cover",
+  title: "Second Serving",
+  type: "image",
+  id: "BookCover19",
+  description:
+    "A warm food memoir cover with overlapping circles, receipt-style details, and blue-and-orange accents.",
+  mainImage: "SBC19",
   coverImages: [],
 },
 //flyers & Brochures 
@@ -714,6 +1217,419 @@ description: "A technical corporate brochure design that employs professional bl
   coverImages: [],
 },
 
+
+// Flyers & Brochures SHOPEX Extended Collection
+{
+  filter: "Flyers & Brochures",
+  title: "Law Firm Brochure",
+  type: "image",
+  id: "Sfl01",
+  description:
+    "A burgundy and gold brochure with courthouse photography and neatly arranged legal services.",
+  mainImage: "Sfl01",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Coffee Roastery",
+  type: "image",
+  id: "Sfl02",
+  description:
+    "A warm coffee brochure pairing rich brown tones with bean photography and a sourcing map.",
+  mainImage: "Sfl02",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Autumn Bakery",
+  type: "image",
+  id: "Sfl03",
+  description:
+    "A seasonal bakery flyer with a close-up pastry photo and warm burgundy accents.",
+  mainImage: "Sfl03",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Cybersecurity Services",
+  type: "image",
+  id: "Sfl04",
+  description:
+    "A bold black and lime flyer with a connected globe and simple security icons.",
+  mainImage: "Sfl04",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Wedding Planning",
+  type: "image",
+  id: "Sfl05",
+  description:
+    "A soft blush brochure with floral table settings, elegant arches, and wedding planning details.",
+  mainImage: "Sfl05",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Jazz Nights",
+  type: "image",
+  id: "Sfl06",
+  description:
+    "A moody blue jazz flyer with a saxophone, tall lettering, and musical details.",
+  mainImage: "Sfl06",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Home Solar",
+  type: "image",
+  id: "Sfl07",
+  description:
+    "A bright solar flyer with rooftop panels, yellow accents, and an easy-to-follow energy diagram.",
+  mainImage: "Sfl07",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Interior Architecture",
+  type: "image",
+  id: "Sfl08",
+  description:
+    "A minimal interiors flyer with warm neutral tones, spacious room photography, and subtle floor plans.",
+  mainImage: "Sfl08",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Adventure Travel",
+  type: "image",
+  id: "Sfl09",
+  description:
+    "A travel brochure with torn photo edges, scenic destinations, and a playful route map.",
+  mainImage: "Sfl09",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Smile Care",
+  type: "image",
+  id: "Sfl10",
+  description:
+    "A gentle dental flyer with a bright smile, soft aqua curves, and delicate gold details.",
+  mainImage: "Sfl10",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Organic Pantry",
+  type: "image",
+  id: "Sfl11",
+  description:
+    "An earthy food brochure with grain bowls, botanical details, and a map of ingredient origins.",
+  mainImage: "Sfl11",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Culinary School",
+  type: "image",
+  id: "Sfl12",
+  description:
+    "A cooking school brochure with kitchen photography, warm red accents, and clear course sections.",
+  mainImage: "Sfl12",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Solar Energy Guide",
+  type: "image",
+  id: "Sfl13",
+  description:
+    "A solar brochure combining home photography, savings charts, and a simple installation timeline.",
+  mainImage: "Sfl13",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Solar Savings",
+  type: "image",
+  id: "Sfl14",
+  description:
+    "A compact solar flyer with a rooftop photo, yellow highlights, and simple energy icons.",
+  mainImage: "Sfl14",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Landscape Design",
+  type: "image",
+  id: "Sfl15",
+  description:
+    "A garden design brochure with planting plans, leafy photography, and natural material swatches.",
+  mainImage: "Sfl15",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Construction Services",
+  type: "image",
+  id: "Sfl16",
+  description:
+    "A charcoal and orange brochure with striking building photos, angular layouts, and technical drawings.",
+  mainImage: "Sfl16",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Rooftop Solar",
+  type: "image",
+  id: "Sfl17",
+  description:
+    "A clean solar flyer pairing sunlit rooftop panels with navy headings and yellow service icons.",
+  mainImage: "Sfl17",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Auto Detailing",
+  type: "image",
+  id: "Sfl18",
+  description:
+    "A dark car care brochure with glossy vehicle photography, blue accents, and clear detailing packages.",
+  mainImage: "Sfl18",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Skin Clinic",
+  type: "image",
+  id: "Sfl19",
+  description:
+    "A soft pink and sage brochure with skin photography, botanical touches, and treatment cards.",
+  mainImage: "Sfl19",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Dog Grooming",
+  type: "image",
+  id: "Sfl20",
+  description:
+    "A charming teal flyer with a dog illustration, grooming icons, and a first-visit offer.",
+  mainImage: "Sfl20",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Design Institute",
+  type: "image",
+  id: "Sfl21",
+  description:
+    "A blue and orange admissions brochure with campus photos, course modules, and a clear application timeline.",
+  mainImage: "Sfl21",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Financial Advisory",
+  type: "image",
+  id: "Sfl22",
+  description:
+    "A navy and gold brochure with architectural photography, a market chart, and neatly grouped advisory services.",
+  mainImage: "Sfl22",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Digital Design Studio",
+  type: "image",
+  id: "Sfl23",
+  description:
+    "A bold studio brochure with electric blue accents, lime highlights, and a step-by-step creative process.",
+  mainImage: "Sfl23",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Bespoke Furniture",
+  type: "image",
+  id: "Sfl24",
+  description:
+    "A warm furniture brochure with wood details, olive green panels, and beautifully photographed handmade pieces.",
+  mainImage: "Sfl24",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Strength Club",
+  type: "image",
+  id: "Sfl25",
+  description:
+    "A black and orange gym brochure with weightlifting photos, membership options, and a weekly class timetable.",
+  mainImage: "Sfl25",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Cybersecurity Brochure",
+  type: "image",
+  id: "Sfl26",
+  description:
+    "A dark security brochure with green network graphics, a central shield, and a threat monitoring dashboard.",
+  mainImage: "Sfl26",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Dental Care",
+  type: "image",
+  id: "Sfl27",
+  description:
+    "A cream and aqua dental flyer with a close-up smile and simple treatment icons.",
+  mainImage: "Sfl27",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Architecture & Interiors",
+  type: "image",
+  id: "Sfl28",
+  description:
+    "A calm studio brochure with material samples, warm neutral colors, and a simple design timeline.",
+  mainImage: "Sfl28",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Artisan Bakery",
+  type: "image",
+  id: "Sfl29",
+  description:
+    "A welcoming bakery brochure with bread and pastry photos, wheat sketches, and warm cream tones.",
+  mainImage: "Sfl29",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Coastal Retreat",
+  type: "image",
+  id: "Sfl30",
+  description:
+    "A relaxed seaside brochure with ocean views, soft green curves, and room and wellness details.",
+  mainImage: "Sfl30",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Boutique Hotel",
+  type: "image",
+  id: "Sfl31",
+  description:
+    "A warm hotel brochure with sunlit rooms, courtyard dining, and coastal views framed in earthy colors.",
+  mainImage: "Sfl31",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Fresh Sourdough",
+  type: "image",
+  id: "Sfl32",
+  description:
+    "A bakery flyer with a golden sourdough loaf, blue brush textures, and delicate wheat illustrations.",
+  mainImage: "Sfl32",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Coastal Hotel Stay",
+  type: "image",
+  id: "Sfl33",
+  description:
+    "An earthy hotel brochure pairing quiet room photos and sea views with an illuminated evening entrance.",
+  mainImage: "Sfl33",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Seaside Escape",
+  type: "image",
+  id: "Sfl34",
+  description:
+    "A breezy hotel flyer with turquoise water, white coastal architecture, and coral illustrations.",
+  mainImage: "Sfl34",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Digital Protection",
+  type: "image",
+  id: "Sfl35",
+  description:
+    "A navy cybersecurity flyer with a glowing circuit shield and clear blue service icons.",
+  mainImage: "Sfl35",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Veterinary Care",
+  type: "image",
+  id: "Sfl36",
+  description:
+    "A friendly vet brochure with cat and dog photos, sage green panels, and playful pet illustrations.",
+  mainImage: "Sfl36",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Electric City Bike",
+  type: "image",
+  id: "Sfl37",
+  description:
+    "A bold bike flyer with a black bicycle, lime diagonal stripes, and simple feature icons.",
+  mainImage: "Sfl37",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Loose Leaf Tea",
+  type: "image",
+  id: "Sfl38",
+  description:
+    "A warm tea flyer with a terracotta tin, loose leaves, and delicate botanical drawings.",
+  mainImage: "Sfl38",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Solar Solutions",
+  type: "image",
+  id: "Sfl39",
+  description:
+    "A blue and yellow solar brochure with installation photos, an energy dashboard, and clear service sections.",
+  mainImage: "Sfl39",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Architecture Studio",
+  type: "image",
+  id: "Sfl40",
+  description:
+    "A minimal architecture brochure with building photography, fine technical drawings, and terracotta accents.",
+  mainImage: "Sfl40",
+  coverImages: [],
+},
+{
+  filter: "Flyers & Brochures",
+  title: "Freight & Logistics",
+  type: "image",
+  id: "Sfl41",
+  description:
+    "A navy and orange logistics brochure with shipping photos, a route map, and clear delivery stages.",
+  mainImage: "Sfl41",
+  coverImages: [],
+},
+
 // Packaging
 {
   filter: "Packaging",
@@ -836,6 +1752,7 @@ description:
   mainImage: "P12",
   coverImages: [],
 },
+
 // {
 //   filter: "Packaging",
 //   title: "Packaging",
@@ -919,9 +1836,333 @@ description:
   mainImage: "P20",
   coverImages: [],
 },
+
+
+// Packaging Design SHOPEXCollection
+{
+  filter: "Packaging",
+  title: "Japanese Noodle Cups",
+  type: "image",
+  id: "SPA01",
+  description:
+    "Black noodle cups with bold vertical lettering, colorful brushstrokes, and inviting bowl photography.",
+  mainImage: "SPA01",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Breakfast Cereal",
+  type: "image",
+  id: "SPA02",
+  description:
+    "Bright cereal boxes with a sunny logo, playful colors, and floating cereal pieces.",
+  mainImage: "SPA02",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Italian Pizza Boxes",
+  type: "image",
+  id: "SPA03",
+  description:
+    "Cream pizza boxes with classic lettering, geometric borders, and generous pizza photography.",
+  mainImage: "SPA03",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Coffee Roaster Bags",
+  type: "image",
+  id: "SPA04",
+  description:
+    "Coffee bags with flowing contour lines and distinct colors for each roast.",
+  mainImage: "SPA04",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Instant Noodles",
+  type: "image",
+  id: "SPA05",
+  description:
+    "Lively noodle cups with brush lettering, illustrated ingredients, and simple chili heat markers.",
+  mainImage: "SPA05",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Hot Sauce Trio",
+  type: "image",
+  id: "SPA06",
+  description:
+    "Slim sauce bottles with bold lettering, flame-shaped peppers, and rich colors for each flavor.",
+  mainImage: "SPA06",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Cream Wafer Bars",
+  type: "image",
+  id: "SPA07",
+  description:
+    "Cream wrappers with gold dividers, crisp wafer photos, and colors inspired by each filling.",
+  mainImage: "SPA07",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Artisan Biscuits",
+  type: "image",
+  id: "SPA08",
+  description:
+    "Elegant biscuit boxes with botanical drawings and arched windows showing the cookies inside.",
+  mainImage: "SPA08",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Ceremonial Tea Set",
+  type: "image",
+  id: "SPA09",
+  description:
+    "A forest green tea box that opens like a fan, with cream compartments and gold details.",
+  mainImage: "SPA09",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Pasta Collection",
+  type: "image",
+  id: "SPA10",
+  description:
+    "Minimal cream pasta boxes with colored arches, wheat sketches, and windows revealing each pasta shape.",
+  mainImage: "SPA10",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Fruit Gummies",
+  type: "image",
+  id: "SPA11",
+  description:
+    "Cheerful gummy pouches with smiling candy characters, bright fruit illustrations, and playful lettering.",
+  mainImage: "SPA11",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Dental Chew Pack",
+  type: "image",
+  id: "SPA12",
+  description:
+    "A lime green ring-shaped pack with bold lettering and a kraft insert for dental chews.",
+  mainImage: "SPA12",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Spice Collection",
+  type: "image",
+  id: "SPA13",
+  description:
+    "Richly colored spice tins with gold lids, intricate geometric patterns, and neat cream labels.",
+  mainImage: "SPA13",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Trail Nut Pouches",
+  type: "image",
+  id: "SPA14",
+  description:
+    "Earthy snack pouches with mountain illustrations and clear windows showing the nut mixes.",
+  mainImage: "SPA14",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Olive Oil Tins",
+  type: "image",
+  id: "SPA15",
+  description:
+    "Cream oil tins with green and yellow panels, fine olive branches, and understated lettering.",
+  mainImage: "SPA15",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Artisan Honey",
+  type: "image",
+  id: "SPA16",
+  description:
+    "Glass honey jars with gold lids, delicate floral drawings, and warm cream labels.",
+  mainImage: "SPA16",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Potato Chip Bags",
+  type: "image",
+  id: "SPA17",
+  description:
+    "Bold chip bags with wavy stripes, oversized lettering, and colorful bowls of ridged chips.",
+  mainImage: "SPA17",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Ice Cream Pints",
+  type: "image",
+  id: "SPA18",
+  description:
+    "Playful ice cream tubs with rounded lettering, tiny stars, and rich swirls of fruit and chocolate.",
+  mainImage: "SPA18",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Protein Bar Wrappers",
+  type: "image",
+  id: "SPA19",
+  description:
+    "Sporty bar wrappers with slanted lettering, bright flavor panels, and close-up snack photography.",
+  mainImage: "SPA19",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Chocolate Gift Wheel",
+  type: "image",
+  id: "SPA20",
+  description:
+    "A round chocolate box with textured brown panels that fan open around a copper center.",
+  mainImage: "SPA20",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Italian Pasta Boxes",
+  type: "image",
+  id: "SPA21",
+  description:
+    "Classic pasta boxes with detailed Italian scenery, gold borders, and slim product windows.",
+  mainImage: "SPA21",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Artisan Ice Cream",
+  type: "image",
+  id: "SPA22",
+  description:
+    "Elegant ice cream tubs with gold lettering and flowing swirls in caramel, berry, and chocolate tones.",
+  mainImage: "SPA22",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Gourmet Popcorn",
+  type: "image",
+  id: "SPA23",
+  description:
+    "Colorful popcorn bags with bold sunburst stripes, rounded lettering, and overflowing popcorn buckets.",
+  mainImage: "SPA23",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Kitchen Spice Tins",
+  type: "image",
+  id: "SPA24",
+  description:
+    "Bright spice tins with oval cream labels, simple botanical sketches, and silver lids.",
+  mainImage: "SPA24",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Fruit Juice Bottles",
+  type: "image",
+  id: "SPA25",
+  description:
+    "Colorful juice bottles with friendly white lettering and layered fruit illustrations around the base.",
+  mainImage: "SPA25",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Iced Coffee Bottles",
+  type: "image",
+  id: "SPA26",
+  description:
+    "Glass coffee bottles with flowing vintage lettering, creamy swirls, and warm gold accents.",
+  mainImage: "SPA26",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Citrus Soda Cans",
+  type: "image",
+  id: "SPA27",
+  description:
+    "Bright soda cans with chunky white lettering and juicy citrus slices for each flavor.",
+  mainImage: "SPA27",
+  coverImages: [],
+},
+
+{
+  filter: "Packaging",
+  title: "Apricot Preserve",
+  type: "image",
+  id: "SPA30",
+  description:
+    "A cheerful jam label with painted apricots, small floral details, and a matching red lid.",
+  mainImage: "SPA30",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Citrus Body Wash",
+  type: "image",
+  id: "SPA31",
+  description:
+    "A silver pump bottle with a vivid blue label, playful flowers, and a lime lightning bolt.",
+  mainImage: "SPA31",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Dark Chocolate Bar",
+  type: "image",
+  id: "SPA32",
+  description:
+    "A plum and turquoise chocolate wrapper with cream lettering, cacao line art, and silver foil.",
+  mainImage: "SPA32",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Lime Corn Chips",
+  type: "image",
+  id: "SPA33",
+  description:
+    "A bold blue snack bag with orange sunbursts, mint brushstrokes, and a large triangular chip.",
+  mainImage: "SPA33",
+  coverImages: [],
+},
+{
+  filter: "Packaging",
+  title: "Grapefruit Soda",
+  type: "image",
+  id: "SPA34",
+  description:
+    "A slim soda can with tall white lettering, a blue diagonal band, and pink grapefruit illustrations.",
+  mainImage: "SPA34",
+  coverImages: [],
+},
 // branding
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding1",
@@ -929,7 +2170,7 @@ description:
   mainImage: "BR01",
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding2",
@@ -937,7 +2178,7 @@ description:
   mainImage: "BR02",
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding3",
@@ -945,7 +2186,7 @@ description:
   mainImage: "BR03",
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding4",
@@ -953,7 +2194,7 @@ description:
   mainImage: "BR04",
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding5",
@@ -961,7 +2202,7 @@ description:
   mainImage: "BR05",
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding6",
@@ -970,7 +2211,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding7",
@@ -979,7 +2220,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding8",
@@ -988,7 +2229,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Brand Guidelines",
+  filter: "Brand Guide & Identity",
   title: "Branding ",
   type:"pdf",
   id: "Branding9",
@@ -996,7 +2237,178 @@ description:
   mainImage: "BR09",
   coverImages: [],
 },
+// shopex extended branding collection
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding10",
 
+  mainImage: "SBI01",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding11",
+
+  mainImage: "SBI02",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding12",
+
+  mainImage: "SBI03",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding13",
+
+  mainImage: "SBI04",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding14",
+
+  mainImage: "SBI05",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding15",
+
+  mainImage: "SBI06",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding16",
+
+  mainImage: "SBI07",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding17",
+
+  mainImage: "SBI08",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding18",
+
+  mainImage: "SBI09",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding19",
+
+  mainImage: "SBI10",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding20",
+
+  mainImage: "SBI11",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding21",
+
+  mainImage: "SBI12",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding22",
+
+  mainImage: "SBI13",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding23",
+
+  mainImage: "SBI14",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding24",
+
+  mainImage: "SBI15",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding25",
+
+  mainImage: "SBI16",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding26",
+
+  mainImage: "SBI17",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding27",
+
+  mainImage: "SBI18",
+  coverImages: [],
+},
+{
+  filter: "Brand Guide & Identity",
+  title: "Branding ",
+  type:"image",
+  id: "Branding28",
+
+  mainImage: "SBI19",
+  coverImages: [],
+},
 
 // UIUX 
 
@@ -1132,7 +2544,311 @@ description:
     "In this 3D rendering, there is a lively e-commerce website that is literally streaming out of a computer screen in waves. The focus of the design here is on the strong use of colors and clean typography in a surrealist minimalist environment.",
   mainImage: "U12",
 },
+//TODO:CHANGE DESCRIPTION & title according to the image url:
+// https://res.cloudinary.com/hcn0f9nu/image/upload/v1789067358/mainImage.jpg
+//  UI/UX Design Shopex Extended Collection
 
+
+// {
+//   filter: "UI/UX Design",
+//   title: "Coffee House",
+//   type: "image",
+//   id: "SUI01",
+//   description:
+//     "A cozy coffee website with bold contrast, warm photos, and a simple menu.",
+//   mainImage: "SUi01",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Neighborhood Cafe",
+//   type: "image",
+//   id: "SUI02",
+//   description:
+//     "A welcoming cafe website with soft cream tones and everyday coffee moments.",
+//   mainImage: "SUi02",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Carpet Cleaning",
+//   type: "image",
+//   id: "SUI03",
+//   description:
+//     "A bold blue cleaning website with service details and before-and-after photos.",
+//   mainImage: "SUi03",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Carpet Care",
+//   type: "image",
+//   id: "SUI04",
+//   description:
+//     "A carpet care website that puts cleaning results and quote requests up front.",
+//   mainImage: "SUi04",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Watch Boutique",
+//   type: "image",
+//   id: "SUI05",
+//   description:
+//     "An elegant watch store with crisp product photos and a clean collection grid.",
+//   mainImage: "SUi05",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Carpet Restoration",
+//   type: "image",
+//   id: "SUI06",
+//   description:
+//     "A cleaning website built around before-and-after comparisons and quick quote requests.",
+//   mainImage: "SUi06",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Luxury Boutique",
+//   type: "image",
+//   id: "SUI07",
+//   description:
+//     "A black-and-gold storefront showcasing beauty products, bags, and accessories.",
+//   mainImage: "SUi07",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Smile Makeovers",
+//   type: "image",
+//   id: "SUI08",
+//   description:
+//     "A teal dental website highlighting smile transformations and appointment booking.",
+//   mainImage: "SUi08",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Lawn Care",
+//   type: "image",
+//   id: "SUI09",
+//   description:
+//     "A fresh green website showcasing lawn services, customer reviews, and free quotes.",
+//   mainImage: "SUi09",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Lawn & Garden",
+//   type: "image",
+//   id: "SUI10",
+//   description:
+//     "A lawn care website with rich green imagery and easy access to service estimates.",
+//   mainImage: "SUi10",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Creative Agency",
+//   type: "image",
+//   id: "SUI11",
+//   description:
+//     "A bold agency website with abstract artwork, neon accents, and oversized type.",
+//   mainImage: "SUi11",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Tax Advisory",
+//   type: "image",
+//   id: "SUI12",
+//   description:
+//     "A navy-and-gold website with clear tax services and a handy estimate calculator.",
+//   mainImage: "SUi12",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Modern Furniture",
+//   type: "image",
+//   id: "SUI13",
+//   description:
+//     "A calm furniture store with warm interiors and room to explore each collection.",
+//   mainImage: "SUi13",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Pizza Delivery",
+//   type: "image",
+//   id: "SUI14",
+//   description:
+//     "A lively pizza website with bold colors, custom orders, and tempting meal deals.",
+//   mainImage: "SUi14",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Eyewear Boutique",
+//   type: "image",
+//   id: "SUI15",
+//   description:
+//     "A minimal eyewear store with close-up frame photography and airy product displays.",
+//   mainImage: "SUi15",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Home & Interiors",
+//   type: "image",
+//   id: "SUI16",
+//   description:
+//     "A warm home store that brings furniture, lighting, and room inspiration together.",
+//   mainImage: "SUi16",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Furniture Shop",
+//   type: "image",
+//   id: "SUI17",
+//   description:
+//     "A friendly furniture storefront with clear categories, featured deals, and everyday home essentials.",
+//   mainImage: "SUi17",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Farm Fresh",
+//   type: "image",
+//   id: "SUI18",
+//   description:
+//     "An earthy farm website showcasing seasonal produce and the story behind each harvest.",
+//   mainImage: "SUi18",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Skincare Store",
+//   type: "image",
+//   id: "SUI19",
+//   description:
+//     "A dark skincare storefront with golden accents and bold product photography.",
+//   mainImage: "SUi19",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Perfume Boutique",
+//   type: "image",
+//   id: "SUI20",
+//   description:
+//     "An elegant fragrance store with a dark palette and space for each signature scent.",
+//   mainImage: "SUi20",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Tax Services",
+//   type: "image",
+//   id: "SUI21",
+//   description:
+//     "A polished tax website with service summaries, consultation booking, and an estimate tool.",
+//   mainImage: "SUi21",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Fresh Dairy",
+//   type: "image",
+//   id: "SUI22",
+//   description:
+//     "A light dairy website pairing fresh milk photography with soft green accents.",
+//   mainImage: "SUi22",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Dental Clinic",
+//   type: "image",
+//   id: "SUI23",
+//   description:
+//     "A bright dental website with calming teal details and a clear appointment button.",
+//   mainImage: "SUi23",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Beauty Salon",
+//   type: "image",
+//   id: "SUI24",
+//   description:
+//     "A refined salon website with muted tones, elegant type, and a booking button.",
+//   mainImage: "SUi24",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Barber Studio",
+//   type: "image",
+//   id: "SUI25",
+//   description:
+//     "A classic barber website with dark photography, gold accents, and appointment booking.",
+//   mainImage: "SUi25",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Packaging Studio",
+//   type: "image",
+//   id: "SUI26",
+//   description:
+//     "A clean packaging website with workshop imagery and a clear path to request a quote.",
+//   mainImage: "SUi26",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Photography Portfolio",
+//   type: "image",
+//   id: "SUI27",
+//   description:
+//     "A photography website that lets atmospheric images and simple typography tell the story.",
+//   mainImage: "SUi27",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Law Firm",
+//   type: "image",
+//   id: "SUI28",
+//   description:
+//     "A composed law firm website with clear practice areas and a consultation button.",
+//   mainImage: "SUi28",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Artisan Bakery",
+//   type: "image",
+//   id: "SUI29",
+//   description:
+//     "A warm bakery website with rustic bread photography and soft peach accents.",
+//   mainImage: "SUi29",
+//   coverImages: [],
+// },
+// {
+//   filter: "UI/UX Design",
+//   title: "Menswear Store",
+//   type: "image",
+//   id: "SUI30",
+//   description:
+//     "A minimal menswear website with editorial photography and understated collection links.",
+//   mainImage: "SUi30",
+//   coverImages: [],
+// },
 
 // Motion Graphics
 {
@@ -1883,4 +3599,366 @@ description:
   mainImage: "EY20",
   coverImages: [],
 },
+// Stationary Collection
+{
+  filter: "Stationary",
+  title: "Business Card Design",
+  type: "image",
+  id: "Ss01",
+  description:
+    "Professional business card design with elegant typography, brand colors, and premium printing aesthetics.",
+  mainImage: "Ss01",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Letterhead Design",
+  type: "image",
+  id: "Ss02",
+  description:
+    "Corporate letterhead with brand header, professional layout, and company information placement.",
+  mainImage: "Ss02",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Envelope Design",
+  type: "image",
+  id: "Ss03",
+  description:
+    "Branded envelope featuring company logo, return address, and coordinated design elements.",
+  mainImage: "Ss03",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Notepad Design",
+  type: "image",
+  id: "Ss04",
+  description:
+    "Custom notepad with branded header, grid or lined pages, and professional aesthetic.",
+  mainImage: "Ss04",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Folder Design",
+  type: "image",
+  id: "Ss05",
+  description:
+    "Professional document folder with brand styling, pocket layout, and document organization.",
+  mainImage: "Ss05",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Invoice Template",
+  type: "image",
+  id: "Ss06",
+  description:
+    "Business invoice design with itemized layout, payment terms, and professional formatting.",
+  mainImage: "Ss06",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Receipt Book",
+  type: "image",
+  id: "Ss07",
+  description:
+    "Custom receipt design with company branding, itemization space, and carbonless options.",
+  mainImage: "Ss07",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Memo Pad Design",
+  type: "image",
+  id: "Ss08",
+  description:
+    "Branded memo pad with date field, message area, and company contact information.",
+  mainImage: "Ss08",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Label Sheet Design",
+  type: "image",
+  id: "Ss09",
+  description:
+    "Custom label sheets for product branding, shipping, or organizational purposes.",
+  mainImage: "Ss09",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Bookmark Design",
+  type: "image",
+  id: "Ss10",
+  description:
+    "Decorative bookmark with brand logo, typography, and quality cardstock finish.",
+  mainImage: "Ss10",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Sticker Sheet",
+  type: "image",
+  id: "Ss11",
+  description:
+    "Custom sticker designs for branding, giveaways, or product labeling.",
+  mainImage: "Ss11",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Calendar Design",
+  type: "image",
+  id: "Ss12",
+  description:
+    "Branded desk or wall calendar with monthly layouts and company branding.",
+  mainImage: "Ss12",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Coupon Design",
+  type: "image",
+  id: "Ss13",
+  description:
+    "Promotional coupon with discount information, expiration date, and brand elements.",
+  mainImage: "Ss13",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Certificate Design",
+  type: "image",
+  id: "Ss14",
+  description:
+    "Achievement certificate with decorative borders, fill-in spaces, and professional typography.",
+  mainImage: "Ss14",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Postcard Design",
+  type: "image",
+  id: "Ss15",
+  description:
+    "Marketing postcard with call-to-action, brand messaging, and mailing information.",
+  mainImage: "Ss15",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Paper Bag Design",
+  type: "image",
+  id: "Ss16",
+  description:
+    "Branded shopping bag with company logo, handle layout, and retail packaging style.",
+  mainImage: "Ss16",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Box Label Design",
+  type: "image",
+  id: "Ss17",
+  description:
+    "Shipping box label with brand branding, barcode space, and shipping information.",
+  mainImage: "Ss17",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Gift Tag Design",
+  type: "image",
+  id: "Ss18",
+  description:
+    "Decorative gift tag with brand colors, message space, and quality paper finish.",
+  mainImage: "Ss18",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Event Ticket Design",
+  type: "image",
+  id: "Ss19",
+  description:
+    "Event ticket with security features, event details, and tear-off stub design.",
+  mainImage: "Ss19",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Greeting Card",
+  type: "image",
+  id: "Ss20",
+  description:
+    "Folded greeting card with branded design, message area, and premium cardstock.",
+  mainImage: "Ss20",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Bookmark Set",
+  type: "image",
+  id: "Ss21",
+  description:
+    "Series of matching bookmarks with varied designs and brand consistency.",
+  mainImage: "Ss21",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Branding Package",
+  type: "image",
+  id: "Ss22",
+  description:
+    "Complete stationary suite featuring coordinated designs across multiple formats.",
+  mainImage: "Ss22",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Name Badge Design",
+  type: "image",
+  id: "Ss23",
+  description:
+    "Event badge with name field, company logo, and security lamination options.",
+  mainImage: "Ss23",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Kraft Paper Design",
+  type: "image",
+  id: "Ss24",
+  description:
+    "Eco-friendly kraft paper stationary with natural aesthetics and brand overlay.",
+  mainImage: "Ss24",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Wax Seal Template",
+  type: "image",
+  id: "Ss25",
+  description:
+    "Traditional wax seal design for premium correspondence and elegant branding.",
+  mainImage: "Ss25",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Thank You Card",
+  type: "image",
+  id: "Ss26",
+  description:
+    "Professional thank you card with appreciation message and brand styling.",
+  mainImage: "Ss26",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Door Hanger Design",
+  type: "image",
+  id: "Ss27",
+  description:
+    "Door hanger promotional material with brand message and cut-out design.",
+  mainImage: "Ss27",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Loyalty Card Design",
+  type: "image",
+  id: "Ss28",
+  description:
+    "Customer loyalty card with punch holes, rewards tracking, and brand branding.",
+  mainImage: "Ss28",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Business Form",
+  type: "image",
+  id: "Ss29",
+  description:
+    "Custom business form with fields, branding, and carbonless copy options.",
+  mainImage: "Ss29",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Menu Card Design",
+  type: "image",
+  id: "Ss30",
+  description:
+    "Restaurant menu card with elegant layout, food descriptions, and pricing.",
+  mainImage: "Ss30",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Table Tent Card",
+  type: "image",
+  id: "Ss31",
+  description:
+    "Folded table display card for restaurant, event, or promotional use.",
+  mainImage: "Ss31",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Hanging Tag Design",
+  type: "image",
+  id: "Ss32",
+  description:
+    "Product hanging tag with pricing, product info, and string attachment.",
+  mainImage: "Ss32",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Sign & Display",
+  type: "image",
+  id: "Ss33",
+  description:
+    "Promotional sign design for retail display and brand visibility.",
+  mainImage: "Ss33",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Notecard Set",
+  type: "image",
+  id: "Ss34",
+  description:
+    "Coordinated set of notecards with varying designs and branded envelope.",
+  mainImage: "Ss34",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Business Checklist",
+  type: "image",
+  id: "Ss35",
+  description:
+    "Branded checklist pad for task management and productivity with tear-off sheets.",
+  mainImage: "Ss35",
+  coverImages: [],
+},
+{
+  filter: "Stationary",
+  title: "Premium Stationary Suite",
+  type: "image",
+  id: "Ss36",
+  description:
+    "Comprehensive stationary collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss36",
+  coverImages: [],
+},
+
 ];

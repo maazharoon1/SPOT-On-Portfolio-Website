@@ -3,8 +3,9 @@ export type ProjectCategory =
   | "Book Cover"
   | "Social Media Post"
   | "Packaging"
+  | "Stationary"
   | "Flyers & Brochures"
-  | "Brand Guidelines"
+  | "Brand Guide & Identity"
   | "Motion Graphics"
   |  "UI/UX Design"
   | "Emotes"
@@ -27,8 +28,9 @@ export const projectCategories: ProjectCategory[] = [
   "Book Cover",
   "Social Media Post",
   "Packaging",
+  "Stationary",
   "Flyers & Brochures",
-  "Brand Guidelines",
+  "Brand Guide & Identity",
   "Motion Graphics",
   "UI/UX Design",
   "Emotes",

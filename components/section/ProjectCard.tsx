@@ -199,7 +199,7 @@ const router = useRouter()
                         : undefined
                     }
                   >
-                    {Project.filter == "Brand Guidelines" || Project.filter == "Overlay" || Project.filter == "Emotes"? 
+                    {Project.filter == "Brand Guide & Identity" || Project.filter == "Overlay" || Project.filter == "Emotes"? 
                     ""
                     : Project.title}
                   </motion.p>

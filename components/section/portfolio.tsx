@@ -7,10 +7,11 @@ import PortofolioCard from "./ProjectCard";
 const tabs = [
   "Logo Design",
   "Book Cover",
-  "Social Media Post ",
+  "Social Media Post",
   "Packaging",
+  "Stationary",
   "Flyers & Brochures",
-  "Brand Guidelines",
+  "Brand Guide & Identity",
   "Motion Graphics",
    "UI/UX Design",
    "Emotes",
