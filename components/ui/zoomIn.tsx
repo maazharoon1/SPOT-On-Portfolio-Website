@@ -1,215 +1,169 @@
 "use client";
 
-import { CldImage } from "next-cloudinary";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState, type MouseEvent, type PointerEvent } from "react";
 
-interface ImageZoomProps {
+import { CldImage } from "next-cloudinary";
+
+
+interface ZoomInViewProps {
   src: string;
   alt: string;
+  className?: string;
+
+
+
+  onLoad?: () => void;
+  onError?: () => void;
 }
 
-const ImageZoom = ({ src, alt }: ImageZoomProps) => {
-  const containerRef = useRef<HTMLDivElement>(null);
+const HOVER_ZOOM = 1.1;
+const MAX_ZOOM = 4;
 
-  const lastTapRef = useRef(0);
-  const lastTouchRef = useRef({ x: 0, y: 0 });
+function ZoomInView({ src, alt, className = "", onLoad, onError }: ZoomInViewProps) {
+  const zoomRef = useRef(1);
+  const frameRef = useRef<HTMLDivElement>(null);
+  const dragStart = useRef({ x: 0, y: 0, offsetX: 0, offsetY: 0 });
+  const [zoom, setZoom] = useState(1);
+  const [offset, setOffset] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
 
-  const [isZoomed, setIsZoomed] = useState(false);
-
-  // Desktop mouse zoom position
-  const [position, setPosition] = useState({
-    x: 50,
-    y: 50,
-  });
-
-  // Mobile pan position
-  const [pan, setPan] = useState({
-    x: 0,
-    y: 0,
-  });
-
-  const isDesktop = () => {
-    return window.matchMedia("(min-width: 768px)").matches;
+  const reset = () => {
+    setZoom(1);
+    setOffset({ x: 0, y: 0 });
+    setIsDragging(false);
   };
 
-  // -----------------------------
-  // DESKTOP
-  // -----------------------------
 
-  const handleMouseEnter = () => {
-    if (!isDesktop()) return;
 
-    setIsZoomed(true);
+  useEffect(() => {
+    const frame = frameRef.current;
+    const wheel = (event: globalThis.WheelEvent) => {
+      event.preventDefault();
+      const next = Math.min(MAX_ZOOM, Math.max(1, zoomRef.current - event.deltaY * 0.002));
+      zoomRef.current = next;
+      setZoom(next);
+      if (next === 1) setOffset({ x: 0, y: 0 });
+    };
+    frame?.addEventListener("wheel", wheel, { passive: false });
+    return () => frame?.removeEventListener("wheel", wheel);
+  }, []);
+
+  useEffect(() => { zoomRef.current = zoom; }, [zoom]);
+
+  const pointInFrame = (clientX: number, clientY: number) => {
+    const bounds = frameRef.current?.getBoundingClientRect();
+    if (!bounds) return { x: 0, y: 0 };
+    return {
+      x: clientX - (bounds.left + bounds.width / 2),
+      y: clientY - (bounds.top + bounds.height / 2),
+    };
   };
 
-  const handleMouseLeave = () => {
-    if (!isDesktop()) return;
-
-    setIsZoomed(false);
-
-    setPosition({
-      x: 50,
-      y: 50,
-    });
+  const handlePointerEnter = (event: PointerEvent<HTMLDivElement>) => {
+    if (event.pointerType !== "mouse" || zoom > 1 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const point = pointInFrame(event.clientX, event.clientY);
+    setZoom(HOVER_ZOOM);
+    setOffset({ x: -point.x * 0.35, y: -point.y * 0.35 });
   };
 
-  const handleMouseMove = (
-    e: React.MouseEvent<HTMLDivElement>
-  ) => {
-    if (!isDesktop()) return;
-
-    const container = containerRef.current;
-
-    if (!container) return;
-
-    const rect = container.getBoundingClientRect();
-
-    const rawX =
-      ((e.clientX - rect.left) / rect.width) * 100;
-
-    const rawY =
-      ((e.clientY - rect.top) / rect.height) * 100;
-
-    setPosition({
-      x: 50 + (rawX - 50) * 0.65,
-      y: 50 + (rawY - 50) * 0.65,
-    });
+  const handlePointerDown = (event: PointerEvent<HTMLDivElement>) => {
+    if (zoom <= 1 || !event.isPrimary || event.button !== 0) return;
+    event.preventDefault();
+    event.currentTarget.setPointerCapture(event.pointerId);
+    dragStart.current = {
+      x: event.clientX,
+      y: event.clientY,
+      offsetX: offset.x,
+      offsetY: offset.y,
+    };
+    setIsDragging(true);
   };
 
-  // -----------------------------
-  // MOBILE DOUBLE TAP
-  // -----------------------------
-
-  const handleTouchEnd = (
-    e: React.TouchEvent<HTMLDivElement>
-  ) => {
-    if (isDesktop()) return;
-
-    const now = Date.now();
-
-    const timeSinceLastTap =
-      now - lastTapRef.current;
-
-    if (
-      timeSinceLastTap < 300 &&
-      timeSinceLastTap > 0
-    ) {
-      e.preventDefault();
-
-      setIsZoomed((prev) => {
-        const next = !prev;
-
-        if (!next) {
-          setPan({
-            x: 0,
-            y: 0,
-          });
-        }
-
-        return next;
-      });
+  const handlePointerMove = (event: PointerEvent<HTMLDivElement>) => {
+    if (!isDragging) {
+      if (event.pointerType !== "mouse" || zoom !== HOVER_ZOOM) return;
+      const point = pointInFrame(event.clientX, event.clientY);
+      setOffset({ x: -point.x * 0.35, y: -point.y * 0.35 });
+      return;
     }
-
-    lastTapRef.current = now;
+    setOffset({
+      x: dragStart.current.offsetX + event.clientX - dragStart.current.x,
+      y: dragStart.current.offsetY + event.clientY - dragStart.current.y,
+    });
   };
 
-  // -----------------------------
-  // MOBILE PAN
-  // -----------------------------
-
-  const handleTouchMove = (
-    e: React.TouchEvent<HTMLDivElement>
-  ) => {
-    if (isDesktop() || !isZoomed) return;
-
-    const touch = e.touches[0];
-
-    const currentX = touch.clientX;
-    const currentY = touch.clientY;
-
-    const deltaX =
-      currentX - lastTouchRef.current.x;
-
-    const deltaY =
-      currentY - lastTouchRef.current.y;
-
-    setPan((prev) => ({
-      x: prev.x + deltaX,
-      y: prev.y + deltaY,
-    }));
-
-    lastTouchRef.current = {
-      x: currentX,
-      y: currentY,
-    };
+  const handlePointerUp = (event: PointerEvent<HTMLDivElement>) => {
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    }
+    setIsDragging(false);
   };
 
-  const handleTouchStart = (
-    e: React.TouchEvent<HTMLDivElement>
-  ) => {
-    if (isDesktop() || !isZoomed) return;
-
-    const touch = e.touches[0];
-
-    lastTouchRef.current = {
-      x: touch.clientX,
-      y: touch.clientY,
-    };
+  const toggleZoom = (event: MouseEvent<HTMLDivElement>) => {
+    if (zoom > 1) return reset();
+    const point = pointInFrame(event.clientX, event.clientY);
+    setZoom(2.5);
+    setOffset({ x: -point.x * 0.55, y: -point.y * 0.55 });
   };
-
-  // -----------------------------
-  // IMAGE TRANSFORM
-  // -----------------------------
-
-  const transform = isDesktop()
-    ? isZoomed
-      ? "scale(1.65)"
-      : "scale(1)"
-    : isZoomed
-      ? `scale(1.65) translate(${pan.x / 1.65}px, ${
-          pan.y / 1.65
-        }px)`
-      : "scale(1)";
 
   return (
     <div
-      ref={containerRef}
-      className={`relative h-full w-full overflow-hidden ${
-        isZoomed
-          ? "cursor-grab active:cursor-grabbing"
-          : "cursor-zoom-in"
-      }`}
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-      onMouseMove={handleMouseMove}
-      onTouchStart={handleTouchStart}
-      onTouchMove={handleTouchMove}
-      onTouchEnd={handleTouchEnd}
+      ref={frameRef}
+      className={`relative h-full w-full overflow-hidden select-none ${zoom > 1 ? (isDragging ? "cursor-grabbing" : "cursor-grab") : "cursor-zoom-in"} ${className}`}
+      onPointerEnter={handlePointerEnter}
+      onPointerLeave={(event) => { if (event.pointerType === "mouse" && !isDragging && zoom <= HOVER_ZOOM) reset(); }}
+      onPointerDown={handlePointerDown}
+      onPointerMove={handlePointerMove}
+      onPointerUp={handlePointerUp}
+      onPointerCancel={handlePointerUp}
+      onLostPointerCapture={() => setIsDragging(false)}
+      onDoubleClick={toggleZoom}
+      style={{ touchAction: zoom > 1 ? "none" : "pan-y" }}
     >
       <CldImage
         src={src}
-        alt={alt}
         fill
-        sizes="(max-width: 767px) 100vw, 70vw"
         quality="auto"
         format="auto"
-        loading="lazy"
-        className="object-contain will-change-transform select-none"
+        alt={alt}
+        onLoad={onLoad}
+        onError={onError}
+        sizes="(min-width: 1440px) 900px, (min-width: 768px) 65vw, 100vw"
+        loading="eager"
+        decoding="async"
         draggable={false}
+        className="pointer-events-none h-full w-full object-contain will-change-transform"
         style={{
-          transform,
-          transformOrigin: isDesktop()
-            ? `${position.x}% ${position.y}%`
-            : "center center",
-
-          transition:
-            isDesktop() || !isZoomed
-              ? "transform 500ms cubic-bezier(0.16, 1, 0.3, 1)"
-              : "none",
+          transform: `translate3d(${offset.x}px, ${offset.y}px, 0) scale(${zoom})`,
+          transition: isDragging ? "none" : "transform 220ms ease-out",
         }}
       />
+
+      <button type="button" aria-label="Zoom in image" disabled={zoom >= MAX_ZOOM}
+        onPointerDown={(event) => event.stopPropagation()}
+        onClick={(event) => { event.stopPropagation(); setZoom((value) => Math.min(MAX_ZOOM, value + 0.5)); }}
+        className="absolute left-2 top-2 grid size-11 place-items-center z-10 rounded-lg border border-purple-500/30 bg-[#15101e]/90 text-white hover:bg-[#681e99] disabled:opacity-50 sm:left-3 sm:top-3">
+        <span aria-hidden="true" className="text-xl">+</span>
+      </button>
+
+      {zoom > 1 && (
+        <button
+          type="button"
+          onClick={(event) => {
+            event.stopPropagation();
+            reset();
+          }}
+          onPointerDown={(event) => event.stopPropagation()}
+          className="absolute bottom-2 left-2 flex min-h-11 items-center gap-1.5 z-10 rounded-lg border border-purple-500/30 bg-[#15101e]/90 text-white hover:bg-[#681e99] px-2.5 py-1.5 text-[10px] uppercase tracking-widest shadow-sm sm:bottom-3 sm:left-3"
+          aria-label="Reset image zoom"
+        >
+          <span aria-hidden="true">↺</span> Reset {Math.round(zoom * 100)}%
+        </button>
+      )}
     </div>
   );
-};
+}
 
-export default ImageZoom;
+export default function ImageZoom(props: ZoomInViewProps) {
+  return <ZoomInView key={props.src} {...props} />;
+}
