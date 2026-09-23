@@ -6,8 +6,10 @@ export type ProjectCategory =
   | "Stationary"
   | "Flyers & Brochures"
   | "Brand Guide & Identity"
-  | "Motion Graphics"
+  | "3D Animations"
+  | "2D Animations"
   |  "UI/UX Design"
+  | "Mobile App"
   | "Emotes"
   | "Overlay"
   ;
@@ -31,8 +33,10 @@ export const projectCategories: ProjectCategory[] = [
   "Stationary",
   "Flyers & Brochures",
   "Brand Guide & Identity",
-  "Motion Graphics",
+  "3D Animations",
+  "2D Animations",
   "UI/UX Design",
+  "Mobile App",
   "Emotes",
   "Overlay"
 

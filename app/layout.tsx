@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s | Spot On Solutions",
   },
   description:
-    "Spot On Solutions creates premium branding, motion graphics, packaging, and digital design experiences for modern businesses.",
+    "Spot On Solutions creates premium branding, 3D Animations, packaging, and digital design experiences for modern businesses.",
   applicationName: "Spot On Solutions Portfolio",
   keywords: [
     "graphic designer",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "logo design",
     "packaging design",
     "social media design",
-    "motion graphics",
+    "3D Animations",
     "UI/UX Design",
     "Emotes",
     "Overlay"

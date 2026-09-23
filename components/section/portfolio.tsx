@@ -12,8 +12,10 @@ const tabs = [
   "Logo Design",
   "Flyers & Brochures",
   "Brand Guide & Identity",
-  "Motion Graphics",
+  "3D Animations",
+  "2D Animations",
    "UI/UX Design",
+   "Mobile App",
    "Emotes",
    "Overlay"
     
