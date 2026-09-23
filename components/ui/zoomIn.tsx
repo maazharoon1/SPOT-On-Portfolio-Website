@@ -80,12 +80,7 @@ function ZoomInView({ src, alt, className = "", onLoad, onError }: ZoomInViewPro
   };
 
   const handlePointerMove = (event: PointerEvent<HTMLDivElement>) => {
-    if (!isDragging) {
-      if (event.pointerType !== "mouse" || zoom !== HOVER_ZOOM) return;
-      const point = pointInFrame(event.clientX, event.clientY);
-      setOffset({ x: -point.x * 0.35, y: -point.y * 0.35 });
-      return;
-    }
+    if (!isDragging) return;
     setOffset({
       x: dragStart.current.offsetX + event.clientX - dragStart.current.x,
       y: dragStart.current.offsetY + event.clientY - dragStart.current.y,
