@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import PortofolioCard from "./ProjectCard";
+import UIDesignGrid from "./UIDesignGrid";
 
 const tabs = [
   "Book Cover",
@@ -110,7 +111,7 @@ function Portfolio() {
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.6 }}
           >
-            Let's Have a Look at My Portfolio
+            Let&apos;s Have a Look at My Portfolio
           </motion.h2>
 
           <motion.p
@@ -152,7 +153,7 @@ function Portfolio() {
     "
   >
     <div className="flex min-w-max gap-2 px-1">
-      {tabs.map((tab, index) => {
+      {tabs.map((tab ) => {
         const isActive = tab === activeTab;
 
         return (
@@ -321,7 +322,7 @@ function Portfolio() {
                 duration: 0.35,
               }}
             >
-              <PortofolioCard activeTab={activeTab} />
+              {activeTab === "UI/UX Design" ? <UIDesignGrid /> : <PortofolioCard activeTab={activeTab} />}
             </motion.div>
           </AnimatePresence>
         </motion.div>

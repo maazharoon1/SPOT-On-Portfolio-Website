@@ -2410,445 +2410,160 @@ description:
   coverImages: [],
 },
 
-// UIUX 
 
-{
-  filter: "UI/UX Design",
-  title: "  Cascading Web Interface",
-
-  type:"image",
-  id: "U01",
-
-  description:
-    "Landing page design in modern style represented by the use of a new 3D cascade technique. The extended page smoothly emerges from the laptop display, emphasizing the clean grid, professional fonts, and organized layout on the background of neutral studio setting.",
-
-  mainImage: "U01",
-},
-{
-  filter: "UI/UX Design",
-  title: " Minimalist Web Interface",
-
-  type:"image",
-  id: "U02",
-
-  description:
-    "The contemporary web interface presented using a surrealistic, cascading 3D mock-up on an extremely minimalist platform. The concept of the design is focused on the idea of structured typography and layout that is elegantly unfurling from the screen.",
-
-  mainImage: "U02",
-},
-
-{
-  filter: "UI/UX Design",
-  title: "Modern Web Interface ",
-
-  type:"image",
-  id: "U04",
-
-  description:
-    "Clean and professional-looking digital interface presented via a surreal 3D mock-up. The web page smoothly slides out from the laptop screen on an uncluttered gray background with the focus on contemporary fonts and clearly defined content blocks in an airy studio space.",
-
-  mainImage: "U04",
-},
-{
-  filter: "UI/UX Design",
-  title: " Fluid Digital Interface",
-
-  type:"image",
-  id: "U05",
-
-  description:
-    "An incredible 3D display with a website interface that is designed in such a way that it flows down like a bendable scroll. The design features a neat grid interface with text and pictures, with soft lighting and minimalist design elements.",
-
-  mainImage: "U05",
-},
-{
-  filter: "UI/UX Design",
-  title: " Surreal Studio Portfolio Display",
-
-  type:"image",
-  id: "U06",
-
-  description:
-    "Concept design of a sleek web design illustrated in a minimalistic studio setting. The black laptop displays a lengthy and curvy page flowing on top of a white block formation, depicting the use of structured images and text in the UI design.",
-
-  mainImage: "U06",
-},
-{
-  filter: "UI/UX Design",
-  title: " Modern UI/UX",
-
-  type:"image",
-  id: "U07",
-
-  description:
-    "This design project presents a modern user interface on the website presented using a surreal 3D mock-up. The site layout flows down seamlessly from the laptop screen onto the harsh and concrete brutalist structure, demonstrating the organized grid system, fonts, and content sections.",
-
-  mainImage: "U07",
-},
-{
-  filter: "UI/UX Design",
-  title: " Minimalist Web Interface",
-
-  type:"image",
-  id: "U08",
-
-  description:
-    "Modern and sleek web interface design in the form of a ribbon, which emanates from the laptop screen. The interface design has a clean look and structured segments with quality images that cascade down on the concrete floor to show the responsiveness of the UI.",
-
-  mainImage: "U08",
-},
-{
-  filter: "UI/UX Design",
-  title: " Pet Care ",
-
-  type:"image",
-  id: "U09",
-
-  description:
-    "Pet care website design with a neat and professional layout containing images and structured blocks of information about dogs. The design is showcased through a vertical scroll coming out of a laptop in one piece.",
-
-  mainImage: "U09",
-},
-{
-  filter: "UI/UX Design",
-  title: "Artisan Bakery ",
-
-  type:"image",
-  id: "U10",
-
-  description:
-    "This collection of creativity includes a visually appealing landing page for a bakery that is centered on food. This design unfolds from the laptop screen and showcases great product photos along with beautiful serif fonts in a minimalistic 3D space.",
-
-  mainImage: "U10",
-},
-{
-  filter: "UI/UX Design",
-  title: " Ocean Conservation ",
-
-  type:"image",
-  id: "U11",
-
-  description:
-    "Modern landing page design dedicated to marine life conservation in the form of one continuous scroll. The interface incorporates blue color scheme, data visualization, and environmental elements that are all shown via a surrealistic 3D rendering mounted on a white pedestal.",
-
-  mainImage: "U11",
-},
-{
-  filter: "UI/UX Design",
-  title: " E-commerce ",
-
-  type:"image",
-  id: "U12",
-
-  description:
-    "In this 3D rendering, there is a lively e-commerce website that is literally streaming out of a computer screen in waves. The focus of the design here is on the strong use of colors and clean typography in a surrealist minimalist environment.",
-  mainImage: "U12",
-},
 //TODO:CHANGE DESCRIPTION & title according to the image url:
 // https://res.cloudinary.com/hcn0f9nu/image/upload/v1789067358/mainImage.jpg
 //  UI/UX Design Shopex Extended Collection
 
+ 
+//  ui design
+ {
+    filter: "UI Design",
+    id: "shopexui1",
+    title: "Collection 05",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui1",
+    liveUrl: "https://morr-fit-houston.vercel.app/",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+  {
+    filter: "UI Design",
+    id: "shopexui2",
+    title: "Collection 01",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui7",
+    liveUrl: "https://photographer-eosin-phi.vercel.app/",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+    {
+    filter: "UI Design",
+    id: "shopexui3",
+    title: "Collection 06",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui6",
+    liveUrl: "https://eyewear-ivory.vercel.app/",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+  {
+    filter: "UI Design",
+    id: "shopexui4",
+    title: "Collection 02",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui4",
+    liveUrl: "https://pizza-theta-dun-93.vercel.app/",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+  {
+    filter: "UI Design",
+    id: "shopexui5",
+    title: "Collection 03",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui5",
+    liveUrl: "https://estate-indol-iota.vercel.app/",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+ 
+  {
+    filter: "UI Design",
+    id: "shopexui6",
+    title: "Collection 07",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui9",
+    liveUrl: "",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+  {
+    filter: "UI Design",
+    id: "shopexui7",
+    title: "Collection 08",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui2",
+    liveUrl: "https://lawn-care-pearl.vercel.app/",
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+   {
+    filter: "UI Design",
+    id: "shopexui8",
+    title: "Collection 04",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui10",
+    liveUrl: "", 
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+   {
+    filter: "UI Design",
+    id: "shopexui9",
+    title: "Collection 04",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui3",
+    liveUrl: "https://eyewear-ivory.vercel.app/", 
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+   {
+    filter: "UI Design",
+    id: "shopexui10",
+    title: "Collection 04",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui8",
+    liveUrl: "https://jj-painting-ng9r87tpg-maaz-p.vercel.app/", 
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+   {
+    filter: "UI Design",
+    id: "shopexui11",
+    title: "Collection 04",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui11",
+    liveUrl: "", 
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
+   {
+    filter: "UI Design",
+    id: "shopexui12",
+    title: "Collection 04",
+    type: "image",
+    description: "A curated collection of UI designs created for intuitive, engaging, and memorable digital experiences.",
+    mainImage: "shopexui12",
+    liveUrl: "", 
+    coverImages: [],
+    tags: ["UI DESIGN", "DIGITAL"],
+    client: "Independent",
+  },
 
-// {
-//   filter: "UI/UX Design",
-//   title: "Coffee House",
-//   type: "image",
-//   id: "SUI01",
-//   description:
-//     "A cozy coffee website with bold contrast, warm photos, and a simple menu.",
-//   mainImage: "SUi01",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Neighborhood Cafe",
-//   type: "image",
-//   id: "SUI02",
-//   description:
-//     "A welcoming cafe website with soft cream tones and everyday coffee moments.",
-//   mainImage: "SUi02",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Carpet Cleaning",
-//   type: "image",
-//   id: "SUI03",
-//   description:
-//     "A bold blue cleaning website with service details and before-and-after photos.",
-//   mainImage: "SUi03",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Carpet Care",
-//   type: "image",
-//   id: "SUI04",
-//   description:
-//     "A carpet care website that puts cleaning results and quote requests up front.",
-//   mainImage: "SUi04",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Watch Boutique",
-//   type: "image",
-//   id: "SUI05",
-//   description:
-//     "An elegant watch store with crisp product photos and a clean collection grid.",
-//   mainImage: "SUi05",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Carpet Restoration",
-//   type: "image",
-//   id: "SUI06",
-//   description:
-//     "A cleaning website built around before-and-after comparisons and quick quote requests.",
-//   mainImage: "SUi06",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Luxury Boutique",
-//   type: "image",
-//   id: "SUI07",
-//   description:
-//     "A black-and-gold storefront showcasing beauty products, bags, and accessories.",
-//   mainImage: "SUi07",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Smile Makeovers",
-//   type: "image",
-//   id: "SUI08",
-//   description:
-//     "A teal dental website highlighting smile transformations and appointment booking.",
-//   mainImage: "SUi08",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Lawn Care",
-//   type: "image",
-//   id: "SUI09",
-//   description:
-//     "A fresh green website showcasing lawn services, customer reviews, and free quotes.",
-//   mainImage: "SUi09",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Lawn & Garden",
-//   type: "image",
-//   id: "SUI10",
-//   description:
-//     "A lawn care website with rich green imagery and easy access to service estimates.",
-//   mainImage: "SUi10",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Creative Agency",
-//   type: "image",
-//   id: "SUI11",
-//   description:
-//     "A bold agency website with abstract artwork, neon accents, and oversized type.",
-//   mainImage: "SUi11",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Tax Advisory",
-//   type: "image",
-//   id: "SUI12",
-//   description:
-//     "A navy-and-gold website with clear tax services and a handy estimate calculator.",
-//   mainImage: "SUi12",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Modern Furniture",
-//   type: "image",
-//   id: "SUI13",
-//   description:
-//     "A calm furniture store with warm interiors and room to explore each collection.",
-//   mainImage: "SUi13",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Pizza Delivery",
-//   type: "image",
-//   id: "SUI14",
-//   description:
-//     "A lively pizza website with bold colors, custom orders, and tempting meal deals.",
-//   mainImage: "SUi14",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Eyewear Boutique",
-//   type: "image",
-//   id: "SUI15",
-//   description:
-//     "A minimal eyewear store with close-up frame photography and airy product displays.",
-//   mainImage: "SUi15",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Home & Interiors",
-//   type: "image",
-//   id: "SUI16",
-//   description:
-//     "A warm home store that brings furniture, lighting, and room inspiration together.",
-//   mainImage: "SUi16",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Furniture Shop",
-//   type: "image",
-//   id: "SUI17",
-//   description:
-//     "A friendly furniture storefront with clear categories, featured deals, and everyday home essentials.",
-//   mainImage: "SUi17",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Farm Fresh",
-//   type: "image",
-//   id: "SUI18",
-//   description:
-//     "An earthy farm website showcasing seasonal produce and the story behind each harvest.",
-//   mainImage: "SUi18",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Skincare Store",
-//   type: "image",
-//   id: "SUI19",
-//   description:
-//     "A dark skincare storefront with golden accents and bold product photography.",
-//   mainImage: "SUi19",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Perfume Boutique",
-//   type: "image",
-//   id: "SUI20",
-//   description:
-//     "An elegant fragrance store with a dark palette and space for each signature scent.",
-//   mainImage: "SUi20",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Tax Services",
-//   type: "image",
-//   id: "SUI21",
-//   description:
-//     "A polished tax website with service summaries, consultation booking, and an estimate tool.",
-//   mainImage: "SUi21",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Fresh Dairy",
-//   type: "image",
-//   id: "SUI22",
-//   description:
-//     "A light dairy website pairing fresh milk photography with soft green accents.",
-//   mainImage: "SUi22",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Dental Clinic",
-//   type: "image",
-//   id: "SUI23",
-//   description:
-//     "A bright dental website with calming teal details and a clear appointment button.",
-//   mainImage: "SUi23",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Beauty Salon",
-//   type: "image",
-//   id: "SUI24",
-//   description:
-//     "A refined salon website with muted tones, elegant type, and a booking button.",
-//   mainImage: "SUi24",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Barber Studio",
-//   type: "image",
-//   id: "SUI25",
-//   description:
-//     "A classic barber website with dark photography, gold accents, and appointment booking.",
-//   mainImage: "SUi25",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Packaging Studio",
-//   type: "image",
-//   id: "SUI26",
-//   description:
-//     "A clean packaging website with workshop imagery and a clear path to request a quote.",
-//   mainImage: "SUi26",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Photography Portfolio",
-//   type: "image",
-//   id: "SUI27",
-//   description:
-//     "A photography website that lets atmospheric images and simple typography tell the story.",
-//   mainImage: "SUi27",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Law Firm",
-//   type: "image",
-//   id: "SUI28",
-//   description:
-//     "A composed law firm website with clear practice areas and a consultation button.",
-//   mainImage: "SUi28",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Artisan Bakery",
-//   type: "image",
-//   id: "SUI29",
-//   description:
-//     "A warm bakery website with rustic bread photography and soft peach accents.",
-//   mainImage: "SUi29",
-//   coverImages: [],
-// },
-// {
-//   filter: "UI/UX Design",
-//   title: "Menswear Store",
-//   type: "image",
-//   id: "SUI30",
-//   description:
-//     "A minimal menswear website with editorial photography and understated collection links.",
-//   mainImage: "SUi30",
-//   coverImages: [],
-// },
+
 
 // 3D Animations
 {
