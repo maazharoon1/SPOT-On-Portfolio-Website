@@ -425,129 +425,9 @@ export const ProjectObject = [
 
 
 
-// Social Media Post 
-{
-  filter: "Social Media Post",
-  title: "Social Media Post ",
-  type:"image",
-  id: "SocialMediaDesign1",
-description:
-"Vibrant social media promotions for a creative agency about Graphic Design, Social Media, Expert SEO, and Innovation. Includes high-energy neon visuals, 3D graphics, and powerful call-to-action designs for maximum engagement.",
-  mainImage: "S01",
-  coverImages: [],
 
-},
-{
-  filter: "Social Media Post",
-  title: "Social Media Post ",
-  type:"image",
-  id: "SocialMediaDesign2",
-description:
-"Sleek and stylish social media grid centered on digital growth, strategy, and scaling. Features dynamic lighting, glowing infographics, and futuristic typography that conveys tech solutions and brand authority.",
 
-  mainImage: "S02",
-  coverImages: [],
-
-},
-{
-  filter: "Social Media Post",
-  title: "Social Media Post ",
-  type:"image",
-  id: "SocialMediaDesign3",
-description:
-"Surreal and mysterious social media banner designs that include outer space scenes, flying UFOs, and other futuristic ideas. Designed with rich atmospheric lighting and cinematic visual effects to drive high engagement.",
-
-  mainImage: "S03",
-  coverImages: [],
-
-},
-{
-  filter: "Social Media Post",
-  title: "Social Media Post ",
-  type:"image",
-  id: "SocialMediaDesign4",
-description:
-"Clean and stylish social media app feature posts created with floating 3D UI cards, notifications badges, and other interactive components. Perfect for SaaS platforms, mobile apps, and other tech-related businesses.",
-
-  mainImage: "S04",
-  coverImages: [],
-
-},
-{
-  filter: "Social Media Post",
-  title: "Social Media Post ",
-  type:"image",
-  id: "SocialMediaDesign5",
-
-description:
-"Professional marketing creatives centered on brand reach, e-commerce growth, and VR technology. Includes corporate stock photography, stylish gradients, and clear typography.",
-  mainImage: "S05",
-  coverImages: [],
-
-},
-{
-  filter: "Social Media Post",
-  title: "Solar Energy App",
-  type:"image",
-  id: "SocialMediaDesign6",
- 
-description:
-"Sleek and stylish mockup design of social media post with mobile UI cards for a solar energy app. Created with a bright yellow and textured background to emphasize eco-friendly solutions.",
-  mainImage: "S06",
-  coverImages: [],
-
-},
 // Social Media Posts shopex Extended Collection
-{
-  filter: "Social Media Post",
-  title: "Business Tech Campaigns",
-  type: "image",
-  id: "SSM01",
-  description:
-    "A bright trio of posts promoting IT services, AI calling, and team management.",
-  mainImage: "SSM01",
-  coverImages: [],
-},
-{
-  filter: "Social Media Post",
-  title: "Team Management",
-  type: "image",
-  id: "SSM02",
-  description:
-    "Fresh blue-and-white posts highlighting attendance, team goals, and live work tracking.",
-  mainImage: "SSM02",
-  coverImages: [],
-},
-{
-  filter: "Social Media Post",
-  title: "Brand Promo Mix",
-  type: "image",
-  id: "SSM03",
-  description:
-    "A varied set featuring a sneaker ad, time tracking, and digital marketing.",
-  mainImage: "SSM03",
-  coverImages: [],
-},
-{
-  filter: "Social Media Post",
-  title: "Product Spotlights",
-  type: "image",
-  id: "SSM04",
-  description:
-    "Sneakers, a wireless mouse, and solar panels take center stage in three bold ads.",
-  mainImage: "SSM04",
-  coverImages: [],
-},
-{
-  filter: "Social Media Post",
-  title: "Beauty Brush",
-  type: "image",
-  id: "SSM05",
-  description:
-    "A playful pink beauty post featuring a makeup brush topped with a chef's hat.",
-  mainImage: "SSM05",
-  coverImages: [],
-},
 {
   filter: "Social Media Post",
   title: "Smartwatch Spotlight",
@@ -556,6 +436,47 @@ description:
   description:
     "A rugged smartwatch ad with orange lighting and clear feature callouts.",
   mainImage: "SSM06",
+  coverImages: [],
+},
+
+{
+  filter: "Social Media Post",
+  title: "Motorcycle Helmet",
+  type: "image",
+  id: "SSM16",
+  description:
+    "A bold helmet campaign with red-and-black graphics and neatly grouped features.",
+  mainImage: "SSM16",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Gaming Mouse",
+  type: "image",
+  id: "SSM17",
+  description:
+    "A Logitech mouse campaign with oversized brand lettering and subtle colored lighting.",
+  mainImage: "SSM17",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Basketball Motivation",
+  type: "image",
+  id: "SSM18",
+  description:
+    "A basketball post pairing an airborne player with a glowing clock and motivational type.",
+  mainImage: "SSM18",
+  coverImages: [],
+},
+{
+  filter: "Social Media Post",
+  title: "Cyberpunk Soul",
+  type: "image",
+  id: "SSM19",
+  description:
+    "A moody portrait design with stretched typography and a small neon glow.",
+  mainImage: "SSM19",
   coverImages: [],
 },
 {
@@ -650,44 +571,55 @@ description:
 },
 {
   filter: "Social Media Post",
-  title: "Motorcycle Helmet",
+  title: "Business Tech Campaigns",
   type: "image",
-  id: "SSM16",
+  id: "SSM01",
   description:
-    "A bold helmet campaign with red-and-black graphics and neatly grouped features.",
-  mainImage: "SSM16",
+    "A bright trio of posts promoting IT services, AI calling, and team management.",
+  mainImage: "SSM01",
   coverImages: [],
 },
 {
   filter: "Social Media Post",
-  title: "Gaming Mouse",
+  title: "Team Management",
   type: "image",
-  id: "SSM17",
+  id: "SSM02",
   description:
-    "A Logitech mouse campaign with oversized brand lettering and subtle colored lighting.",
-  mainImage: "SSM17",
+    "Fresh blue-and-white posts highlighting attendance, team goals, and live work tracking.",
+  mainImage: "SSM02",
   coverImages: [],
 },
 {
   filter: "Social Media Post",
-  title: "Basketball Motivation",
+  title: "Brand Promo Mix",
   type: "image",
-  id: "SSM18",
+  id: "SSM03",
   description:
-    "A basketball post pairing an airborne player with a glowing clock and motivational type.",
-  mainImage: "SSM18",
+    "A varied set featuring a sneaker ad, time tracking, and digital marketing.",
+  mainImage: "SSM03",
   coverImages: [],
 },
 {
   filter: "Social Media Post",
-  title: "Cyberpunk Soul",
+  title: "Product Spotlights",
   type: "image",
-  id: "SSM19",
+  id: "SSM04",
   description:
-    "A moody portrait design with stretched typography and a small neon glow.",
-  mainImage: "SSM19",
+    "Sneakers, a wireless mouse, and solar panels take center stage in three bold ads.",
+  mainImage: "SSM04",
   coverImages: [],
 },
+{
+  filter: "Social Media Post",
+  title: "Beauty Brush",
+  type: "image",
+  id: "SSM05",
+  description:
+    "A playful pink beauty post featuring a makeup brush topped with a chef's hat.",
+  mainImage: "SSM05",
+  coverImages: [],
+},
+
 {
   filter: "Social Media Post",
   title: "Blender Spotlight",
@@ -748,6 +680,80 @@ description:
   mainImage: "SSM25",
   coverImages: [],
 },
+// Social Media Post 
+
+{
+  filter: "Social Media Post",
+  title: "Social Media Post ",
+  type:"image",
+  id: "SocialMediaDesign2",
+description:
+"Sleek and stylish social media grid centered on digital growth, strategy, and scaling. Features dynamic lighting, glowing infographics, and futuristic typography that conveys tech solutions and brand authority.",
+
+  mainImage: "S02",
+  coverImages: [],
+
+},
+{
+  filter: "Social Media Post",
+  title: "Social Media Post ",
+  type:"image",
+  id: "SocialMediaDesign3",
+description:
+"Surreal and mysterious social media banner designs that include outer space scenes, flying UFOs, and other futuristic ideas. Designed with rich atmospheric lighting and cinematic visual effects to drive high engagement.",
+
+  mainImage: "S03",
+  coverImages: [],
+
+},
+{
+  filter: "Social Media Post",
+  title: "Social Media Post ",
+  type:"image",
+  id: "SocialMediaDesign4",
+description:
+"Clean and stylish social media app feature posts created with floating 3D UI cards, notifications badges, and other interactive components. Perfect for SaaS platforms, mobile apps, and other tech-related businesses.",
+
+  mainImage: "S04",
+  coverImages: [],
+
+},
+{
+  filter: "Social Media Post",
+  title: "Social Media Post ",
+  type:"image",
+  id: "SocialMediaDesign5",
+
+description:
+"Professional marketing creatives centered on brand reach, e-commerce growth, and VR technology. Includes corporate stock photography, stylish gradients, and clear typography.",
+  mainImage: "S05",
+  coverImages: [],
+
+},
+{
+  filter: "Social Media Post",
+  title: "Social Media Post ",
+  type:"image",
+  id: "SocialMediaDesign1",
+description:
+"Vibrant social media promotions for a creative agency about Graphic Design, Social Media, Expert SEO, and Innovation. Includes high-energy neon visuals, 3D graphics, and powerful call-to-action designs for maximum engagement.",
+  mainImage: "S01",
+  coverImages: [],
+
+},
+{
+  filter: "Social Media Post",
+  title: "Solar Energy App",
+  type:"image",
+  id: "SocialMediaDesign6",
+ 
+description:
+"Sleek and stylish mockup design of social media post with mobile UI cards for a solar energy app. Created with a bright yellow and textured background to emphasize eco-friendly solutions.",
+  mainImage: "S06",
+  coverImages: [],
+
+},
+
 
 // Book Cover 
 {

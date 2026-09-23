@@ -61,9 +61,7 @@ function ZoomInView({ src, alt, className = "", onLoad, onError }: ZoomInViewPro
 
   const handlePointerEnter = (event: PointerEvent<HTMLDivElement>) => {
     if (event.pointerType !== "mouse" || zoom > 1 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    const point = pointInFrame(event.clientX, event.clientY);
     setZoom(HOVER_ZOOM);
-    setOffset({ x: -point.x * 0.35, y: -point.y * 0.35 });
   };
 
   const handlePointerDown = (event: PointerEvent<HTMLDivElement>) => {
