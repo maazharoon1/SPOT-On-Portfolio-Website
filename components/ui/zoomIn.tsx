@@ -9,9 +9,6 @@ interface ZoomInViewProps {
   src: string;
   alt: string;
   className?: string;
-
-
-
   onLoad?: () => void;
   onError?: () => void;
 }
@@ -32,8 +29,6 @@ function ZoomInView({ src, alt, className = "", onLoad, onError }: ZoomInViewPro
     setOffset({ x: 0, y: 0 });
     setIsDragging(false);
   };
-
-
 
   useEffect(() => {
     const frame = frameRef.current;

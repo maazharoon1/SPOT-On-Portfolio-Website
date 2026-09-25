@@ -190,22 +190,11 @@ const router = useRouter()
                 whileHover={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.18 }}
               >
-                <div className="min-w-0 max-w-full rounded-xl bg-black/20 p-2 backdrop-blur-[2px] md:bg-white/4 md:backdrop-blur-sm">
-                  <motion.p
-                    className="line-clamp-2 font-serif text-sm leading-tight text-white sm:text-base md:text-[15px]"
-                    style={
-                      Project.color
-                        ? { color: Project.color }
-                        : undefined
-                    }
-                  >
-                    {Project.filter == "Brand Guide & Identity" || Project.filter == "Overlay" || Project.filter == "Emotes"? 
-                    ""
-                    : Project.title}
-                  </motion.p>
+                <div className="min-w-0 max-w-full rounded-xl bg-black/20 p-2 backdrop-blur-xs md:bg-white/10 md:backdrop-blur-sm">
+                 
 
                   <p
-                    className="mt-1 inline-flex items-center gap-1 text-[9px] uppercase tracking-[0.12em] text-white/80 sm:text-[10px]"
+                    className="mt-1 inline-flex items-center gap-1 text-sm uppercase  text-white/80 font-medium "
                     style={
                       Project.color
                         ? { color: Project.color }
