@@ -6,22 +6,26 @@ import PortofolioCard from "./ProjectCard";
 import UIDesignGrid from "./UIDesignGrid";
 
 const tabs = [
-  "Book Cover",
+  "Editorials",
   "Social Media Post",
   "Packaging",
-  "Stationary",
+  "Stationery",
+   "Banners",
+   "Menu",
   "Logo Design",
   "Flyers & Brochures",
   "Brand Guide & Identity",
   "3D Animations",
   "2D Animations",
    "UI/UX Design",
+  "Merchandise", 
+  "Pitch Deck",
    "Mobile App",
    "Emotes",
    "Overlay"
     
 
-  // "Stationary",
+  // "Stationery",
   // "UI/UX Design",
   // "Illustration",
 ];

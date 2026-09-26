@@ -755,121 +755,292 @@ description:
 },
 
 
-// Book Cover 
+//  Editorials :  Book Cover 
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Rooted in Purpose",
   type:"image",
-  id: "BrandDesign1",
+  id: "bookcover1",
  description:
   "Cover of the Artistic Book, which shows an amazing crack that is decorated with beautiful botanical growth in gold color and a simple background.",
   mainImage: "B01",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "The Next Standard",
   type:"image",
   // color:"#b8aea6",
-    id: "BrandDesign2",
+    id: "bookcover2",
 description:
   "A cinematic book cover created for 'The Next Standard', which depicts a solo character climbing stone stairs in order to reach the glowing foggy horizon. Combines classic typography with realistic style to represent vision and leadership.",
   mainImage: "B02",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Unseen Leadership",
   type:"image",
   // color:"#151517",
-    id: "BrandDesign3",
+    id: "bookcover3",
 description:
   "An artistic book cover in dark tones for 'Unseen Leadership', designed in combination with bold gold metallic typography and lighting. Great choice for the business and self-help genres.",
     mainImage: "B03",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
     title: "The Path I Choose",
 type:"image",
 
   // color:"#101212",
-    id: "BrandDesign4",
+    id: "bookcover4",
 description:
   "A beautiful, minimalistic book cover design for 'The Path I Choose', incorporating classic serif fonts along with gold butterflies.",
   mainImage: "B04",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Beyond The Surface",
 type:"image",
 
   // color:"#7e5f3a",  
-  id: "BrandDesign5",
+  id: "bookcover5",
 description:
   "A premium dark mode book cover design for 'Beyond The Surface', which shows gold vein cracks and branches on the cover. It gives out an impression of depth and elegance suitable for non-fiction or poetry collections.",
   mainImage: "B05",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "The Path Forward",
   type:"image",
   // color:"#a62121",
-    id: "BrandDesign6",
+    id: "bookcover6",
 description:
   "Incredible surreal cover art for the book 'The Path Forward' featuring an awe-inspiring image of a glowing red moon against a backdrop of dark mountains and road ahead.",
   mainImage: "B06",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "The Unwritten Horizon",
 type:"image",
 
   // color:"#bcbcbc",
-    id: "BrandDesign7",
+    id: "bookcover7",
 description:
   "Mysterious cover art created for the fantasy/scifi book 'The Unwritten Horizon' which has an image of silhouette against a gigantic glowing portal.",
    mainImage: "B07",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "The Way Through",
   type:"image",
   // color:"#b28849",
-    id: "BrandDesign8",
+    id: "bookcover8",
 description:"Contemporary book cover for 'The Way Through' which is a non-fiction book that has a fingerprint path with gold foil on a black background. The book cover depicts identity, navigation, and overcoming challenges.",
   mainImage: "B08",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Rooted in Purpose",
   type:"image",
   // color:"#efc677",
-    id: "BrandDesign9",
+    id: "bookcover9",
 description:
   "Peaceful nature-based cover art for the book 'Rooted in Purpose'. The cover art features a glowing tree silhouette on top of a hill in the evening.",
   mainImage: "B09",
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Beyond the Breaking",
   type:"image",
   // color:"#ffbe4b",
-    id: "BrandDesign10",
+    id: "bookcover10",
 description:
   "A dynamic cover art created for the fantasy book 'Beyond the Breaking' featuring a fiery landscape with a person amidst the fiery sunset, dragons, and storm clouds.",
   mainImage: "B10",
   coverImages: [],
 },
+
+// Editorials :  documentation
+{
+  filter: "Editorials",
+  title: "Coral Company Profile Brochure",
+  type: "image",
+  id: "documentation1",
+  description:
+    "Multi-page company profile brochure with coral and cream layouts, architectural photography, and sections for vision, services, team, and projects.",
+  mainImage: "D01",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Modern Company Whitepaper",
+  type: "image",
+  id: "documentation2",
+  description:
+    "Clean whitepaper layout with a minimal cover, amber accents, charts, and sections for market analysis, business plans, and financial details.",
+  mainImage: "D02",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Arabic Corporate Letterhead",
+  type: "image",
+  id: "documentation3",
+  description:
+    "Minimal letterhead design featuring an Arabic company logo, pale geometric patterns, and gold and charcoal accents.",
+  mainImage: "D03",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Brand Proposal Document",
+  type: "image",
+  id: "documentation4",
+  description:
+    "Editorial proposal spreads presenting a case study, project goals, marketing strategy, and timeline with grayscale imagery and yellow highlights.",
+  mainImage: "D04",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "PRO-GH Company Profile",
+  type: "image",
+  id: "documentation5",
+  description:
+    "Blue company profile booklet with a clean cover and interior spreads for services, future plans, and business statistics.",
+  mainImage: "D05",
+  coverImages: [],
+},
+{
+  filter: "Editorials",
+  title: "Solar Energy Company Profile",
+  type: "image",
+  id: "documentation6",
+  description:
+    "Single-page solar energy company profile with teal panels for milestones, key metrics, services, and customer testimonials.",
+  mainImage: "D06",
+  coverImages: [],
+},
+// Editorials :  Book Interior
+{
+  filter: "Editorials",
+  title: "Call Their Shots",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover11",
+  description:
+    "An editorial book spread featuring a compass-inspired chapter opener and refined typography, presenting a business-focused message about giving people the tools and freedom to create their own plans.",
+  mainImage: "B11",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "In Memory",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover12",
+  description:
+    "A vintage-inspired editorial book spread combining a haunting monochrome tree illustration with an elegant chapter layout and atmospheric storytelling.",
+  mainImage: "B12",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "The Woman",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover13",
+  description:
+    "A minimalist editorial book design featuring a sophisticated black-and-white illustration of a woman in a hat, complemented by expressive silhouettes, birds, and decorative visual elements.",
+  mainImage: "B13",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Anne",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover14",
+  description:
+    "An elegant literary book spread centered around a chapter titled Anne, framed by delicate hand-drawn floral illustrations and a soft purple border.",
+  mainImage: "B14",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "The Journey",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover15",
+  description:
+    "A literary book spread depicting a solitary journey through a dark, atmospheric landscape, with expressive monochrome illustrations integrated naturally into the surrounding narrative.",
+  mainImage: "B15",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Who Is Shirkydra?",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover16",
+  description:
+    "A clean editorial book spread introducing a chapter titled Who Is Shirkydra?, using bold typography, structured text columns, and a minimal monochrome visual identity.",
+  mainImage: "B16",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Years Pass By",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover17",
+  description:
+    "A modern editorial book spread featuring the chapter The Years Pass By, with an illustrated airplane, reflective prompts, and a structured layout exploring time and professional growth.",
+  mainImage: "B17",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Common Thread",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover18",
+  description:
+    "A minimalist editorial book spread built around the chapter A Common Thread, combining spacious typography, refined text composition, and a subtle thread-inspired visual element.",
+  mainImage: "B18",
+  coverImages: [],
+},
+
+{
+  filter: "Editorials",
+  title: "Acknowledgements",
+  type: "image",
+  // color:"#ffbe4b",
+  id: "bookcover19",
+  description:
+    "A refined monochrome book spread featuring an acknowledgements section, with illustrated birds resting on horizontal lines across the center of the open pages.",
+  mainImage: "B19",
+  coverImages: [],
+},
+
 // Book Covers SHOPEX Collection
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Small Town Atlas",
   type: "image",
   id: "BookCover01",
@@ -879,7 +1050,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Salt & Stone",
   type: "image",
   id: "BookCover02",
@@ -889,7 +1060,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Salt & Stone",
   type: "image",
   id: "BookCover03",
@@ -899,7 +1070,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "After the Rain",
   type: "image",
   id: "BookCover04",
@@ -909,7 +1080,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Static Line",
   type: "image",
   id: "BookCover05",
@@ -919,7 +1090,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Good Friction",
   type: "image",
   id: "BookCover06",
@@ -929,7 +1100,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Home Between Miles",
   type: "image",
   id: "BookCover07",
@@ -939,7 +1110,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Daily Reset",
   type: "image",
   id: "BookCover08",
@@ -950,7 +1121,7 @@ description:
 },
 
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Signal / Noise",
   type: "image",
   id: "BookCover10",
@@ -960,7 +1131,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Milo and the Moon",
   type: "image",
   id: "BookCover11",
@@ -970,7 +1141,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Sunday Bread",
   type: "image",
   id: "BookCover12",
@@ -980,7 +1151,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Ember Wood",
   type: "image",
   id: "BookCover13",
@@ -990,7 +1161,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Small Moves",
   type: "image",
   id: "BookCover14",
@@ -1000,7 +1171,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Archive of Light",
   type: "image",
   id: "BookCover15",
@@ -1010,7 +1181,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Maps of Ash",
   type: "image",
   id: "BookCover16",
@@ -1020,7 +1191,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "River of Glass",
   type: "image",
   id: "BookCover17",
@@ -1030,7 +1201,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "The Silent Current",
   type: "image",
   id: "BookCover18",
@@ -1040,7 +1211,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Book Cover",
+  filter: "Editorials",
   title: "Second Serving",
   type: "image",
   id: "BookCover19",
@@ -3358,9 +3529,9 @@ description:
   mainImage: "EY20",
   coverImages: [],
 },
-// Stationary Collection
+// Stationery Collection
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Business Card Design",
   type: "image",
   id: "Ss01",
@@ -3370,7 +3541,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Letterhead Design",
   type: "image",
   id: "Ss02",
@@ -3380,7 +3551,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Envelope Design",
   type: "image",
   id: "Ss03",
@@ -3390,7 +3561,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Notepad Design",
   type: "image",
   id: "Ss04",
@@ -3400,7 +3571,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Folder Design",
   type: "image",
   id: "Ss05",
@@ -3410,7 +3581,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Invoice Template",
   type: "image",
   id: "Ss06",
@@ -3420,7 +3591,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Receipt Book",
   type: "image",
   id: "Ss07",
@@ -3430,7 +3601,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Memo Pad Design",
   type: "image",
   id: "Ss08",
@@ -3440,7 +3611,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Label Sheet Design",
   type: "image",
   id: "Ss09",
@@ -3450,7 +3621,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Bookmark Design",
   type: "image",
   id: "Ss10",
@@ -3460,7 +3631,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Sticker Sheet",
   type: "image",
   id: "Ss11",
@@ -3470,7 +3641,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Calendar Design",
   type: "image",
   id: "Ss12",
@@ -3480,7 +3651,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Coupon Design",
   type: "image",
   id: "Ss13",
@@ -3490,7 +3661,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Certificate Design",
   type: "image",
   id: "Ss14",
@@ -3500,7 +3671,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Postcard Design",
   type: "image",
   id: "Ss15",
@@ -3510,7 +3681,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Paper Bag Design",
   type: "image",
   id: "Ss16",
@@ -3520,7 +3691,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Box Label Design",
   type: "image",
   id: "Ss17",
@@ -3530,7 +3701,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Gift Tag Design",
   type: "image",
   id: "Ss18",
@@ -3540,7 +3711,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Event Ticket Design",
   type: "image",
   id: "Ss19",
@@ -3550,7 +3721,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Greeting Card",
   type: "image",
   id: "Ss20",
@@ -3560,7 +3731,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Bookmark Set",
   type: "image",
   id: "Ss21",
@@ -3570,17 +3741,17 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Branding Package",
   type: "image",
   id: "Ss22",
   description:
-    "Complete stationary suite featuring coordinated designs across multiple formats.",
+    "Complete stationery suite featuring coordinated designs across multiple formats.",
   mainImage: "Ss22",
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Name Badge Design",
   type: "image",
   id: "Ss23",
@@ -3590,17 +3761,17 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Kraft Paper Design",
   type: "image",
   id: "Ss24",
   description:
-    "Eco-friendly kraft paper stationary with natural aesthetics and brand overlay.",
+    "Eco-friendly kraft paper stationery with natural aesthetics and brand overlay.",
   mainImage: "Ss24",
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Wax Seal Template",
   type: "image",
   id: "Ss25",
@@ -3610,7 +3781,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Thank You Card",
   type: "image",
   id: "Ss26",
@@ -3620,7 +3791,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Door Hanger Design",
   type: "image",
   id: "Ss27",
@@ -3630,7 +3801,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Loyalty Card Design",
   type: "image",
   id: "Ss28",
@@ -3640,7 +3811,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Business Form",
   type: "image",
   id: "Ss29",
@@ -3650,7 +3821,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Menu Card Design",
   type: "image",
   id: "Ss30",
@@ -3660,7 +3831,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Table Tent Card",
   type: "image",
   id: "Ss31",
@@ -3670,7 +3841,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Hanging Tag Design",
   type: "image",
   id: "Ss32",
@@ -3680,7 +3851,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Sign & Display",
   type: "image",
   id: "Ss33",
@@ -3690,7 +3861,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Notecard Set",
   type: "image",
   id: "Ss34",
@@ -3700,7 +3871,7 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
+  filter: "Stationery",
   title: "Business Checklist",
   type: "image",
   id: "Ss35",
@@ -3710,15 +3881,143 @@ description:
   coverImages: [],
 },
 {
-  filter: "Stationary",
-  title: "Premium Stationary Suite",
+  filter: "Stationery",
+  title: "Premium Stationery Suite",
   type: "image",
   id: "Ss36",
   description:
-    "Comprehensive stationary collection showcasing complete brand identity across all formats.",
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
   mainImage: "Ss36",
   coverImages: [],
 },
+
+
+
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss37",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss37",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss38",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss38",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss39",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss39",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss40",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss40",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss41",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss41",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss42",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss42",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss43",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss43",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss44",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss44",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss45",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss45",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss46",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss46",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss47",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss47",
+  coverImages: [],
+},
+{
+  filter: "Stationery",
+  title: "Premium stationery Suite",
+  type: "image",
+  id: "Ss48",
+  description:
+    "Comprehensive stationery collection showcasing complete brand identity across all formats.",
+  mainImage: "Ss48",
+  coverImages: [],
+},
+
+
+
+
+
 // shopex extended portfolio for 
  {
     filter: "2D Animations",
@@ -4036,6 +4335,303 @@ description:
     tags: ["Animations","ANIMATION","VIDEO"],
     client: "Independent",
   },
+
+// Warsal Extended 
+// 2D Animations
+
+{
+  title: "Finding the Right Friend for Your Rabbit",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv1",
+  mainImage: "w2dv1t",
+  video: "w2dv1",
+  coverImages: [],
+  description: "An animated rabbit named Nibbles explains why social companionship is key for small pets. The video uses funny comparisons to show which animals make the best companions and which definitely don't."
+},
+{
+  title: "A Simple Guide to Feeding Your Rabbits",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv2",
+  mainImage: "w2dv2t",
+  video: "w2dv2",
+  coverImages: [],
+  description: "Two animated rabbits explore their backyard home while showing the basics of a healthy diet. The video highlights the importance of fresh hay and pellets for happy, active pets."
+},
+{
+  title: "Building the Perfect Rabbit Habitat",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv3",
+  mainImage: "w2dv3t",
+  video: "w2dv3",
+  coverImages: [],
+  description: "Two animated rabbits show how to set up a comfortable home with the right hutch, tunnels, and fresh herbs. It's a simple guide to keeping your small pets happy and active."
+},
+{
+  title: "Express Yourself with Sound Memes",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv4",
+  mainImage: "w2dv4t",
+  video: "w2dv4",
+  coverImages: [],
+  description: "This colorful ad shows how to use the Voicy app to send audio clips and memes in your favorite chats. It highlights a fun way to bring more personality to your daily messages."
+},
+{
+  title: "Automate Your Call Center with AI",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv5",
+  mainImage: "w2dv5t",
+  video: "w2dv5",
+  coverImages: [],
+  description: "This animation introduces AI RUDDER, a platform that uses voice assistants to handle high-volume repetitive calls. It shows how technology can help teams manage customer operations more efficiently."
+},
+{
+  title: "Understanding Quantum Algorithms and Circuits",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv6",
+  mainImage: "w2dv6t",
+  video: "w2dv6",
+  coverImages: [],
+  description: "Dr. Michael Hush breaks down the fundamentals of quantum computing using clear visual diagrams. The video compares electronic and quantum circuits to show how qubits process information."
+},
+{
+  title: "Smarter Team Communication with Harmony",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv7",
+  mainImage: "w2dv7t",
+  video: "w2dv7",
+  coverImages: [],
+  description: "This video demonstrates how the Harmony tool helps rewrite emails and messages for better emotional intelligence. Snappy animations show the interface in action, focusing on making digital teamwork more effective and personalized."
+},
+{
+  title: "Simplify Your HR with Bambee",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv8",
+  mainImage: "w2dv8t",
+  video: "w2dv8",
+  coverImages: [],
+  description: "This video shows how small business owners can streamline their HR tasks like onboarding and scheduling. It highlights a professional interface designed to manage complex management processes easily."
+},
+{
+  title: "Visual Guide to Corporate Performance Management",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv9",
+  mainImage: "w2dv9t",
+  video: "w2dv9",
+  coverImages: [],
+  description: "This whiteboard animation explains business management and SMART goals through simple hand-drawn illustrations. It breaks down professional concepts into easy-to-understand visuals for teams and leaders."
+},
+{
+  title: "Solving Industrial Measurement Challenges",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv10",
+  mainImage: "w2dv10t",
+  video: "w2dv10",
+  coverImages: [],
+  description: "This animation breaks down the complexities of gas measurement and data analysis using minimalist line art. It highlights how technicians and analysts manage field data and system alerts."
+},
+{
+  title: "Make Podcasting Easy with Anchor",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv11",
+  mainImage: "w2dv11t",
+  video: "w2dv11",
+  coverImages: [],
+  description: "This modern animation follows a team overcoming technical hurdles to start their own podcast. It shows how the platform simplifies the recording and publishing process for creators."
+},
+{
+  title: "Meet Ava: Your AI Sales Rep",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv12",
+  mainImage: "w2dv12t",
+  video: "w2dv12",
+  coverImages: [],
+  description: "This presentation showcases an AI assistant designed to handle lead generation and personalized outreach. It walks through the interface and features that help automate the sales process."
+},
+{
+  title: "Introduction to Avalaunch Fundraising",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv13",
+  mainImage: "w2dv13t",
+  video: "w2dv13",
+  coverImages: [],
+  description: "This motion graphics video explains how a decentralized fundraising protocol supports new projects. It walks through the platform's community values and shows the simple steps for registration and wallet setup."
+},
+{
+  title: "Smart Estimation for Modern Engineering",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv14",
+  mainImage: "w2dv14t",
+  video: "w2dv14",
+  coverImages: [],
+  description: "This animation shows how data-driven tools help manage complex infrastructure projects like wind farms and construction sites. It tracks everything from project costs to environmental impact through a streamlined interface."
+},
+{
+  title: "Streamlining Workflows with AI Assistance",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv15",
+  mainImage: "w2dv15t",
+  video: "w2dv15",
+  coverImages: [],
+  description: "This video visualizes how an AI assistant handles multiple tasks like scheduling and document management in real-time. It shows a modern way to manage complex product workflows with speed and efficiency."
+},
+{
+  title: "Understanding AI Processing Speeds",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv16",
+  mainImage: "w2dv16t",
+  video: "w2dv16",
+  coverImages: [],
+  description: "This whiteboard-style animation explains complex digital workflows using simple metaphors like snails and rabbits. It follows a professional workspace as it transitions into global data flowcharts."
+},
+{
+  title: "Retaining Anonymous Shoppers with Pushowl",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv17",
+  mainImage: "w2dv17t",
+  video: "w2dv17",
+  coverImages: [],
+  description: "A look at how personalized web push notifications help e-commerce stores engage anonymous visitors. The interface demonstrates cross-device connectivity and automated messaging for online retailers."
+},
+{
+  title: "Handling Difficult Rental Situations",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv18",
+  mainImage: "w2dv18t",
+  video: "w2dv18",
+  coverImages: [],
+  description: "This animation tells the story of a landlord dealing with unauthorized pets and lease violations. It shows how getting professional legal advice through an app can help resolve complex tenant issues."
+},
+{
+  title: "Navigating the Future of Cloud Operations",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv19",
+  mainImage: "w2dv19t",
+  video: "w2dv19",
+  coverImages: [],
+  description: "This colorful animation shows characters in a futuristic world managing data and flying through the clouds. It visualizes how modern technology makes complex operations feel efficient and seamless."
+},
+{
+  title: "Balancing Creativity and Business Finances",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv20",
+  mainImage: "w2dv20t",
+  video: "w2dv20",
+  coverImages: [],
+  description: "This video shows a creative entrepreneur managing her DIY projects while staying on top of her accounting. It highlights how intuitive software can help track expenses and budgets even during a busy workday."
+},
+{
+  title: "A Faster Way to Handle Flood Insurance",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv21",
+  mainImage: "w2dv21t",
+  video: "w2dv21",
+  coverImages: [],
+  description: "This animation uses simple line art to show the difference between traditional claims and rapid insurance payouts. It illustrates how commercial buildings can recover quickly after a flood event."
+},
+{
+  title: "Finding Your Path to Weight Loss",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv22",
+  mainImage: "w2dv22t",
+  video: "w2dv22",
+  coverImages: [],
+  description: "This vibrant animation follows a woman navigating the confusion of different diet plans before discovering a more personalized approach. It showcases an app designed to simplify health goals and track success."
+},
+{
+  title: "Reclaiming Control of Your Agency Life",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv23",
+  mainImage: "w2dv23t",
+  video: "w2dv23",
+  coverImages: [],
+  description: "A professional shares her journey from workplace chaos to organized productivity. The video highlights how using a streamlined platform helps manage a busy agency schedule with ease."
+},
+{
+  title: "Your Guide to Finding a Global Homestay",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv24",
+  mainImage: "w2dv24t",
+  video: "w2dv24",
+  coverImages: [],
+  description: "This animation walks through the process of booking a study abroad living arrangement. It follows a student from her initial research to meeting her host family in a new country."
+},
+{
+  title: "Transforming Retail with Hulexo Software",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv25",
+  mainImage: "w2dv25t",
+  video: "w2dv25",
+  coverImages: [],
+  description: "Ahmed shares how moving from manual processes to digital management has changed his business operations. The video highlights user-friendly dashboards and app integrations that help streamline retail tasks."
+},
+{
+  title: "Optimizing Your Paint Business with Data",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv26",
+  mainImage: "w2dv26t",
+  video: "w2dv26",
+  coverImages: [],
+  description: "This animation shows how a cloud-based platform connects managers and engineers to streamline operations. It follows a family's journey to buy paint while highlighting the digital tools that make the process more efficient."
+},
+{
+  title: "Celebrate Team Wins on Zoom",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv27",
+  mainImage: "w2dv27t",
+  video: "w2dv27",
+  coverImages: [],
+  description: "This video shows how teams can stay connected and recognize each other's hard work during video calls. It features a fun way to share virtual rewards and keep office morale high."
+},
+{
+  title: "Smart Investing with OpenInvest",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv28",
+  mainImage: "w2dv28t",
+  video: "w2dv28",
+  coverImages: [],
+  description: "This motion graphic walkthrough explores how to customize portfolios and manage ESG investments. It showcases a modern interface designed for clear financial reporting and personalized strategy."
+},
+{
+  title: "Smart Modular Cooling for Every Business",
+  filter: "2D Animations",
+  type: "video",
+  id: "w2dv29",
+  mainImage: "w2dv29t",
+  video: "w2dv29",
+  coverImages: [],
+  description: "This animation shows how scalable cooling containers help industries manage refrigerated stock with ease. It uses clear diagrams to illustrate the efficiency of modular storage for different business sizes."
+},
+
+
+  // Mobile App
   {
     filter: "Mobile App",
     id: "mad01",
@@ -4146,5 +4742,803 @@ description:
     tags: ["MOBILE APP", "UI/UX"],
     client: "Independent",
   },
+
+  //  banners : POSTERS
+{
+  filter: "Banners",
+  title: "Nobody Cares Until You Win",
+  type: "image",
+  id: "POSTER1",
+  description:
+    "Bold red motivational poster featuring a stylized portrait of a suited man beneath oversized black typography.",
+  mainImage: "PR01",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Flower Head Character",
+  type: "image",
+  id: "POSTER2",
+  description:
+    "Colorful character illustration of a person with a daisy for a head, wearing a green hoodie, shorts, and sneakers.",
+  mainImage: "PR02",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Money Collage Poster",
+  type: "image",
+  id: "POSTER3",
+  description:
+    "Black and white collage of dollar bills and torn paper with an illustrated man outlined in yellow.",
+  mainImage: "PR03",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Martial Arts Panda Poster",
+  type: "image",
+  id: "POSTER4",
+  description:
+    "Illustrated panda in a red martial arts outfit posed against a bright red background and orange circular backdrop.",
+  mainImage: "PR04",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Scarface Character Poster",
+  type: "image",
+  id: "POSTER5",
+  description:
+    "High contrast black and red poster with bold SCARFACE lettering and an illustrated shouting figure.",
+  mainImage: "PR05",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Green Superhero Portrait",
+  type: "image",
+  id: "POSTER6",
+  description:
+    "Comic style close-up of a roaring green superhero against a vivid lime background.",
+  mainImage: "PR06",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Marlboro Editorial Poster",
+  type: "image",
+  id: "POSTER7",
+  description:
+    "Illustrated seated man in a dark suit placed over oversized Marlboro typography and a white geometric background.",
+  mainImage: "PR07",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Porsche GT3 RS Poster",
+  type: "image",
+  id: "POSTER8",
+  description:
+    "Minimal lime green automotive poster featuring a side view of a green Porsche sports car and vertical white lettering.",
+  mainImage: "PR08",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Porsche 911 GT3 R Rennsport Poster",
+  type: "image",
+  id: "POSTER9",
+  description:
+    "Dramatic racing car poster with a red, white, and blue Porsche set against large red typography on a dark background.",
+  mainImage: "PR09",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Cristiano Ronaldo 1000 Poster",
+  type: "image",
+  id: "POSTER10",
+  description:
+    "Football tribute poster showing Ronaldo from behind in a red number seven jersey before a stadium crowd and large 1000 lettering.",
+  mainImage: "PR10",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Mike Tyson Boxing Poster",
+  type: "image",
+  id: "POSTER11",
+  description:
+    "Illustrated boxing portrait of Mike Tyson raising both red gloves against a clean white background.",
+  mainImage: "PR11",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Streetwear Bear Poster",
+  type: "image",
+  id: "POSTER12",
+  description:
+    "Playful poster of a bear in a red hoodie and sunglasses standing in front of bold black motivational typography.",
+  mainImage: "PR12",
+  coverImages: [],
+},
+
+{
+  filter: "Banners",
+  title: "BJORN Sofa Website Banner",
+  type: "image",
+  id: "BA01",
+  description:
+    "Pastel pink furniture hero banner featuring the BJORN sofa, product details, and a clean room setting.",
+  mainImage: "BA01",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "GCC Cloud Guide Banner",
+  type: "image",
+  id: "BA02",
+  description:
+    "Blue GCC banner promoting a cloud productivity guide with a laptop image and download call to action.",
+  mainImage: "BA02",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "B2 Tab Brain Boost Banner",
+  type: "image",
+  id: "BA03",
+  description:
+    "Split pink and blue product banner centered on a sliced blood orange and brain boost messaging.",
+  mainImage: "BA03",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Brox School Billboard Design",
+  type: "image",
+  id: "BA04",
+  description:
+    "Bright school campaign billboard with student portraits, bold typography, and registration details.",
+  mainImage: "BA04",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Christmas Food Menu Banner",
+  type: "image",
+  id: "BA05",
+  description:
+    "Festive burger promotion with warm brown tones, a weekend menu message, and an order button.",
+  mainImage: "BA05",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Food Shop Discount Banner",
+  type: "image",
+  id: "BA06",
+  description:
+    "Red and yellow food promotion showcasing pizza and other dishes in diamond shaped image frames.",
+  mainImage: "BA06",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "BuildPro Digital Ad Set",
+  type: "image",
+  id: "BA07",
+  description:
+    "Coordinated business service banners in multiple web ad sizes with photography and sign up calls to action.",
+  mainImage: "BA07",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Travel the World Banner",
+  type: "image",
+  id: "BA08",
+  description:
+    "Teal travel banner combining mountain and adventure photos with a prominent booking call to action.",
+  mainImage: "BA08",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Furniture Sale Banner Set",
+  type: "image",
+  id: "BA09",
+  description:
+    "Pair of beige furniture sale banners featuring room photography and a 50 percent discount.",
+  mainImage: "BA09",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Organic Milk Website Banner",
+  type: "image",
+  id: "BA10",
+  description:
+    "Peach and red product hero featuring an Alexandre organic milk bottle, nutrition details, and a buy button.",
+  mainImage: "BA10",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Jordan Super.Fly Campaign Banners",
+  type: "image",
+  id: "BA11",
+  description:
+    "Sports campaign banner set pairing basketball action with the Jordan Super.Fly shoe and blue motion graphics.",
+  mainImage: "BA11",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Healthy Because Food Banners",
+  type: "image",
+  id: "BA12",
+  description:
+    "Colorful product banners displaying flour packages, baked foods, and healthy ingredient messaging.",
+  mainImage: "BA12",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Fruit Store Promotion Banners",
+  type: "image",
+  id: "BA13",
+  description:
+    "Two pastel fruit store banners with fruit illustrations, discount messaging, and order buttons.",
+  mainImage: "BA13",
+  coverImages: [],
+},
+{
+  filter: "Banners",
+  title: "Agile Luna Cat Tree Banner",
+  type: "image",
+  id: "BA14",
+  description:
+    "Neutral toned pet product banner featuring a gray cat, paw graphics, and the Luna plywood cat tree.",
+  mainImage: "BA14",
+  coverImages: [],
+},
+
+{
+  filter: "Menu",
+  title: "Salad Menu",
+  type: "image",
+  id: "MENU1",
+  description:
+    "Black restaurant menu featuring seven plated salads, ingredient notes, and yellow prices arranged around the food photography.",
+  mainImage: "M01",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "The Fresh Bakery Menu",
+  type: "image",
+  id: "MENU2",
+  description:
+    "Bakery menu and promotional flyer in cream and charcoal, with bread photography, pastry listings, and a featured offer.",
+  mainImage: "M02",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Karin's Diner Menu",
+  type: "image",
+  id: "MENU3",
+  description:
+    "Dark wood food menu with photographs of soup, spring rolls, rice, and ramen alongside orange headings and prices.",
+  mainImage: "M03",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Harvest Noodles Menu",
+  type: "image",
+  id: "MENU4",
+  description:
+    "Tri-fold noodle restaurant menu with charcoal panels, food photography, customer reviews, and ordering details.",
+  mainImage: "M04",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Culinary Delights Menu",
+  type: "image",
+  id: "MENU5",
+  description:
+    "Two-page restaurant menu with food photography, cream paper styling, and sections for steaks, pasta, burgers, and desserts.",
+  mainImage: "M05",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Japanese Ramen Menu",
+  type: "image",
+  id: "MENU6",
+  description:
+    "Illustrated ramen menu with hand-drawn noodle bowls, a warm beige background, and a red accent circle.",
+  mainImage: "M06",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "The Courtyard Menu",
+  type: "image",
+  id: "MENU7",
+  description:
+    "Olive and cream café menu with green illustrations and sections for drinks, breakfast, porridge, and toasties.",
+  mainImage: "M07",
+  coverImages: [],
+},
+{
+  filter: "Menu",
+  title: "Carpaccio Italian Menu",
+  type: "image",
+  id: "MENU8",
+  description:
+    "Italian restaurant menu with food photography, architectural collage elements, and sections for pasta, pizza, and main courses.",
+  mainImage: "M08",
+  coverImages: [],
+},
+
+
+// Merchandise
+{
+  filter: "Merchandise",
+  title: "Deep Waters Sweatshirt",
+  type: "image",
+  id: "MA01",
+  description:
+    "Cream sweatshirt mockup with a whale illustration and an Isaiah 43:2 message printed across the back.",
+  mainImage: "MA01",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "WH Merchandise Collection",
+  type: "image",
+  id: "MA02",
+  description:
+    "Red branded merchandise set featuring a hoodie, backpack, cap, umbrella, notebook, drinkware, and small accessories.",
+  mainImage: "MA02",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Rocky's Rolls T-Shirt",
+  type: "image",
+  id: "MA03",
+  description:
+    "Brown graphic tee with vintage lettering and an illustrated cinnamon roll delivery truck.",
+  mainImage: "MA03",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Fishing Graphic T-Shirt",
+  type: "image",
+  id: "MA04",
+  description:
+    "Black fishing tee with a leaping bass illustration and bold teal and gold lettering.",
+  mainImage: "MA04",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Sagebrush Outdoor T-Shirt",
+  type: "image",
+  id: "MA05",
+  description:
+    "White outdoor graphic tee with mountain scenery, a small camp illustration, and a circular Sagebrush design.",
+  mainImage: "MA05",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Sun Coast Aviation T-Shirt",
+  type: "image",
+  id: "MA06",
+  description:
+    "White aviation tee featuring a black line illustration of a plane flying over a coastal landscape.",
+  mainImage: "MA06",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Bulltrans Boys T-Shirt",
+  type: "image",
+  id: "MA07",
+  description:
+    "Dark graphic tee with western typography, crossed rifles, and a red and blue emblem.",
+  mainImage: "MA07",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Get Up Stand Up Gorilla T-Shirt",
+  type: "image",
+  id: "MA08",
+  description:
+    "Black tee with a neon green gorilla illustration and oversized Get Up Stand Up lettering.",
+  mainImage: "MA08",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Norvyn Collective Merchandise",
+  type: "image",
+  id: "MA09",
+  description:
+    "Purple and black branded set with a backpack, hoodie, cap, bottle, notebook, and accessories.",
+  mainImage: "MA09",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Only the Blind Embroidered Hoodie",
+  type: "image",
+  id: "MA10",
+  description:
+    "Beige hoodie with bird embroidery and Only the Blind lettering across the back of the hood.",
+  mainImage: "MA10",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Neutral Gift Merchandise Set",
+  type: "image",
+  id: "MA11",
+  description:
+    "Cream cap, insulated mug, water bottle, and pen presented together as a coordinated gift set.",
+  mainImage: "MA11",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Monochrome Statue Hoodie",
+  type: "image",
+  id: "MA12",
+  description:
+    "Black hoodie with a split grayscale statue graphic and bold vertical lettering on the chest.",
+  mainImage: "MA12",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "It Is Well Floral T-Shirt",
+  type: "image",
+  id: "MA13",
+  description:
+    "Washed black tee with cream floral artwork and It Is Well With My Soul lettering on the back.",
+  mainImage: "MA13",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Flowix Merchandise Collection",
+  type: "image",
+  id: "MA14",
+  description:
+    "Navy and white branded collection with a cap, tumbler, mug, T-shirt, lanyard, and small accessories.",
+  mainImage: "MA14",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Green Serpent Motorcycle Helmet",
+  type: "image",
+  id: "MA15",
+  description:
+    "Black motorcycle helmet design featuring a vivid green snake graphic across multiple views.",
+  mainImage: "MA15",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Pear Programming T-Shirt",
+  type: "image",
+  id: "MA16",
+  description:
+    "Light yellow tee with a playful illustrated pear and Pear Programming lettering.",
+  mainImage: "MA16",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Rocket School T-Shirt",
+  type: "image",
+  id: "MA17",
+  description:
+    "Dark T-shirt mockup with a blue astronaut drawing and Rocket School branding.",
+  mainImage: "MA17",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Wartribe Sportswear Kit",
+  type: "image",
+  id: "MA18",
+  description:
+    "Black long sleeve athletic top and shorts with subtle geometric patterns and Wartribe branding.",
+  mainImage: "MA18",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Hard Hat Skull Hoodie",
+  type: "image",
+  id: "MA19",
+  description:
+    "Black hoodie featuring a skull in a yellow hard hat with lightning bolt details.",
+  mainImage: "MA19",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Mountain Adventure T-Shirt",
+  type: "image",
+  id: "MA20",
+  description:
+    "White tee with a mountain and cabin illustration in black and gold tones.",
+  mainImage: "MA20",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Red Racing Suit",
+  type: "image",
+  id: "MA21",
+  description:
+    "Red motorsport suit and matching helmet with white and black angular graphics.",
+  mainImage: "MA21",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Moon and Hands T-Shirt",
+  type: "image",
+  id: "MA22",
+  description:
+    "Navy tee with a minimal white drawing of raised hands beneath a large moon.",
+  mainImage: "MA22",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Worn Out West Trucker Cap",
+  type: "image",
+  id: "MA23",
+  description:
+    "Red, white, and blue trucker cap with western lettering and a horse graphic.",
+  mainImage: "MA23",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Native Southern Deer T-Shirts",
+  type: "image",
+  id: "MA24",
+  description:
+    "White and black T-shirt mockups featuring a gold deer emblem and Native Southern lettering.",
+  mainImage: "MA24",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Pacific Northwest Trucker Cap",
+  type: "image",
+  id: "MA25",
+  description:
+    "Dark green cap with a yellow line illustration of mountains, trees, and a tent.",
+  mainImage: "MA25",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Biscuit Basket Merchandise",
+  type: "image",
+  id: "MA26",
+  description:
+    "Cream and orange branded collection with a cap, bottles, mugs, tumblers, packaging, and printed accessories.",
+  mainImage: "MA26",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Neighborhood Coffee Merchandise",
+  type: "image",
+  id: "MA27",
+  description:
+    "Orange coffee shop merchandise presentation with a tote bag, cup, mug, socks, stickers, and printed cards.",
+  mainImage: "MA27",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "ODM Group Merchandise",
+  type: "image",
+  id: "MA28",
+  description:
+    "Lime, black, and white corporate merchandise set with apparel, drinkware, stationery, and accessories.",
+  mainImage: "MA28",
+  coverImages: [],
+},
+{
+  filter: "Merchandise",
+  title: "Sponsored Team Jersey",
+  type: "image",
+  id: "MA29",
+  description:
+    "Navy performance jersey with red graphic strokes, a circular crest, and sponsor lettering.",
+  mainImage: "MA29",
+  coverImages: [],
+},
+
+{
+  filter: "Pitch Deck",
+  title: "Thinkable AI Pitch Deck",
+  type: "image",
+  id: "PTD01",
+  description:
+    "Startup presentation slides covering GenAI app development, the Thinkable AI product, market size, and team.",
+  mainImage: "PTD01",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Incuda Commerce BI Pitch Deck",
+  type: "image",
+  id: "PTD02",
+  description:
+    "Business intelligence presentation with slides on decision support, pricing, onboarding, and product features.",
+  mainImage: "PTD02",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Teal Business Pitch Deck",
+  type: "image",
+  id: "PTD03",
+  description:
+    "Teal and black presentation template with slides for company information, portfolio work, team, pricing, and services.",
+  mainImage: "PTD03",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Dark Technology Pitch Deck",
+  type: "image",
+  id: "PTD04",
+  description:
+    "Dark navy presentation with cyan charts, circular metrics, diagrams, and technology themed imagery.",
+  mainImage: "PTD04",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "OXO Technology Pitch Deck",
+  type: "image",
+  id: "PTD05",
+  description:
+    "Blue and white technology presentation featuring dashboards, machine learning diagrams, market figures, and digital systems.",
+  mainImage: "PTD05",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "IQ Business Presentation",
+  type: "image",
+  id: "PTD06",
+  description:
+    "Minimal white business slide deck with large typography, editorial photographs, and orange accent panels.",
+  mainImage: "PTD06",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Green Nature Pitch Deck",
+  type: "image",
+  id: "PTD07",
+  description:
+    "Green presentation template combining landscape photography with slides for company story, business model, team, and growth.",
+  mainImage: "PTD07",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Super Car Pitch Deck",
+  type: "image",
+  id: "PTD08",
+  description:
+    "Black automotive presentation with neon yellow accents, supercar photography, charts, and team slides.",
+  mainImage: "PTD08",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Creative Studio Pitch Deck",
+  type: "image",
+  id: "PTD09",
+  description:
+    "Navy and orange studio presentation with geometric shapes, city imagery, service diagrams, and business charts.",
+  mainImage: "PTD09",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "FantasyLabs Sports Pitch Deck",
+  type: "image",
+  id: "PTD10",
+  description:
+    "Blue sports presentation with athlete photography, market information, team profiles, and event coverage slides.",
+  mainImage: "PTD10",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Nutrient Nutrition Pitch Deck",
+  type: "image",
+  id: "PTD11",
+  description:
+    "Black and lime green nutrition presentation with food photography, health metrics, and infographic slides.",
+  mainImage: "PTD11",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "VR Reality Pitch Deck",
+  type: "image",
+  id: "PTD12",
+  description:
+    "Dark virtual reality presentation with neon pink and purple visuals, product features, team slides, and pricing plans.",
+  mainImage: "PTD12",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Metaverse Fund Pitch Deck",
+  type: "image",
+  id: "PTD13",
+  description:
+    "Black investment presentation with luminous wave graphics and slides on market opportunity, competitive advantages, and process.",
+  mainImage: "PTD13",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Natuna Business Presentation",
+  type: "image",
+  id: "PTD14",
+  description:
+    "Black and purple business slide deck with architecture photography, company story, services, and objectives.",
+  mainImage: "PTD14",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Teton Management Presentation",
+  type: "image",
+  id: "PTD15",
+  description:
+    "Blue and white corporate presentation with building imagery, service slides, team profiles, maps, and infographics.",
+  mainImage: "PTD15",
+  coverImages: [],
+},
+{
+  filter: "Pitch Deck",
+  title: "Gradient Project Proposal Deck",
+  type: "image",
+  id: "PTD16",
+  description:
+    "Pastel gradient proposal template with slides for the team, concept, stages, timeline, progress, and outcomes.",
+  mainImage: "PTD16",
+  coverImages: [],
+},
 
 ];

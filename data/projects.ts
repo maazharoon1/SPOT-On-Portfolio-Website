@@ -1,14 +1,18 @@
 export type ProjectCategory =
   | "Logo Design"
-  | "Book Cover"
+  | "Editorials"
   | "Social Media Post"
   | "Packaging"
-  | "Stationary"
+  | "Stationery"
+  | "Banners"
+  | "Menu"
   | "Flyers & Brochures"
   | "Brand Guide & Identity"
   | "3D Animations"
   | "2D Animations"
   |  "UI/UX Design"
+  | "Merchandise"
+  | "Pitch Deck"
   | "Mobile App"
   | "Emotes"
   | "Overlay"
@@ -27,15 +31,19 @@ export interface Project {
 
 export const projectCategories: ProjectCategory[] = [
   "Logo Design",
-  "Book Cover",
+  "Editorials",
   "Social Media Post",
   "Packaging",
-  "Stationary",
+  "Stationery",
+   "Banners",
+  "Menu",
   "Flyers & Brochures",
   "Brand Guide & Identity",
   "3D Animations",
   "2D Animations",
   "UI/UX Design",
+  "Merchandise",
+  "Pitch Deck",
   "Mobile App",
   "Emotes",
   "Overlay"
