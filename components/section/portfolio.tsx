@@ -30,21 +30,51 @@ const tabs = [
   // "Illustration",
 ];
 
+function getScrollEdges(container: HTMLDivElement) {
+  return {
+    left: container.scrollLeft > 1,
+    right: container.scrollLeft + container.clientWidth < container.scrollWidth - 1,
+  };
+}
+
 function Portfolio() {
   const [activeTab, setActiveTab] = useState(tabs[0]);
+  const [scrollEdges, setScrollEdges] = useState({ left: false, right: false });
   const tabRefs = useRef<Record<string, HTMLButtonElement | null>>({});
   const tabRowRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    const container = tabRowRef.current;
+    if (!container) return;
+
+    const updateEdges = () => {
+      const next = getScrollEdges(container);
+      setScrollEdges((current) =>
+        current.left === next.left && current.right === next.right ? current : next,
+      );
+    };
+
+    const observer = new ResizeObserver(updateEdges);
+    observer.observe(container);
+    if (container.firstElementChild) observer.observe(container.firstElementChild);
+    const frame = requestAnimationFrame(updateEdges);
+
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (window.matchMedia("(min-width: 640px)").matches) return;
+
     const activeButton = tabRefs.current[activeTab];
     const container = tabRowRef.current;
 
     if (!activeButton || !container) return;
 
-    const buttonLeft = activeButton.offsetLeft;
-    const buttonWidth = activeButton.offsetWidth;
-    const containerWidth = container.clientWidth;
-    const desiredLeft = buttonLeft - containerWidth / 2 + buttonWidth / 2;
+    const desiredLeft =
+      activeButton.offsetLeft - container.clientWidth / 2 + activeButton.offsetWidth / 2;
 
     container.scrollTo({
       left: Math.max(0, desiredLeft),
@@ -132,7 +162,7 @@ function Portfolio() {
 
         {/* Tabs */}
   <motion.div
-  className="relative mt-6 w-full overflow-hidden"
+  className="relative mt-6 w-full overflow-hidden sm:overflow-visible"
   initial={{ opacity: 0, y: 10 }}
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true, amount: 0.2 }}
@@ -143,6 +173,12 @@ function Portfolio() {
     ref={tabRowRef}
     role="tablist"
     aria-label="Portfolio categories"
+    onScroll={(event) => {
+      const next = getScrollEdges(event.currentTarget);
+      setScrollEdges((current) =>
+        current.left === next.left && current.right === next.right ? current : next,
+      );
+    }}
     className="
       flex
       w-full
@@ -154,9 +190,11 @@ function Portfolio() {
       [&::-webkit-scrollbar]:hidden
       snap-x
       snap-mandatory
+      sm:overflow-visible
+      sm:snap-none
     "
   >
-    <div className="flex min-w-max gap-2 px-1">
+    <div className="flex min-w-max gap-2 px-1 sm:w-full sm:min-w-0 sm:flex-wrap sm:justify-center">
       {tabs.map((tab ) => {
         const isActive = tab === activeTab;
 
@@ -248,43 +286,21 @@ function Portfolio() {
   <div className="mt-2 flex justify-center sm:hidden">
     <div className="relative h-[2px] w-20 overflow-hidden rounded-full bg-white/10">
       <motion.div
-        className="
-          absolute
-          left-0
-          top-0
-          h-full
-          w-8
-          rounded-full
-          bg-[#681e99]/70
-        "
-        animate={{
-          x: [0, 48, 0],
-        }}
-        transition={{
-          duration: 2.2,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
+        className="absolute left-0 top-0 h-full w-8 rounded-full bg-[#681e99]/70"
+        animate={{ x: [0, 48, 0] }}
+        transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut" }}
       />
     </div>
   </div>
 
-  {/* Right fade — indicates more tabs */}
+  {/* Edge fades indicate which direction has more tabs */}
+  
   <div
-    className="
-      pointer-events-none
-      absolute
-      right-0
-      top-0
-      h-[calc(100%-18px)]
-      w-10
-      bg-gradient-to-l
-      from-[#0a0a0f]
-      to-transparent
-      sm:hidden
-    "
+    aria-hidden="true"
+    className={`pointer-events-none absolute right-0 top-0 z-10 h-[calc(100%-18px)] w-12 bg-linear-to-l from-[#0a0a0f] via-purple-800/50 to-transparent transition-opacity duration-200 sm:hidden ${scrollEdges.right ? "opacity-100" : "opacity-0"}`}
   />
 </motion.div>
+
 
         {/* Portfolio Cards */}
         <motion.div
