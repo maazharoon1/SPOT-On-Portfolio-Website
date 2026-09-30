@@ -187,7 +187,7 @@ const Hero = () => {
   };
 
   return (
-    <div ref={heroRef} className="relative md:max-h-screen  ">
+    <div ref={heroRef} className="relative md:max-h-screen overflow-hidden ">
       <Header />
 
       <main className="relative z-10 ">
@@ -247,14 +247,14 @@ const Hero = () => {
               bottom-0
               -top-20
               z-0
-              h-[150%]
+              h-full
               w-full
               opacity-40
               md:right-0
               md:left-auto
-              mt-2
+              
               md:w-full
-              mr-1     
+                            
               md:opacity-50
               lg:opacity-60
               
