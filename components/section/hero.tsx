@@ -5,21 +5,26 @@ import { motion, cubicBezier } from "motion/react";
 import Header from "../ui/header";
 
 const Hero = () => {
+  const trackRef = useRef<HTMLDivElement>(null);
   const heroRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
+    const track = trackRef.current;
     const hero = heroRef.current;
     const canvas = canvasRef.current;
     const context = canvas?.getContext("2d");
-    if (!hero || !canvas || !context) return;
+    if (!track || !hero || !canvas || !context) return;
 
     const frameCount = 240;
     const frames: (HTMLImageElement | undefined)[] = new Array(frameCount);
     const pending = new Set<HTMLImageElement>();
     const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const pinEnabled = window.matchMedia("(min-width: 768px) and (prefers-reduced-motion: no-preference)");
+    // Fetch the release frame early as well as the start of the sequence.
+    const preloadOrder = [frameCount - 1, ...Array.from({ length: frameCount - 2 }, (_, index) => index + 1)];
     let disposed = false;
-    let nextFrame = 1;
+    let nextFrame = 0;
     let activeLoads = 0;
     let currentFrame = 0;
     let targetFrame = 0;
@@ -28,6 +33,33 @@ const Hero = () => {
     let previousTime = 0;
     let measureProgress = true;
     let resizeNeeded = true;
+    const overflowOverrides: { element: HTMLElement; value: string; priority: string }[] = [];
+
+    const restoreOverflow = () => {
+      overflowOverrides.forEach(({ element, value, priority }) => {
+        if (value) element.style.setProperty("overflow-x", value, priority);
+        else element.style.removeProperty("overflow-x");
+      });
+      overflowOverrides.length = 0;
+    };
+
+    const configurePin = () => {
+      restoreOverflow();
+      if (!pinEnabled.matches) return;
+      // overflow-x: hidden implicitly creates a vertical scroll container,
+      // trapping sticky positioning. Clip the same edges without doing so.
+      for (let ancestor = track.parentElement; ancestor; ancestor = ancestor.parentElement) {
+        const style = getComputedStyle(ancestor);
+        if (style.overflowX === "hidden" && style.overflowY === "auto") {
+          overflowOverrides.push({
+            element: ancestor,
+            value: ancestor.style.getPropertyValue("overflow-x"),
+            priority: ancestor.style.getPropertyPriority("overflow-x"),
+          });
+          ancestor.style.setProperty("overflow-x", "clip");
+        }
+      }
+    };
 
     const draw = (frame: HTMLImageElement) => {
       const width = canvas.clientWidth;
@@ -56,16 +88,20 @@ const Hero = () => {
       animationId = 0;
       if (disposed) return;
       if (measureProgress) {
-        const bounds = hero.getBoundingClientRect();
-        const progress = Math.max(0, Math.min(1, -bounds.top / Math.max(1, bounds.height)));
-        targetFrame = reducedMotion.matches ? 0 : progress * (frameCount - 1);
+        const bounds = track.getBoundingClientRect();
+        // The extra track height is exactly the sticky travel distance. The
+        // hero's own height and its release are excluded from frame progress.
+        const pinDistance = bounds.height - hero.getBoundingClientRect().height;
+        const progress = Math.max(0, Math.min(1, -bounds.top / Math.max(1, pinDistance)));
+        targetFrame = pinEnabled.matches ? progress * (frameCount - 1) : 0;
         measureProgress = false;
       }
       const elapsed = previousTime ? Math.min(time - previousTime, 64) : 16.67;
       previousTime = time;
-      currentFrame = reducedMotion.matches
-        ? 0
-        : currentFrame + (targetFrame - currentFrame) * (1 - Math.exp(-elapsed / 90));
+      // Resolve the endpoints immediately so frame 240 stays fixed on release.
+      currentFrame = targetFrame === 0 || targetFrame === frameCount - 1
+        ? targetFrame
+        : currentFrame + (targetFrame - currentFrame) * (1 - Math.exp(-elapsed / 65));
       if (Math.abs(targetFrame - currentFrame) < 0.01) currentFrame = targetFrame;
       const frame = frames[Math.max(0, Math.min(frameCount - 1, Math.round(currentFrame)))];
       if (frame && (frame !== lastFrame || resizeNeeded)) draw(frame);
@@ -80,8 +116,8 @@ const Hero = () => {
     };
 
     const preload = () => {
-      if (disposed || reducedMotion.matches) return;
-      while (activeLoads < 4 && nextFrame < frameCount) loadFrame(nextFrame++);
+      if (disposed || !pinEnabled.matches) return;
+      while (activeLoads < 4 && nextFrame < preloadOrder.length) loadFrame(preloadOrder[nextFrame++]);
     };
 
     const loadFrame = (index: number) => {
@@ -116,11 +152,12 @@ const Hero = () => {
       onScroll();
     };
     const onMotionChange = () => {
-      if (reducedMotion.matches) {
+      configurePin();
+      if (!pinEnabled.matches) {
         currentFrame = targetFrame = 0;
         if (frames[0]) draw(frames[0]);
       } else preload();
-      onScroll();
+      onResize();
     };
     let pixelRatioQuery = window.matchMedia(`(resolution: ${window.devicePixelRatio}dppx)`);
     const onPixelRatioChange = () => {
@@ -130,11 +167,14 @@ const Hero = () => {
       onResize();
     };
     const observer = new ResizeObserver(onResize);
+    configurePin();
+    observer.observe(track);
     observer.observe(hero);
     observer.observe(canvas);
     window.addEventListener("scroll", onScroll, { passive: true });
     window.addEventListener("resize", onResize);
     reducedMotion.addEventListener("change", onMotionChange);
+    pinEnabled.addEventListener("change", onMotionChange);
     pixelRatioQuery.addEventListener("change", onPixelRatioChange);
     // Load and paint the first frame before starting the bounded preload queue.
     loadFrame(0);
@@ -147,7 +187,9 @@ const Hero = () => {
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onResize);
       reducedMotion.removeEventListener("change", onMotionChange);
+      pinEnabled.removeEventListener("change", onMotionChange);
       pixelRatioQuery.removeEventListener("change", onPixelRatioChange);
+      restoreOverflow();
       pending.forEach((image) => {
         image.onload = null;
         image.onerror = null;
@@ -187,7 +229,8 @@ const Hero = () => {
   };
 
   return (
-    <div ref={heroRef} className="relative md:max-h-screen overflow-hidden ">
+    <div ref={trackRef} className="relative">
+    <div ref={heroRef} className="relative md:motion-safe:sticky md:motion-safe:top-0 md:max-h-screen overflow-hidden ">
       <Header />
 
       <main className="relative z-10 ">
@@ -322,6 +365,8 @@ const Hero = () => {
           </motion.div>
         </div>
       </main>
+    </div>
+    <div aria-hidden="true" className="hidden h-[150vh] md:motion-safe:block" />
     </div>
   );
 };
