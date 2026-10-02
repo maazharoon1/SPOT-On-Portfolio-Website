@@ -14,7 +14,7 @@ export default function Home() {
           <Hero />
         </section>
 
-        <Seperator className="mb-10 md:-mt-20 " />
+        <Seperator className="mb-10 md:-mt-10 " />
 
         <section id="portfolio">
           <Portfolio />

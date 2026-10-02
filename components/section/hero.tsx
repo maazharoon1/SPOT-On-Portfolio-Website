@@ -290,7 +290,7 @@ const Hero = () => {
               bottom-0
               -top-20
               z-0
-              h-full
+              h-99vh
               w-full
               opacity-40
               md:right-0
@@ -301,7 +301,7 @@ const Hero = () => {
               md:opacity-50
               lg:opacity-60
               
-              lg:w-1/2
+              lg:w-[65%]
             "
             initial={{
               opacity: 0,
@@ -343,7 +343,7 @@ const Hero = () => {
           /> */}
 
           {/* Bottom Scroll Indicator */}
-          <motion.div
+          {/* <motion.div
             className="absolute bottom-8 left-10 hidden items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-white/40 sm:flex"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -362,7 +362,7 @@ const Hero = () => {
             />
 
             Scroll to explore
-          </motion.div>
+          </motion.div> */}
         </div>
       </main>
     </div>
