@@ -234,14 +234,14 @@ const Hero = () => {
       <Header />
 
       <main className="relative z-10 ">
-        <div className="flex md:min-h-[calc(100vh-100px)] md:max-w-7xl flex-col mb-10 mt-30 md:mb-0 md:mt-0 md:justify-center max-w-[95%] sm:max-w-none mx-auto xl:mx-none">
+        <div className="flex md:min-h-[calc(100vh-90px)] md:max-w-7xl flex-col mb-10 mt-30 md:mb-0 md:mt-0 md:justify-center max-w-[95%] sm:max-w-none mx-auto md:mx-0 lg:mx-12">
 
           {/* Content */}
           <motion.div
             variants={container}
             initial="hidden"
             animate="show"
-            className="relative z-20 ml-5 w-full max-w-3xl space-y-7 sm:space-y-8"
+            className="relative z-20 w-full max-w-3xl space-y-7 sm:space-y-8"
           >
             <div className="space-y-4 sm:space-y-5">
 
@@ -253,7 +253,7 @@ const Hero = () => {
                 className="text-5xl font-medium tracking-tight text-white  md:text-6xl lg:text-7xl"
               >
                 <motion.span
-                  className="block "
+                  className="block"
                 >
                   Spot On Solutions
                 </motion.span>
@@ -270,7 +270,7 @@ const Hero = () => {
               {/* Description */}
               <motion.p
                 variants={item}
-                className=" text-md md:max-w-lg md:text-xl  leading-6 text-gray-400 sm:text-base"
+                className=" text-md md:max-w-lg md:text-xl leading-6 text-gray-400 sm:text-base"
               >
               SPOT ON EVERYTIME !!!
               </motion.p>
@@ -329,40 +329,9 @@ const Hero = () => {
           </motion.div>
 
           {/* Purple Ambient Glow */}
-          {/* <motion.div
-            className="pointer-events-none absolute right-[15%] top-[25%] z-0 h-72 w-72 rounded-full bg-[#681e99]/10 blur-[120px]"
-            animate={{
-              scale: [1, 1.15, 1],
-              opacity: [0.3, 0.55, 0.3],
-            }}
-            transition={{
-              duration: 5,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-          /> */}
+       
 
-          {/* Bottom Scroll Indicator */}
-          {/* <motion.div
-            className="absolute bottom-8 left-10 hidden items-center gap-3 text-[10px] uppercase tracking-[0.3em] text-white/40 sm:flex"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.8, duration: 0.8 }}
-          >
-            <motion.span
-              className="h-8 w-px bg-white/30"
-              animate={{
-                scaleY: [0.4, 1, 0.4],
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-            />
-
-            Scroll to explore
-          </motion.div> */}
+     
         </div>
       </main>
     </div>
