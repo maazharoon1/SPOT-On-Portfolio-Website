@@ -234,14 +234,14 @@ const Hero = () => {
       <Header />
 
       <main className="relative z-10 ">
-        <div className="flex md:min-h-[calc(100vh-90px)] md:max-w-7xl flex-col mb-10 mt-30 md:mb-0 md:mt-0 md:justify-center max-w-[95%] sm:max-w-none mx-auto md:mx-0 lg:mx-12">
+        <div className="flex md:min-h-[calc(100vh-90px)] md:max-w-7xl flex-col mb-10 mt-30 md:mb-0 md:mt-0 md:justify-center max-w-[95%] sm:max-w-none mx-auto md:mx-0 lg:mx-12 ">
 
           {/* Content */}
           <motion.div
             variants={container}
             initial="hidden"
             animate="show"
-            className="relative z-20 w-full max-w-3xl space-y-7 sm:space-y-8"
+            className="relative z-20 w-full max-w-3xl space-y-7 sm:space-y-8 px-5 lg:px-0"
           >
             <div className="space-y-4 sm:space-y-5">
 
@@ -250,7 +250,7 @@ const Hero = () => {
               {/* Heading */}
               <motion.h3
                 variants={item}
-                className="text-5xl font-medium tracking-tight text-white  md:text-6xl lg:text-7xl"
+                className="text-5xl font-medium tracking-tight text-white  md:text-5xl lg:text-6xl 2xl:text-7xl"
               >
                 <motion.span
                   className="block"
