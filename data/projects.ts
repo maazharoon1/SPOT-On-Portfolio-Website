@@ -10,7 +10,7 @@ export type ProjectCategory =
   | "Brand Guide & Identity"
   | "3D Animations"
   | "2D Animations"
-  |  "UI/UX Design"
+  |  "Web Dev"
   | "Merchandise"
   | "Pitch Deck"
   | "Mobile App"
@@ -41,7 +41,7 @@ export const projectCategories: ProjectCategory[] = [
   "Brand Guide & Identity",
   "3D Animations",
   "2D Animations",
-  "UI/UX Design",
+  "Web Dev",
   "Merchandise",
   "Pitch Deck",
   "Mobile App",

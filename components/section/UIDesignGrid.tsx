@@ -6,12 +6,14 @@ import { createPortal } from "react-dom";
 import { ProjectObject } from "@/libs/projectVariable";
 import styles from "./UIDesignGrid.module.css";
 
-const projects = ProjectObject.filter((project) => project.filter === "UI Design");
+const projects = ProjectObject.filter((project) => project.filter === "Web Dev");
 type Project = (typeof projects)[number];
 const previews = projects.filter((project) => !project.liveUrl?.trim());
-// These Shopex assets use the same cloud as the reference portfolio.
-const imageUrl = (id: string, width: number) =>
-  `https://res.cloudinary.com/fd9kyggd/image/upload/f_auto,q_auto,c_limit,w_${width}/${encodeURIComponent(id)}`;
+// Warsal and Shopex screenshots are stored in separate Cloudinary clouds.
+const imageUrl = (id: string, width: number) => {
+  const cloudName = id.startsWith("wwb-") ? "hcn0f9nu" : "fd9kyggd";
+  return `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_auto,c_limit,w_${width}/${encodeURIComponent(id)}`;
+};
 
 function Card({ project, onPreview }: { project: Project; onPreview: () => void }) {
   const windowRef = useRef<HTMLSpanElement>(null);
@@ -73,7 +75,7 @@ function Lightbox({ selectedId, onClose }: { selectedId: string; onClose: () => 
   };
   const toggleZoom = () => { setZoomed((current) => !current); resetScroll(); };
 
-  return createPortal(<dialog ref={dialogRef} className={styles.dialog} aria-label={`${project.title} UI design preview`}
+  return createPortal(<dialog ref={dialogRef} className={styles.dialog} aria-label={`${project.title} Web Dev preview`}
     onCancel={(event) => { event.preventDefault(); onClose(); }}
     onKeyDown={(event) => {
       if (event.key === "ArrowLeft") { event.preventDefault(); navigate(-1); }

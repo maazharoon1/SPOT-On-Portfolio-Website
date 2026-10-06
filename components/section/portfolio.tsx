@@ -17,7 +17,7 @@ const tabs = [
   "Brand Guide & Identity",
   "3D Animations",
   "2D Animations",
-   "UI/UX Design",
+   "Web Dev",
   "Merchandise", 
   "Pitch Deck",
    "Mobile App",
@@ -26,7 +26,7 @@ const tabs = [
     
 
   // "Stationery",
-  // "UI/UX Design",
+  // "Web Dev",
   // "Illustration",
 ];
 
@@ -342,7 +342,7 @@ function Portfolio() {
                 duration: 0.35,
               }}
             >
-              {activeTab === "UI/UX Design" ? <UIDesignGrid /> : <PortofolioCard activeTab={activeTab} />}
+              {activeTab === "Web Dev" ? <UIDesignGrid /> : <PortofolioCard activeTab={activeTab} />}
             </motion.div>
           </AnimatePresence>
         </motion.div>

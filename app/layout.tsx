@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     "packaging design",
     "social media design",
     "3D Animations",
-    "UI/UX Design",
+    "Web Dev",
     "Merchandise",
     "Emotes",
     "Overlay"
