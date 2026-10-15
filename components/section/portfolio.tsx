@@ -22,12 +22,12 @@ const tabs = [
   "Pitch Deck",
    "Mobile App",
    "Emotes",
-   "Overlay"
+   "Overlay",
     
 
   // "Stationery",
   // "Web Dev",
-  // "Illustration",
+  "Illustration",
 ];
 
 function getScrollEdges(container: HTMLDivElement) {

@@ -5,15 +5,17 @@ import "next-cloudinary/dist/cld-video-player.css";
 
 interface PortfolioVideoProps {
   id: string;
+  src: string;
+  cloudName: string;
   mainImage: string;
 }
 
 export default function PortfolioVideo({
   id,
+  src,
+  cloudName,
   mainImage,
 }: PortfolioVideoProps) {
-  console.log("id: "+id )
-  console.log("mainImage: "+  mainImage)
   return (
     <div className="flex ">
       <div
@@ -26,7 +28,8 @@ export default function PortfolioVideo({
       >
         <CldVideoPlayer
           id={id}
-          src={id}
+          src={src}
+          config={{ cloud: { cloudName } }}
           poster={mainImage}
          
           className="h-full w-full object-contain"

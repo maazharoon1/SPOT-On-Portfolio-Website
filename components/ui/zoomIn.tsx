@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type MouseEvent, type PointerEvent } from "react";
 
-import { CldImage } from "next-cloudinary";
+import CldImage from "./ProjectImage";
 
 
 interface ZoomInViewProps {

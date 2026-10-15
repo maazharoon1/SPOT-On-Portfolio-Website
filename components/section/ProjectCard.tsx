@@ -1,6 +1,6 @@
 "use client";
 
-import { CldImage } from "next-cloudinary";
+import CldImage from "../ui/ProjectImage";
 import { AnimatePresence, motion } from "motion/react";
 import { ProjectObject } from "@/libs/projectVariable";
 import { useEffect, useState } from "react";
@@ -47,7 +47,7 @@ const router = useRouter()
     }
     if(project.type == "pdf" && window.innerWidth < 768 ){
        window.open(
-    `https://res.cloudinary.com/hcn0f9nu/image/upload/v1786660548/${project.mainImage}.pdf`,
+    project.pdfUrl!,
     "_blank"
   );
       return;

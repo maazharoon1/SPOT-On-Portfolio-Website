@@ -1,7 +1,7 @@
 "use client";
 
 import { sortProject } from "@/libs/sortProject";
-import { CldImage } from "next-cloudinary";
+import CldImage from "./ProjectImage";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import ImageZoom from "./zoomIn";
@@ -340,7 +340,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
           {/* Image Area */}
           {project.type == "pdf"  ? <>
                 <CloudinaryPDFViewer 
-        publicId={project.mainImage} 
+        publicId={project.pdfUrl!} 
       />
               </> 
         :  <div className="relative min-h-0 flex-1 overflow-hidden p-3 sm:p-5 lg:p-7">
@@ -657,7 +657,7 @@ const ImagePopup = ({ id, onClose }: ImagePopupProps) => {
   If the video isn't playing,{" "} 
   <div>
   <Link
-    href={`https://res.cloudinary.com/hcn0f9nu/video/upload/v1786745203/${project.video}.mp4`}
+    href={project.videoUrl!}
     target="_blank"
     rel="noopener noreferrer"
     className="text-purple-400 underline underline-offset-4 hover:text-purple-300"

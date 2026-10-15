@@ -9,11 +9,9 @@ import styles from "./UIDesignGrid.module.css";
 const projects = ProjectObject.filter((project) => project.filter === "Web Dev");
 type Project = (typeof projects)[number];
 const previews = projects.filter((project) => !project.liveUrl?.trim());
-// Warsal and Shopex screenshots are stored in separate Cloudinary clouds.
-const imageUrl = (id: string, width: number) => {
-  const cloudName = id.startsWith("wwb-") ? "hcn0f9nu" : "fd9kyggd";
-  return `https://res.cloudinary.com/${cloudName}/image/upload/f_auto,q_auto,c_limit,w_${width}/${encodeURIComponent(id)}`;
-};
+// Full URLs already identify the owning brand's Cloudinary cloud.
+const imageUrl = (url: string, width: number) =>
+  url.replace("/image/upload/", `/image/upload/f_auto,q_auto,c_limit,w_${width}/`);
 
 function Card({ project, onPreview }: { project: Project; onPreview: () => void }) {
   const windowRef = useRef<HTMLSpanElement>(null);

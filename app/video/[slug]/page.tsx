@@ -137,7 +137,9 @@ const Video = async ({ params }: PageProps) => {
                 "
               >
                 <PortfolioVideo
-                  id={project.video ? project.video : project.id}
+                  id={project.id}
+                  src={project.videoUrl!}
+                  cloudName={project.brand === "shopex" ? "fd9kyggd" : "hcn0f9nu"}
                   mainImage={project.mainImage}
                 />
               </div>
@@ -181,7 +183,7 @@ const Video = async ({ params }: PageProps) => {
                   <div className="mt-3 text-sm text-white/50">
   If the video isn't playing,{" "} 
   <Link
-    href={`https://res.cloudinary.com/hcn0f9nu/video/upload/v1786745203/${project.video}.mp4`}
+    href={project.videoUrl!}
     target="_blank"
     rel="noopener noreferrer"
     className="text-purple-400 block sm:inline underline underline-offset-4 hover:text-purple-300"
